@@ -1,3 +1,4 @@
+
 /* */
 .mt-new-features-container {
     display: none;
@@ -26,7 +27,7 @@ h1, h2, h3, h4, h5, .page-title, .mt-sortable-listing-title {
 }
 .internal_info {
     border: 1px solid #CCC;
-    background: #FCF;
+    background: #FFE38F;
     padding: 0 5px;
     border-radius: 5px;
 }
@@ -415,6 +416,10 @@ button, input, select, textarea {
 .pull-right {
     float: right;
 }
+
+
+
+
 @media (max-width:767px) {
     body {
         padding-left: 20px;
@@ -441,7 +446,14 @@ button, input, select, textarea {
         -moz-box-sizing: border-box;
         box-sizing: border-box;
     }
+    div.title-container .page-title {
+        margin-left:0px;
+    }
+    div.title-container .search {
+        margin-left:0px;
+    }
 }
+
 @media (min-width:768px) and (max-width:979px) {
     .row {
         margin-left: -20px;
@@ -493,6 +505,19 @@ button, input, select, textarea {
     .offset2 {
         margin-left: 144px;
     }
+    
+    div.title-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+   div.title-container .page-title {
+        margin-left:30px;
+}
+
+div.title-container .search {
+        margin-left:30px;
+}
+
 }
 
 /* END GRID */
@@ -500,7 +525,7 @@ button, input, select, textarea {
 /* START HEADER */
 .header {
     background: url("//www.outsystems.com/CommunityBaseTheme/img/bgheader.png") repeat-x scroll left top #444;
-    height: 92px;
+    height: 91px;
 }
 .header-small {
     height: 57px;
@@ -536,8 +561,8 @@ button, input, select, textarea {
 .mobile-notdisplay {
     display: block;
 }
-.mobile-display {
-    display: none;
+.Mobile, .mobile-display, .mobile-search {
+    display: none
 }
 .top-menu-separator {
     background: url("//www.outsystems.com/CommunityBaseTheme/img/header_separator.png") no-repeat scroll left bottom #444;
@@ -604,19 +629,33 @@ button, input, select, textarea {
     text-transform: uppercase;
     font-family: myriad-pro, Helvetica, Arial, sans-serif;
     font-size: 13px;
+    position: relative;
+    color: #666;
 }
+
+
 .menu-item a {
     color: #666;
     display: block;
     font-size: 13px;
 }
-.menu-item a:hover, 
+
+.menu-item.active {
+    padding: 7px 15px;
+    background-color: rgba(0, 0, 0, 0.18);
+    margin-top: -8px;
+}
+.menu-item.active a,
 .menu-item.active a.menu-academy-overview, 
 .menu-item.active a.menu-support, 
 .menu-item.active a.menu-training, 
 .menu-item.active a.menu-faq,
 .menu-item.active a.menu-knowledgebase {
-    color: #333;
+    color: #fff;
+}
+
+.menu-item a:hover {
+    color: #333 ;
 }
 .menu-item a.menu-academy-overview:before {
     background: url('//www.outsystems.com/CommunityBaseTheme/img/icons.png?21461') no-repeat -3px -914px;
@@ -706,6 +745,10 @@ button, input, select, textarea {
     float: left;
     color: #333;
 }
+.menu-item.active a:before, .menu-item.active a:hover:before {
+    filter: brightness(0) invert(1);
+    -webkit-filter: brightness(0) invert(1);
+}
 .header-headshot {
     padding: 9px;
     border-radius: 50%;
@@ -725,15 +768,40 @@ button, input, select, textarea {
     width: 170px;
     background: #FFF;
 }
+
+.menu-arrow {
+    content: "";
+    border-style: solid;
+    border-width: 6px;
+    bottom: -0px;
+    left: 50%;
+    position: absolute; 
+    margin-left: -6px;   
+    border-color: transparent transparent #fff;
+}
+
 .ProfileMenu .osicon-arrow-triangle-up:before {
     position: absolute;
     top: -9px;
-    left: 110px;
+    left: 126px;
 }
 div.Header-ButtonContainer {
     text-align: right;
     padding-top: 0;
     width: 125px;
+}
+div.Header-ButtonContainer .rectangleMessage{
+    height: 25px;
+    width: 32px;
+}
+div.Header-ButtonContainer .rectangleMessage + div{
+    margin-top: 2px;
+    margin-left: -20px;
+    color: white;
+}
+div.Header-ButtonContainer .DropdownActive {
+    height: 55px;
+    background-color: rgba(255,255,255,.11);
 }
 div.Header-UserInfo {
     padding-bottom: 19px;
@@ -759,16 +827,41 @@ div.Header-UserInfo {
     border-bottom: 1px solid #e7eced;
     font-weight: 400;
 }
-.header-icon {
-    text-indent: -5000em;
-    overflow: hidden;
-    width: 20px;
-    height: 16px;
-    margin-left: 11px;
-}
 .menu-placeholder {
     height: 24px;
     margin-top: 7px;
+}
+
+.offset1 {
+    margin-left: 112px
+}
+.row-fluid .offset1 {
+    margin-left: 11.428571428571429%
+}
+.row-fluid .offset1:first-child {
+    margin-left: 8.571428571428571%
+}
+@media (min-width: 768px) and (max-width:979px) {
+    .offset1 {
+        margin-left: 82px
+    }
+    .row-fluid .offset1 {
+        margin-left: 11.32596685082873%
+    }
+    .row-fluid .offset1:first-child {
+        margin-left: 8.56353591160221%
+    }
+}
+@media (min-width: 4200px) {
+    .offset1 {
+        margin-left: 130px
+    }
+    .row-fluid .offset1 {
+        margin-left: 11.11111111111111%
+    }
+    .row-fluid .offset1:first-child {
+        margin-left: 8.547008547008547%
+    }
 }
 .menu-wrapper.offset2 {
     margin-left: 196px;
@@ -888,19 +981,6 @@ div.Header-UserInfo {
 .header-logged-out a:hover {
     color: #FFF !important;
 }
-.header-icon-settings {
-    border: 1px solid #3b3737;
-    border-radius: 4px;
-    padding: 2px;
-    background: url('//www.outsystems.com/CommunityBaseTheme/img/headericons.png') -41px -1px no-repeat;
-}
-.header-icon-message {
-    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png?21461") no-repeat -1px 0px;
-}
-.header-icon-logout {
-    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png?21461") no-repeat -63px -1px;
-    margin-left: 6px;
-}
 .header-icon {
     display: inline-block;
     text-indent: -5000em;
@@ -908,6 +988,22 @@ div.Header-UserInfo {
     width: 20px;
     height: 16px;
     margin-left: 11px;
+}
+.header-icon-settings {
+    border: 1px solid #3b3737;
+    border-radius: 4px;
+    padding: 2px;
+    background: url('//www.outsystems.com/CommunityBaseTheme/img/headericons.png') -41px -1px no-repeat;
+}
+.header-icon-message {
+    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") no-repeat -1px 0px;
+}
+.header-icon-message-notification {
+    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") -22px -20px no-repeat;
+}
+.header-icon-logout {
+    background: url("//www.outsystems.com/CommunityBaseTheme/img/headericons.png") no-repeat -63px -20px;
+    margin-left: 6px;
 }
 .elm-user-pro-member .mt-quick-search-container .mt-button {
     color: #778385;
@@ -1435,11 +1531,11 @@ div.Application_Menu div.Menu_DropDownPanel a, div.Application_Menu div.Menu_Dro
 
 /* START fix styles in tables with rowspan */
 .ui-table tr:nth-child(even), .ui-table tr:nth-child(even) td, tr:nth-child(even), tr:nth-child(even) td {
-    background: #FFF !important;
+    background: #FFF;
     border-top: 1px solid #ddd;
 }
 .no-touch .ui-table tr:hover, .no-touch .ui-table tr:hover td, .no-touch tr:hover, .no-touch tr:hover td {
-    background: #FFF !important;
+    background: #FFF;
 }
 
 /* END fix styles in tables with rowspan */
@@ -1599,6 +1695,9 @@ input.searchform-submit[disabled], input.searchform-submit[disabled]:hover {
     .searchview-content {
         width: 570px
     }
+    .menu-wrapper.offset5 {
+        margin-left: 330px;
+    }
 }
 
 /* END Community Menu CSS */
@@ -1658,7 +1757,7 @@ input.searchform-submit[disabled], input.searchform-submit[disabled]:hover {
     color: #c62104;
 }
 .ui-table tr:nth-child(odd), .ui-table tr:nth-child(odd) td, tr:nth-child(odd), tr:nth-child(odd) td {
-    background: #FFF !important;
+    background: #FFF;
     border-top: 1px solid #ddd;
 }
 
