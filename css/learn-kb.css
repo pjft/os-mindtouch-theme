@@ -7,6 +7,7 @@ body.columbia-breadcrumb-home-evaluation {
   background-color: #ECEFF1;
 }
 body.body-with-sidebar {
+  background-color: #eceff1;
   font-family: 'Open Sans', Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -402,7 +403,6 @@ body.body-with-sidebar {
   margin-bottom: 10px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .mt-toggle-container {
-  background: #fff;
   border: 1px solid #ECEFF1;
   border-radius: 3px;
   margin-bottom: 30px;
@@ -986,7 +986,6 @@ body.body-with-sidebar {
   list-style: none;
   margin: 0;
   padding: 0;
-  background: #FFF;
   border-radius: 3px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li {
