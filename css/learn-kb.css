@@ -323,11 +323,11 @@ body.body-with-sidebar {
   font-size: 12px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-content-footer {
+  background-color: #fff;
   border-top: 1px solid #ECEFF1;
   margin-top: 80px;
   padding: 15px 20px 20px;
   position: relative;
-  background: none;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-content-footer:before {
   position: absolute;
@@ -1381,6 +1381,7 @@ body.body-with-sidebar {
     width: 50em;
     margin: auto;
     line-height: 19px;
+    background-color: #fff;
   }
   [class*=columbia-breadcrumb-home-evaluation] dt.mt-listing-detailed-title {
     margin: 0 0 1em;
@@ -1389,5 +1390,6 @@ body.body-with-sidebar {
     width: 50em;
     margin: auto;
     margin-top: 60px;
+    background-color: #fff;
   }
 }
