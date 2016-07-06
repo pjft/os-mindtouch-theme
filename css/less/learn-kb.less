@@ -7,18 +7,17 @@
 	&.area-@{iterator} {
    		border-left-color: extract(extract(@array, @iterator),2);
 	}
-	.createcolorclasses((@iterator + 1)); 
-}	  
+	.createcolorclasses((@iterator + 1));
+}	
 @imagePath: "https://success.outsystems.com/%40api/deki/files";
 
 
 body.columbia-breadcrumb-home-evaluation {
-  font-family: 'Open Sans', Arial, sans-serif;
-  font-weight: 400; 
-  font-style: normal;
-  font-size: 16px; 
-  line-height: 21px;
-  margin: 0 auto; 
+    background-image: url(https://success.outsystems.com/%40api/deki/files/1621/header_bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: initial;
+    background-position: center 60px;
+    background-color: #ECEFF1;
 }
 
 /* styles just for the homepage*/
@@ -73,9 +72,6 @@ body.columbia-breadcrumb-home-evaluation {
 	/*
 	Buttons
 	*/
-	a {
-  		color: #268ED9;
-	}
 	a.btn {
 		font-weight: 400;
 		letter-spacing: 1px;
@@ -213,66 +209,47 @@ body.columbia-breadcrumb-home-evaluation {
 
 	/* end wistia*/
 	h1 {
-	  font-family: inherit;
-	  font-weight: 600;
-	  font-style: inherit;
-	  font-size: 36px;
-	  line-height: 42px;
-	  margin-top: 21px;
-	  margin-bottom: 0px;
-	  letter-spacing: -2;
+		border-bottom: 1px solid #CFD8DC;
+		color: #596669;
+		margin-bottom: 1.8rem;
+		margin-top: 3rem;
+		padding-bottom: .3em;
+		font-size: 32px;
 	}
 	h2,
 	#section_1>h2 {
-	  font-family: inherit;
-	  font-weight: 600;
-	  font-style: inherit;
-	  font-size: 30px;
-	  line-height: 42px;
-	  margin-top: 42px;
-	  margin-bottom: 21px;
+		border-bottom: 1px solid #CFD8DC;
+	    margin-top: 38px;
+	    padding-bottom: .7rem;
+	    color: #555;
+	    font-size: 2em;
 	}
 
 	h3 {
-	  font-family: inherit;
-	  font-weight: 600;
-	  font-style: inherit;
-	  font-size: 22px;
-	  line-height: 42px;
-	  margin-top: 21px;
-	  margin-bottom: 0px;
+		border-bottom: 1px solid #CFD8DC;
+		color: #596669;
+		font-size: 1.7em;
+		margin-bottom: 1.8rem;
+		margin-top: 3rem;
+		padding-bottom: 0.3em;
 	}
 	h4 {
-	  font-family: inherit;
-	  font-weight: 600;
-	  font-style: inherit;
-	  font-size: 16px;
-	  line-height: 21px;
-	  margin-top: 21px;
-	  margin-bottom: 0px;
-	}	
+		border-left: 1px solid #CFD8DC;
+		color: #596669;
+		font-size: 1.4em;
+		margin-bottom: 1.2rem;
+		margin-top: 3rem;
+		padding-left: 3%;
+	}
 	h4 ~ * {
 		padding-left: 3%;
 	}
 	h4 ~ ul li {
 		margin-left: 3%;
 	}
-	h5 {
-	  font-family: inherit;
-	  font-weight: 400;
-	  font-style: italic;
-	  font-size: 16px;
-	  line-height: 21px;
-	  margin-top: 21px;
-	  margin-bottom: 0px;
-	}	
-	p, ul, ol, pre, table, blockquote {
-		font-family: Arial, sans-serif;
-		margin-top: 0px;
-		margin-bottom: 21px;
-		line-height: 21px;
-		font-weight: normal;
-		font-family: Arial,sans-serif;
+	table {
+		border: 1px solid #eee;
+		margin-top: 40px;
 	}
 	table td {
 		background: #ECEFF1;
@@ -285,26 +262,12 @@ body.columbia-breadcrumb-home-evaluation {
 		font-size: 1rem;
 		text-align: center;
 	}
-	ul ul, ol ol, ul ol, ol ul {
-	  margin-top: 0;
-	  margin-bottom: 0;
+	p {
+		line-height: 1.9;
+		color: #666;
+		font-size: 14px;
 	}
-	hr {
-	  border: 1px solid;
-	  margin: -1px 0;
-	}
-	b, strong, em, small, code {
-	  line-height: 1;
-	}
-	sup {
-	  line-height: 0; 
-	  position: relative;
-	  vertical-align: baseline;
-	  top: -0.5em;
-	}
-	sub {
-	  bottom: -0.25em;
-	}
+
 	.elm-article-feedback {
 		margin-bottom: 40px;
 		margin-top: 40px;
