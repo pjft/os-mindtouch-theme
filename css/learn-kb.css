@@ -6,6 +6,14 @@ body.columbia-breadcrumb-home-evaluation {
   background-position: center 60px;
   background-color: #ECEFF1;
 }
+body.body-with-sidebar {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0 auto;
+}
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-evaluation .elm-content-footer {
   display: none;
@@ -867,8 +875,96 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
   padding-left: 290px;
 }
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h1 {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 21px;
+  margin-bottom: 0px;
+  letter-spacing: -2;
+}
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h1#title {
   line-height: 48px;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h2 {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 30px;
+  line-height: 42px;
+  margin-top: 42px;
+  margin-bottom: 21px;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h3 {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 42px;
+  margin-top: 21px;
+  margin-bottom: 0px;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h4 {
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 21px;
+  margin-bottom: 0px;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h5 {
+  font-family: inherit;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 21px;
+  margin-bottom: 0px;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar p,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ul,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar pre,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar table,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar blockquote {
+  margin-top: 0px;
+  margin-bottom: 21px;
+  line-height: 21px;
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ul ul,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol ol,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ul ol,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar b,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar strong,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar em,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar small,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar code {
+  line-height: 1;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar sub {
+  bottom: -0.25em;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar a {
+  color: #268ED9;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h1#title a.toggle-link {
   line-height: 1;
