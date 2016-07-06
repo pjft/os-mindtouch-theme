@@ -326,11 +326,11 @@ body.body-with-sidebar{
 		}
 	}
 	.elm-content-footer {
-		background-color: #fff;
 		border-top: 1px solid #ECEFF1;
 		margin-top: 80px;
 		padding: 15px 20px 20px;
 		position: relative;
+    	display: none; /* sbe */
 
 		&:before {
 			position: absolute;
@@ -1213,7 +1213,8 @@ body.body-with-sidebar{
 				.search-bar {
 					display: inline-block;
 					margin-left: 0;
-					margin-right: 50px;
+					margin-right: 90px;
+    				float: right;
 				}
 			}
 		}
@@ -1423,7 +1424,7 @@ body.body-with-sidebar{
 	@media all and (min-width: 80em) {
 	    article.elm-content-container.evaluation-kb .mt-content-container {
 		    width: 50em;
-		    margin: auto;
+		    padding: 10px 50px 50px 50px;
 		    line-height: 19px;
 		    background-color: #fff;
 		}
@@ -1434,7 +1435,7 @@ body.body-with-sidebar{
 
 		article.elm-content-container.evaluation-kb header {
 		    width: 50em;
-		    margin: auto;
+		    padding: 50px 50px 10px 50px;
 		    margin-top: 60px;
 		    background-color: #fff;
 		}
