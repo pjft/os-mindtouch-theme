@@ -1,10 +1,11 @@
 /* Dynamically add color to the cards on Learn About OutSystems Home Page  */
 body.columbia-breadcrumb-home-evaluation {
-  background-image: url(https://success.outsystems.com/%40api/deki/files/1621/header_bg-1.jpg);
-  background-repeat: no-repeat;
-  background-size: initial;
-  background-position: center 60px;
-  background-color: #ECEFF1;
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 0 auto;
 }
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-evaluation .elm-content-footer {
@@ -76,6 +77,10 @@ body.columbia-breadcrumb-home-evaluation {
   background: #FFFFFF;
   border: 6px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px;
+}
+
+[class*=columbia-breadcrumb-home-evaluation] a.btn {
+  color: #268ED9;  /* sbe on 2016-07-06 */
 }
 [class*=columbia-breadcrumb-home-evaluation] a.btn {
   font-weight: 400;
@@ -210,37 +215,43 @@ body.columbia-breadcrumb-home-evaluation {
   padding-bottom: 56.25%;
   /* hard-coded 16:9 aspect ratio */
 }
-[class*=columbia-breadcrumb-home-evaluation] h1 {
-  border-bottom: 1px solid #CFD8DC;
-  color: #596669;
-  margin-bottom: 1.8rem;
-  margin-top: 3rem;
-  padding-bottom: .3em;
-  font-size: 32px;
+[class*=columbia-breadcrumb-home-evaluation] h1 { /* sbe on 2016-07-06 */
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 21px;
+  margin-bottom: 0px;
+  letter-spacing: -2;
 }
 [class*=columbia-breadcrumb-home-evaluation] h2,
-[class*=columbia-breadcrumb-home-evaluation] #section_1 > h2 {
-  border-bottom: 1px solid #CFD8DC;
-  margin-top: 38px;
-  padding-bottom: .7rem;
-  color: #555;
-  font-size: 2em;
+[class*=columbia-breadcrumb-home-evaluation] #section_1 > h2 { /* sbe on 2016-07-06 */
+   font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 30px;
+  line-height: 42px;
+  margin-top: 42px;
+  margin-bottom: 21px;
 }
-[class*=columbia-breadcrumb-home-evaluation] h3 {
-  border-bottom: 1px solid #CFD8DC;
-  color: #596669;
-  font-size: 1.7em;
-  margin-bottom: 1.8rem;
-  margin-top: 3rem;
-  padding-bottom: 0.3em;
+[class*=columbia-breadcrumb-home-evaluation] h3 { /* sbe on 2016-07-06 */
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 22px;
+  line-height: 42px;
+  margin-top: 21px;
+  margin-bottom: 0px;
 }
-[class*=columbia-breadcrumb-home-evaluation] h4 {
-  border-left: 1px solid #CFD8DC;
-  color: #596669;
-  font-size: 1.4em;
-  margin-bottom: 1.2rem;
-  margin-top: 3rem;
-  padding-left: 3%;
+[class*=columbia-breadcrumb-home-evaluation] h4 { /* sbe on 2016-07-06 */
+  font-family: inherit;
+  font-weight: 600;
+  font-style: inherit;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 21px;
+  margin-bottom: 0px;
 }
 [class*=columbia-breadcrumb-home-evaluation] h4 ~ * {
   padding-left: 3%;
@@ -248,9 +259,22 @@ body.columbia-breadcrumb-home-evaluation {
 [class*=columbia-breadcrumb-home-evaluation] h4 ~ ul li {
   margin-left: 3%;
 }
-[class*=columbia-breadcrumb-home-evaluation] table {
-  border: 1px solid #eee;
-  margin-top: 40px;
+[class*=columbia-breadcrumb-home-evaluation] h5 { /* sbe on 2016-07-06 */
+  font-family: inherit;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  line-height: 21px;
+  margin-top: 21px;
+  margin-bottom: 0px;
+}
+[class*=columbia-breadcrumb-home-evaluation] p, ul, ol, pre, table, blockquote { /* sbe on 2016-07-06 */
+  font-family: Arial, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 21px;
+  line-height: 21px;
+  font-weight: normal;
+   font-family: Arial,sans-serif;
 }
 [class*=columbia-breadcrumb-home-evaluation] table td {
   background: #ECEFF1;
@@ -263,10 +287,25 @@ body.columbia-breadcrumb-home-evaluation {
   font-size: 1rem;
   text-align: center;
 }
-[class*=columbia-breadcrumb-home-evaluation] p {
-  line-height: 1.9;
-  color: #666;
-  font-size: 14px;
+[class*=columbia-breadcrumb-home-evaluation] ul ul, ol ol, ul ol, ol ul { /* sbe on 2016-07-06 */
+  margin-top: 0;
+  margin-bottom: 0;
+}
+[class*=columbia-breadcrumb-home-evaluation] hr { /* sbe on 2016-07-06 */
+  border: 1px solid;
+  margin: -1px 0;
+}
+[class*=columbia-breadcrumb-home-evaluation] b, strong, em, small, code { /* sbe on 2016-07-06 */
+  line-height: 1;
+}
+[class*=columbia-breadcrumb-home-evaluation] sup { /* sbe on 2016-07-06 */
+  line-height: 0; 
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em;
+}
+[class*=columbia-breadcrumb-home-evaluation] sub { /* sbe on 2016-07-06 */
+  bottom: -0.25em;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-article-feedback {
   margin-bottom: 40px;
