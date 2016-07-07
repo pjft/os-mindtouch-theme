@@ -1031,6 +1031,7 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active {
   position: relative;
+  border-bottom: 1px solid #CFD8DC;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current:before,
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current span:before {
@@ -1058,7 +1059,6 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level a {
   padding-left: 0;
-  border-bottom: 1px solid #CFD8DC;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active > a {
   font-weight: 600;
