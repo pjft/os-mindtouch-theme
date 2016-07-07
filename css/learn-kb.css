@@ -399,9 +399,6 @@ body.body-with-sidebar {
   line-height: 1.8;
   margin-right: 10px;
 }
-[class*=columbia-breadcrumb-home-evaluation] .mt-toc-content > ol {
-  margin: 20px 0px 10px 0px;
-}
 [class*=columbia-breadcrumb-home-evaluation] .mt-toc-content ol li {
   margin-bottom: 10px;
 }
@@ -867,6 +864,9 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
   background: #fff;
   padding-bottom: 50px;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content > ol {
+  margin: 20px 0px 10px 0px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content ol li {
   margin: 0;
