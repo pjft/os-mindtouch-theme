@@ -1033,7 +1033,7 @@ body.body-with-sidebar{
 						outline: none;
 					}
 					&.active {
-						position: relative;
+						position: relative;					
 
 						&.current {
 							&:before, span:before {
@@ -1059,6 +1059,10 @@ body.body-with-sidebar{
 						ul.second-level {
 							display: block;
 
+							li{
+								border: none;
+							}
+
 							a {
 								padding-left: 0;
 								border-bottom: 1px solid #CFD8DC;
@@ -1066,6 +1070,7 @@ body.body-with-sidebar{
 						}
 						> a {
 							font-weight: 600;
+							border-bottom: 1px solid #CFD8DC;
 						}
 					}
 					a {
