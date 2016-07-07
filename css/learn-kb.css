@@ -866,18 +866,23 @@ body.body-with-sidebar {
   background: #fff;
   padding-bottom: 50px;
 }
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar #mt-toc-container a,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar #mt-toc-container a:visited,
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content li:before {
+  color: #268ED9;
+}
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar aside#mt-toc-container {
   min-height: 50px;
-  margin: 0px 0px 0px 20px;
   display: block;
   background: #FFF;
-  border: 1px solid #EEE;
-  border-radius: 3px;
-  box-shadow: 0 1px 5px 0 #eee;
-  padding: 31px;
+  border: none;
+  border-radius: 0;
   box-sizing: border-box;
-  right: 0px;
-  margin-right: 20px;
+  right: 0;
+  float: none;
+  padding: 0px 50px 0px 50px;
+  width: 801px;
+  /* margin-right: 0px; */
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .breadcrumb-topic-parent {
   display: none;
