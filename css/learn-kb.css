@@ -1184,7 +1184,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar aside#mt-toc-container {
     margin: 0;
-    padding: 0px 50px 0px 50px;
+    padding: 0px 50px;
   }
 }
 @media all and (min-width: 48.5em) {
