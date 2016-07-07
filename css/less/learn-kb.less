@@ -1033,8 +1033,7 @@ body.body-with-sidebar{
 						outline: none;
 					}
 					&.active {
-						position: relative;		
-						border-bottom: 1px solid #CFD8DC;			
+						position: relative;							
 
 						&.current {
 							&:before, span:before {
@@ -1066,7 +1065,11 @@ body.body-with-sidebar{
 
 							a {
 								padding-left: 0;
-								
+								border-bottom: 1px solid #CFD8DC;	
+							}
+							li.active a,
+							li:last-child a{
+								border: none;
 							}
 						}
 						> a {
@@ -1104,7 +1107,7 @@ body.body-with-sidebar{
 
 							li.active {
 								position: relative;
-
+								border-bottom: 1px solid #CFD8DC;	
 								ul.third-level {
 									display: block;
 
