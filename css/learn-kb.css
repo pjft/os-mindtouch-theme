@@ -289,6 +289,7 @@ body.body-with-sidebar {
   margin: 0 auto;
   margin-top: 20px;
   max-width: 80em;
+  padding: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .search-bar {
   width: 240px;
@@ -303,6 +304,7 @@ body.body-with-sidebar {
   margin-top: 30px;
   display: inline-block;
   line-height: 1.5em;
+  padding-left: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .breadcrumb .crumb {
   display: inline-block;
@@ -872,6 +874,7 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
   background: #fff;
   padding-bottom: 20px;
+  box-shadow: 1px 1px 5px #DDD;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content > ol {
   margin: 20px 0px;
@@ -909,6 +912,9 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
   padding-left: 290px;
+  /*todo - auto*/
+  margin-left: 461.5px;
+  margin-right: 461.5px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container,
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header {
@@ -1174,7 +1180,7 @@ body.body-with-sidebar {
 }
 @media all and (min-width: 18.75em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
-    padding: 0 .65rem;
+    padding: 0;
     line-height: 2;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
@@ -1204,7 +1210,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     margin-left: 20px;
-    margin-right: 25px;
+    margin-right: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .breadcrumb {
     max-width: 30em;
@@ -1232,7 +1238,7 @@ body.body-with-sidebar {
     padding-left: 335px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
-    padding-left: 40px;
+    padding: 0;
     margin: 20px 0 0 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
@@ -1249,9 +1255,11 @@ body.body-with-sidebar {
     padding-left: 290px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
-    padding: 0 .65rem;
-    margin: 0 21% 0 15%;
+    /*todo, place margins auto and independent of media queries*/
+    margin-left: 461.5px;
+    margin-right: 461.5px;
     margin-top: 15px;
+    padding: 0;
   }
 }
 @media all and (min-width: 18.75em) {
