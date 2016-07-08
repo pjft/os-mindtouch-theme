@@ -15,11 +15,6 @@ body.body-with-sidebar {
   line-height: 21px;
   margin: 0 auto;
 }
-/* FOR TESTING PURPOSE ONLY */
-.elm-nav.elm-header-notice.elm-live-notice,
-#mt-summary {
-  display: none !important;
-}
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-evaluation .elm-content-footer {
   display: none;
@@ -298,6 +293,7 @@ body.body-with-sidebar {
   padding: 0;
   position: relative;
   max-width: 60em;
+  z-index: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .top-title {
   position: absolute;
