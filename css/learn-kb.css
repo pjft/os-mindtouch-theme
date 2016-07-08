@@ -1230,7 +1230,7 @@ body.body-with-sidebar {
 }
 @media all and (min-width: 65.25em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
-    left: 40px;
+    left: 20px;
     margin-left: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
@@ -1252,6 +1252,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
+    min-width: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     /*todo, place margins auto and independent of media queries*/
