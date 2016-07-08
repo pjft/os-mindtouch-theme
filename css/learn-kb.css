@@ -18,7 +18,7 @@ body.body-with-sidebar {
 /* FOR TESTING PURPOSE ONLY */
 .elm-nav.elm-header-notice.elm-live-notice,
 .elm-header-user-nav.elm-nav,
-.mt-summary {
+#mt-summary {
   display: none;
 }
 /* styles just for the homepage*/
