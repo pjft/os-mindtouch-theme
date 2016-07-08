@@ -286,8 +286,7 @@ body.body-with-sidebar {
   font-size: 12px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav {
-  margin: 0 auto;
-  margin-top: 20px;
+  margin: auto;
   max-width: 80em;
   padding: 0;
   position: relative;
@@ -1237,7 +1236,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
-    margin: 20px 0 0 0;
+    margin: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     display: inline-block;
