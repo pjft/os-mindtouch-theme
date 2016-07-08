@@ -15,12 +15,13 @@ body.body-with-sidebar {
   line-height: 21px;
   margin: 0 auto;
 }
-/* FOR TESTING PURPOSE ONLY */
+/* FOR TESTING PURPOSE ONLY 
 .elm-nav.elm-header-notice.elm-live-notice,
 .elm-header-user-nav.elm-nav,
-#mt-summary {
-  display: none !important;
+#mt-summary{
+	display: none !important; 
 }
+*/
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-evaluation .elm-content-footer {
   display: none;
