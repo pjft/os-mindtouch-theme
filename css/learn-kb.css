@@ -19,7 +19,7 @@ body.body-with-sidebar {
 .elm-nav.elm-header-notice.elm-live-notice,
 .elm-header-user-nav.elm-nav,
 #mt-summary {
-  display: none;
+  display: none !important;
 }
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-evaluation .elm-content-footer {
