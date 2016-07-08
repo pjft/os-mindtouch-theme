@@ -1034,9 +1034,6 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar sub {
   bottom: -0.25em;
 }
-[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar a {
-  color: #268ED9;
-}
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h1#title a.toggle-link {
   line-height: 1;
 }
