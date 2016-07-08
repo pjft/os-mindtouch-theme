@@ -300,7 +300,7 @@ body.body-with-sidebar {
   width: 240px;
   position: absolute;
   top: 40px;
-  right: 35px;
+  right: 13px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .page {
   display: inline-block;
@@ -921,6 +921,7 @@ body.body-with-sidebar {
   padding-left: 290px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 60em;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container,
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header {
@@ -1203,6 +1204,8 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding: 1.65rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 @media all and (min-width: 48.5em) {
