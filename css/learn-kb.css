@@ -290,6 +290,7 @@ body.body-with-sidebar {
   max-width: 80em;
   padding: 0;
   position: relative;
+  max-width: 60em;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .search-bar {
   width: 240px;
@@ -1436,8 +1437,9 @@ body.body-with-sidebar {
     padding: 0px 50px;
     width: 100%;
   }
-  [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container.evaluation-kb .mt-content-container {
-    background-color: red;
+  [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container {
+    margin-left: 100px;
+    margin-right: 100px;
   }
 }
 @media all and (min-width: 80em) {
