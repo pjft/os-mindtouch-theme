@@ -94,7 +94,8 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation] a.btn {
   font-weight: 400;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
+  /*mod*/
   display: inline-block;
   padding: 4px 12px;
   margin-bottom: 0;
