@@ -91,6 +91,14 @@ body.body-with-sidebar {
   border: 6px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px;
 }
+[class*=columbia-breadcrumb-home-evaluation] .top-title {
+  position: absolute;
+  top: 4px;
+  left: -1px;
+}
+[class*=columbia-breadcrumb-home-evaluation] .top-title h2 {
+  border: none;
+}
 [class*=columbia-breadcrumb-home-evaluation] a.btn {
   font-weight: 400;
   letter-spacing: 2px;
