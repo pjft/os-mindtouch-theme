@@ -290,11 +290,13 @@ body.body-with-sidebar {
   margin-top: 20px;
   max-width: 80em;
   padding: 0;
+  position: relative;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .search-bar {
   width: 240px;
-  margin-right: 50px;
-  display: inline-block;
+  position: absolute;
+  top: 40px;
+  right: 35px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .page {
   display: inline-block;
@@ -875,6 +877,7 @@ body.body-with-sidebar {
   background: #fff;
   padding-bottom: 20px;
   box-shadow: 1px 1px 5px #DDD;
+  height: 300px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content > ol {
   margin: 20px 0px;
