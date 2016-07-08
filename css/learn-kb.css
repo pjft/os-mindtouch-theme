@@ -15,6 +15,10 @@ body.body-with-sidebar {
   line-height: 21px;
   margin: 0 auto;
 }
+.elm-nav.elm-header-notice.elm-live-notice,
+.elm-header-user-nav.elm-nav {
+  display: none;
+}
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-evaluation .elm-content-footer {
   display: none;
