@@ -91,14 +91,6 @@ body.body-with-sidebar {
   border: 6px solid rgba(0, 0, 0, 0.5);
   border-radius: 4px;
 }
-[class*=columbia-breadcrumb-home-evaluation] .top-title {
-  position: absolute;
-  top: 4px;
-  left: -1px;
-}
-[class*=columbia-breadcrumb-home-evaluation] .top-title h2 {
-  border: none;
-}
 [class*=columbia-breadcrumb-home-evaluation] a.btn {
   font-weight: 400;
   letter-spacing: 2px;
@@ -306,6 +298,14 @@ body.body-with-sidebar {
   padding: 0;
   position: relative;
   max-width: 60em;
+}
+[class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .top-title {
+  position: absolute;
+  top: 4px;
+  left: -1px;
+}
+[class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .top-title h2 {
+  border: none;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .search-bar {
   width: 240px;
