@@ -912,9 +912,8 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
   padding-left: 290px;
-  /*todo - auto*/
-  margin-left: 461.5px;
-  margin-right: 461.5px;
+  margin-left: auto;
+  margin-right: auto;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container,
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header {
@@ -1444,7 +1443,7 @@ body.body-with-sidebar {
 }
 @media all and (min-width: 80em) {
   [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container.evaluation-kb .mt-content-container {
-    width: 50em;
+    width: 565px;
     padding: 10px 50px 50px 50px;
     line-height: 19px;
   }
@@ -1452,13 +1451,12 @@ body.body-with-sidebar {
     margin: 0 0 1em;
   }
   [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container.evaluation-kb header {
-    width: 50em;
+    width: 565px;
     padding: 50px 50px 10px 50px;
     margin-top: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation] aside#mt-toc-container {
     margin: 0;
-    width: 900px;
     padding: 0 50px;
   }
 }
