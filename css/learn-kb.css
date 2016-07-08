@@ -291,6 +291,7 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav {
   margin: auto;
+  margin-top: 15px;
   max-width: 80em;
   padding: 0;
   position: relative;
@@ -881,7 +882,7 @@ body.body-with-sidebar {
   background: #fff;
   padding-bottom: 20px;
   box-shadow: 1px 1px 5px #DDD;
-  height: 300px;
+  height: 285px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content > ol {
   margin: 20px 0px;
@@ -1189,6 +1190,7 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
     line-height: 2;
+    margin-top: 15px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     display: none;
@@ -1211,6 +1213,7 @@ body.body-with-sidebar {
 @media all and (min-width: 48.5em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
+    margin-top: 15px;
     line-height: inherit;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .page,
@@ -1230,6 +1233,9 @@ body.body-with-sidebar {
   }
 }
 @media all and (min-width: 50em) {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
+    margin-top: 15px;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .breadcrumb {
     max-width: 55em;
   }
@@ -1245,6 +1251,7 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
     margin: auto;
+    margin-top: 15px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     display: inline-block;
