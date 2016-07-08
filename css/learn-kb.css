@@ -1210,10 +1210,6 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     display: inline-block;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
-    margin-left: 20px;
-    margin-right: 0;
-  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .breadcrumb {
     max-width: 30em;
     line-height: 1.5em;
@@ -1246,7 +1242,6 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     display: inline-block;
     float: right;
-    margin-top: 25px;
   }
 }
 @media all and (min-width: 83em) {
@@ -1259,8 +1254,6 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     /*todo, place margins auto and independent of media queries*/
-    margin-left: 461.5px;
-    margin-right: 461.5px;
     margin-top: 15px;
     padding: 0;
   }
