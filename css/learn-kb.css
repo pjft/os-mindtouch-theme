@@ -1558,6 +1558,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   [class*=columbia-breadcrumb-home-evaluation] aside#mt-toc-container {
     margin: 0;
     padding: 0 50px;
-    width: 665px;
+    width: 100%;
   }
 }
