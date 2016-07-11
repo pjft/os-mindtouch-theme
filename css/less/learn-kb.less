@@ -307,6 +307,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 		
 			.page {
 				display: inline-block;
+				background-color: inherit;
 			}
 			.breadcrumb {
 				text-align: left;
@@ -1185,10 +1186,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 
 			.elm-header{
 				background-color: #eceff1;
-				box-shadow: none;
 				/* padding-bottom: 20px; */
 	    		box-shadow: none; /* box-shadow: 1px 1px 5px #DDD; */
 	    		height: 285px;
+	    		margin-top: 0;
 
 				
 				.top-nav {
@@ -1198,18 +1199,22 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 					flex-direction: column;
 					box-sizing: border-box;
 
-					>div{
+					> div{
 						background-color: #fff;
 						box-sizing: border-box;
+						box-shadow: 1px 1px 5px #DDD;
 						padding: 10px;
 					}
 					
 					.breadcrumb {
 						order: 1;
+						margin: 0;
+						border: none;
 					}
 
 		    		.top-title{
 						order: 2;
+
 		    			h3{
 							border: none;
 						}
@@ -1217,6 +1222,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 		    		.search-bar{
 		    			order: 3;
 		    			padding: 20px;
+		    			margin: 0 10px;
 
 		    			input#kb-search{
 		    				width: 100%;
@@ -1286,7 +1292,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				display: none;
 			}
 			article#elm-main-content {
-				padding: 10px 15px;
+				padding: 10px;
 				margin-left: auto;
 	    		margin-right: auto;
 	    		max-width: 60em;
@@ -1342,6 +1348,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				}
 				.page, .search-bar {
 					display: inline-block;
+
 				}
 				.breadcrumb {
 					max-width: 30em;
