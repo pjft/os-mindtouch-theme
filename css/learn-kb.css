@@ -32,6 +32,10 @@ body.body-with-sidebar {
   display: none;
   visibility: hidden;
 }
+.columbia-breadcrumb-home-evaluation .elm-header-user-nav.elm-nav,
+.columbia-breadcrumb-home-evaluation .elm-nav.elm-header-notice.elm-live-notice {
+  display: none;
+}
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluation] {
   /*
@@ -297,7 +301,6 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .top-title {
   position: absolute;
-  top: 4px;
   left: -1px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .top-title h3 {
@@ -901,7 +904,10 @@ body.body-with-sidebar {
   background: #fff;
   padding-bottom: 20px;
   box-shadow: 1px 1px 5px #DDD;
-  height: 285px;
+  height: 190px;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-section p > a {
+  float: right;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content > ol {
   margin: 20px 0px;
@@ -974,6 +980,7 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h1#title {
   line-height: 48px;
   border: none;
+  margin-bottom: 5px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h2 {
   font-family: inherit;
@@ -1371,6 +1378,10 @@ body.body-with-sidebar {
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .recommended-articles {
     min-width: 500px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom,
+  [class*=columbia-breadcrumb-home-evaluation] body.elm-user-pro-edit .elm-header-custom {
+    margin: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper {
     height: 200px;

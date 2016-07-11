@@ -49,6 +49,11 @@ body.body-with-sidebar{
 	    visibility: hidden;
 	}
 
+	.elm-header-user-nav.elm-nav,
+	.elm-nav.elm-header-notice.elm-live-notice{
+		display: none;
+	}
+
 
 }
 
@@ -295,7 +300,6 @@ body.body-with-sidebar{
 
 			.top-title{
 	    		position: absolute;
-				top: 4px;
 				left: -1px;
 
 				h3{
@@ -915,7 +919,10 @@ body.body-with-sidebar{
     		background: #fff;
     		padding-bottom: 20px;
     		box-shadow: 1px 1px 5px #DDD;
-    		height: 285px;
+    		height: 190px; //todo --- height: 285px;
+		}
+		.mt-section p > a {
+    		float: right;
 		}
 		.mt-toc-content > ol{
 			margin: 20px 0px;
@@ -988,6 +995,7 @@ body.body-with-sidebar{
 		h1#title {
 			line-height: 48px;
 			border: none;
+			margin-bottom: 5px;
 		}
 		h2 {
 		  font-family: inherit;
@@ -1405,7 +1413,12 @@ body.body-with-sidebar{
 		&.body-with-sidebar .recommended-articles {
 		    min-width: 500px;
 		}
-
+		.elm-header-custom, 
+		body.elm-user-pro-edit 
+		.elm-header-custom{
+			//remove
+			margin: 0;
+		}
 		.hero-wrapper {
 			height: 200px;
 
