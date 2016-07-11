@@ -309,6 +309,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .page {
   display: inline-block;
   background-color: inherit;
+  padding: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .breadcrumb {
   text-align: left;
@@ -1165,7 +1166,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     /* padding-bottom: 20px; */
     box-shadow: none;
     /* box-shadow: 1px 1px 5px #DDD; */
-    height: 285px;
+    height: 300px;
     margin-top: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav {
