@@ -1256,7 +1256,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     display: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
-    /* padding-left: 290px; -->tablet/desktop */
+    padding: 10px 15px;
     margin-left: auto;
     margin-right: auto;
     max-width: 60em;
@@ -1481,7 +1481,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
 }
 @media all and (max-width: 37.5em) {
   [class*=columbia-breadcrumb-home-evaluation] .header-logo a img {
-    padding: 10px;
+    padding-left: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
     align-items: center;
