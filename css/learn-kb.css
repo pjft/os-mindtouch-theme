@@ -15,6 +15,10 @@ body.body-with-sidebar {
   line-height: 21px;
   margin: 0 auto;
 }
+nav.elm-header-user-nav.elm-nav,
+nav.elm-nav.elm-header-notice.elm-live-notice {
+  display: none;
+}
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-evaluation .elm-content-footer {
   display: none;
@@ -31,10 +35,6 @@ body.body-with-sidebar {
 .columbia-breadcrumb-home-evaluation .elm-content-container header {
   display: none;
   visibility: hidden;
-}
-.columbia-breadcrumb-home-evaluation .elm-header-user-nav.elm-nav,
-.columbia-breadcrumb-home-evaluation .elm-nav.elm-header-notice.elm-live-notice {
-  display: none;
 }
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-evaluation] {
