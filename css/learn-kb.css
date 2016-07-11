@@ -1232,14 +1232,13 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
 @media all and (min-width: 18.75em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
+    padding-left: 15px;
     line-height: 2;
     margin-top: 15px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
-    display: none;
-  }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .page {
-    display: block;
+    padding-right: 10px;
+    top: 45px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .breadcrumb {
     line-height: 2;
@@ -1258,6 +1257,9 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     padding: 0;
     margin-top: 15px;
     line-height: inherit;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .top-title {
+    padding-left: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .page,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
