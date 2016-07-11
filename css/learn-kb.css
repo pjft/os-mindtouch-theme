@@ -1256,7 +1256,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     display: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
-    padding-left: 290px;
+    /* padding-left: 290px; -->tablet/desktop */
     margin-left: auto;
     margin-right: auto;
     max-width: 60em;
@@ -1265,6 +1265,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header {
     background-color: #fff;
     padding: 50px 20px 10px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-pdf-export,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-social-share {
+    display: none;
   }
 }
 @media all and (min-width: 48.5em) {

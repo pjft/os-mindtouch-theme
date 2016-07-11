@@ -1284,7 +1284,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				display: none;
 			}
 			article#elm-main-content {
-				padding-left: 290px;
+				/* padding-left: 290px; -->tablet/desktop */
 				margin-left: auto;
 	    		margin-right: auto;
 	    		max-width: 60em;
@@ -1293,6 +1293,11 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			article.elm-content-container.evaluation-kb header {
 			    background-color: #fff;
 			    padding: 50px 20px 10px;
+			}
+
+			article.elm-content-container.evaluation-kb header .elm-pdf-export,
+			article.elm-content-container.evaluation-kb header .elm-social-share{
+				display: none;
 			}
 
 		}
