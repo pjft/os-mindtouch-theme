@@ -221,7 +221,7 @@ body.body-with-sidebar {
   /* hard-coded 16:9 aspect ratio */
 }
 [class*=columbia-breadcrumb-home-evaluation] h1 {
-  border-bottom: 1px solid #CFD8DC;
+  margin-bottom: 5px;
   color: #596669;
   margin-bottom: 1.8rem;
   margin-top: 3rem;
@@ -386,6 +386,11 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-meta-top {
   font-size: 10px;
+  border-bottom: 1px solid #cfd8dc;
+}
+[class*=columbia-breadcrumb-home-evaluation] .elm-meta-top .elm-last-modified,
+[class*=columbia-breadcrumb-home-evaluation] .elm-meta-top .elm-page-restriction {
+  margin: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .mt-guide-tabs-container {
   border: none;
@@ -892,12 +897,19 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content > ol {
   margin: 20px 0px;
+  color: #08c;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 17px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content ol li {
   margin: 0;
   padding: 10px;
   border: 1px solid #CFD8DC;
   border-bottom: none;
+}
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content ol li:first-child {
+  border-radius: 4px 4px 0 0px;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content ol li:last-child {
   border-bottom: 1px solid #CFD8DC;
@@ -950,6 +962,7 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h1#title {
   line-height: 48px;
+  border: none;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h2 {
   font-family: inherit;
