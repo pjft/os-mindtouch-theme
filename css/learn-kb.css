@@ -1267,18 +1267,15 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     padding: 50px 20px 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-pdf-export,
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-social-share {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-social-share,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-restriction,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-notifications {
     display: none;
   }
 }
 @media all and (min-width: 48.5em) {
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar {
-    /*
-			.elm-header{
-				background-color: #fff;
-			}
-			
-			*/
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
+    background-color: #fff;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
@@ -1302,6 +1299,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-restriction,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-notifications {
+    display: block;
   }
 }
 @media all and (min-width: 50em) {
@@ -1479,6 +1480,9 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
 }
 @media all and (max-width: 37.5em) {
+  [class*=columbia-breadcrumb-home-evaluation] .header-logo a img {
+    padding: 10px;
+  }
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
     align-items: center;
     flex-direction: column;
