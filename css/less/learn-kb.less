@@ -304,21 +304,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			position: relative;
 			max-width: 60em;
 			z-index: 0;
-
-			.top-title{
-	    		position: absolute;
-				left: -1px;
-
-				h3{
-					border: none;
-				}
-			}
-			.search-bar {
-				width: 240px;
-			    position: absolute;
-			    top: 40px;
-			    right: 13px;
-			}
+		
 			.page {
 				display: inline-block;
 			}
@@ -1236,7 +1222,13 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			.elm-header {	    		
 	    		padding-bottom: 20px;
 	    		box-shadow: 1px 1px 5px #DDD;
-	    		height: 190px; //todo --- height: 285px;
+	    		height: 285px;
+
+	    		.top-title,
+	    		.search-bar{
+	    			position: relative;
+	    			width: 100%;
+	    		}
 			}
 			.mt-section p > a {
 	    		float: right;
@@ -1303,12 +1295,34 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			article.elm-content-container.evaluation-kb header .elm-page-notifications{
 				display: none;
 			}
-
+			.footer-site{
+				padding: 25px;
+			}
 		}
-		@media all and (min-width:48.5em) {	
+
+		@media all and (min-width:37.5em){
 			.elm-header{
 				background-color: #fff;
-			}			
+				height: 190px;
+
+				.top-title{
+		    		position: absolute;
+					left: -1px;
+
+					h3{
+						border: none;
+					}
+				}
+				.search-bar {
+					width: 240px;
+				    position: absolute;
+				    top: 40px;
+				    right: 13px;
+				}
+			}
+		}
+
+		@media all and (min-width:48.5em) {				
 	
 			.top-nav {
 				padding: 0;
