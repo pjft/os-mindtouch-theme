@@ -1265,29 +1265,35 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			margin-left: 0px;
 		}
 		@media all and (min-width:18.75em) {
-			.top-nav {
-				padding: 0;
-				padding-left: 15px;
-				line-height: 2;
-				margin-top: 15px;
+			.elm-header{
+				background-color: #eceff1;
+				box-shadow: none;
+				
+				.top-nav {
+					padding: 0;
+					padding-left: 15px;
+					line-height: 2;
+					margin-top: 15px;
 
 				.top-title{
 					padding-left: 35px;
     				top: 25px;
 				}
 				.search-bar {
-					padding-right: 10px;
+					padding-right: 15px;
     				top: 45px;
 				}
 				.breadcrumb {
 					line-height: 2;
 				}
 			}
+			}
+		
 			.sidemenu-wrapper {
 				display: none !important;
 			}
 			article#elm-main-content {
-				padding: 10px;
+				padding: 5px; /* tablet 10px 15px; */
 		
 			}		
 		}
@@ -1510,7 +1516,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 		}
 	}
 	@media all and (max-width:37.5em) {
-				.sidebar-cta-box.contact-us {
+		.sidebar-cta-box.contact-us {
 			align-items: center;
 			flex-direction: column;
 			padding: 20px;
