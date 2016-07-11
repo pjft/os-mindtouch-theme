@@ -183,6 +183,12 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   background-color: #78909C;
   color: #fff;
 }
+[class*=columbia-breadcrumb-home-evaluation] a#cta-contact-us-btn {
+  background-image: linear-gradient(180deg, #e52601 0%, #ce2200 100%);
+  border: 1px solid #a61b00;
+  border-radius: 4px;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.08), inset 0 1px 0 #ff007a;
+}
 [class*=columbia-breadcrumb-home-evaluation] .flex-container {
   display: -ms-flex;
   display: -webkit-flex;
@@ -837,6 +843,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 15px 50px;
+  background: transparent;
+  box-shadow: none;
+  border: 1px solid #cfd8dc;
+  border-radius: 4px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us > div {
   width: 100%;
@@ -1444,7 +1454,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     margin-top: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
-    padding: 15px 50px;
+    padding: 15px 30px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-content {
     width: 422px;
