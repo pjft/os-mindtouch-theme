@@ -505,6 +505,10 @@ button, input, select, textarea {
     .offset2 {
         margin-left: 144px;
     }
+
+    .offset3 {
+        margin-left: 280px;
+    }
     
     div.title-container {
         padding-left: 0px;
