@@ -505,10 +505,11 @@ button, input, select, textarea {
     .offset2 {
         margin-left: 144px;
     }
-
-    .offset3 {
+    .offset3{
         margin-left: 280px;
     }
+
+
     
     div.title-container {
         padding-left: 0px;
@@ -872,6 +873,9 @@ div.Header-UserInfo {
 }
 .menu-wrapper.offset5 {
     margin-left: 448px;
+}
+.menu-wrapper.offset3 {
+    margin-left: 280px;
 }
 /* Search */
 .small-search {
