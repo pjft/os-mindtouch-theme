@@ -1272,6 +1272,9 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
 }
 @media all and (min-width: 48.5em) {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
+    background-color: #fff;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
     margin-top: 15px;
