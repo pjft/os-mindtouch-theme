@@ -1161,23 +1161,37 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
 @media all and (min-width: 18.75em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
     background-color: #eceff1;
+    /* padding-bottom: 20px; */
     box-shadow: none;
-    padding-bottom: 20px;
-    box-shadow: 1px 1px 5px #DDD;
+    /* box-shadow: 1px 1px 5px #DDD; */
     height: 285px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav {
     padding: 0;
-    padding-left: 15px;
-    line-height: 2;
-    margin-top: 15px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav > div {
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb {
-    line-height: 2;
+    order: 1;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
+    order: 2;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title h3 {
+    border: none;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar {
-    position: relative;
+    order: 3;
+    padding: 20px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar input#kb-search {
     width: 100%;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
@@ -1268,9 +1282,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     left: -1px;
     padding-left: 35px;
     top: 25px;
-  }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-title h3 {
-    border: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .search-bar {
     width: 240px;

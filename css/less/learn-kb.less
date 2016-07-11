@@ -1186,25 +1186,41 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			.elm-header{
 				background-color: #eceff1;
 				box-shadow: none;
-				padding-bottom: 20px;
-	    		box-shadow: 1px 1px 5px #DDD;
+				/* padding-bottom: 20px; */
+	    		box-shadow: none; /* box-shadow: 1px 1px 5px #DDD; */
 	    		height: 285px;
 
 				
 				.top-nav {
 					padding: 0;
-					padding-left: 15px;
-					line-height: 2;
-					margin-top: 15px;
+					margin:	0;
+					display: flex;
+					flex-direction: column;
+					box-sizing: border-box;
+
+					>div{
+						background-color: #fff;
+						box-sizing: border-box;
+						padding: 10px;
+					}
 					
 					.breadcrumb {
-						line-height: 2;
+						order: 1;
 					}
 
-		    		.top-title,
+		    		.top-title{
+						order: 2;
+		    			h3{
+							border: none;
+						}
+		    		}
 		    		.search-bar{
-		    			position: relative;
-		    			width: 100%;
+		    			order: 3;
+		    			padding: 20px;
+
+		    			input#kb-search{
+		    				width: 100%;
+		    			}
 		    		}
 				}
 			}
@@ -1302,10 +1318,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 					left: -1px;
 					padding-left: 35px;
 	    			top: 25px;
-
-					h3{
-						border: none;
-					}
+					
 				}
 				.search-bar {
 					width: 240px;
