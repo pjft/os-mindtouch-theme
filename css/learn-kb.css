@@ -1236,6 +1236,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     line-height: 2;
     margin-top: 15px;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .top-title {
+    padding-left: 35px;
+    top: 25px;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     padding-right: 10px;
     top: 45px;
@@ -1247,9 +1251,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     display: none !important;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
-    padding: 1.65rem;
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 60px;
   }
 }
 @media all and (min-width: 48.5em) {
