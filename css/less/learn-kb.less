@@ -1186,24 +1186,26 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			.elm-header{
 				background-color: #eceff1;
 				box-shadow: none;
+				padding-bottom: 20px;
+	    		box-shadow: 1px 1px 5px #DDD;
+	    		height: 285px;
+
 				
 				.top-nav {
 					padding: 0;
 					padding-left: 15px;
 					line-height: 2;
 					margin-top: 15px;
-
-					.top-title{
-						padding-left: 35px;
-	    				top: 25px;
-					}
-					.search-bar {
-						padding-right: 15px;
-	    				top: 45px;
-					}
+					
 					.breadcrumb {
 						line-height: 2;
 					}
+
+		    		.top-title,
+		    		.search-bar{
+		    			position: relative;
+		    			width: 100%;
+		    		}
 				}
 			}
 		
@@ -1219,17 +1221,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				margin-top: 5px;
 			}
 
-			.elm-header {	    		
-	    		padding-bottom: 20px;
-	    		box-shadow: 1px 1px 5px #DDD;
-	    		height: 285px;
-
-	    		.top-title,
-	    		.search-bar{
-	    			position: relative;
-	    			width: 100%;
-	    		}
-			}
+	
 			.mt-section p > a {
 	    		float: right;
 			}
@@ -1308,6 +1300,8 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				.top-title{
 		    		position: absolute;
 					left: -1px;
+					padding-left: 35px;
+	    			top: 25px;
 
 					h3{
 						border: none;
@@ -1318,6 +1312,8 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				    position: absolute;
 				    top: 40px;
 				    right: 13px;
+			    	padding-right: 15px;
+    				top: 45px;
 				}
 			}
 		}
