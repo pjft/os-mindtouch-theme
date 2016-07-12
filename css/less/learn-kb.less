@@ -1183,6 +1183,14 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			margin-left: 0px;
 		}
 
+		@media all and (max-width:775px){
+			.elm-header{				
+				.top-nav {
+					top: 0;
+				}
+			}
+		}
+
 		@media all and (min-width:18.75em) {
 			.header-logo a img{
 				padding-left: 10px;
@@ -1320,7 +1328,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				margin: auto;
 	    		max-width: 60em;
 			}
-			article.elm-content-container.evaluation-kb .mt-content-container,
+			article.elm-content-container.evaluation-kb .mt-content-container{
+				background-color: #fff;
+			    padding: 10px 20px;
+			}
 			article.elm-content-container.evaluation-kb header {
 			    background-color: #fff;
 			    padding: 50px 20px 10px;
