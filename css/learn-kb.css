@@ -1301,7 +1301,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
     background-color: #fff;
-    height: 232px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav {
     margin: auto;
@@ -1346,6 +1345,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     line-height: inherit;
     margin: auto;
     margin-top: 0;
+    top: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
     padding-left: 20px;
@@ -1410,6 +1410,9 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     margin-top: 0;
     padding: 0;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
+    right: 25px;
   }
 }
 @media all and (min-width: 18.75em) {
