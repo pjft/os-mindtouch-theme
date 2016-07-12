@@ -1160,7 +1160,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-hierarchy.mt-hierarchy.mt-tree.mt-filtered-tree {
   margin-left: 0px;
 }
-@media all and (min-width: 768px) and (max-width: 775px) {
+@media (min-width: 768px) and (max-width: 775px) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav {
     top: 0;
     height: 140px;
