@@ -1304,19 +1304,28 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     background-color: #fff;
     height: 190px;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav {
+    margin-top: 50px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page:last-child {
+    display: block;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
     position: absolute;
     left: -1px;
-    padding-left: 35px;
-    top: 25px;
+    padding-left: 30px;
+    top: 80px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb .parent.crumb a {
+    color: #268ED9;
+    font-weight: 700;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar {
-    width: 240px;
+    width: 260px;
     position: absolute;
-    top: 130px;
-    right: 15px;
-    padding-right: 15px;
-    top: 45px;
+    right: 0;
+    padding-right: 5px;
+    top: 50px;
     box-shadow: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
