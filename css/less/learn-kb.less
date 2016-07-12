@@ -1383,34 +1383,37 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			}
 		}
 
-		@media all and (min-width:48.5em) {				
-	
-			.top-nav {
-				padding: 0;
-				margin-top: 15px;
-				line-height: inherit;
-				.top-title{
-					padding-left: 0;
-				}
-				.page, .search-bar {
-					display: inline-block;
+		@media all and (min-width:48.5em) {		
+			.elm-header{
+					background-color: #fff;
+					height: 232px;		
+		
+				.top-nav {
+					padding: 0;
+					margin-top: 15px;
+					line-height: inherit;
+					.top-title{
+						padding-left: 0;
+					}
+					.page, .search-bar {
+						display: inline-block;
 
+					}
+					.breadcrumb {
+						line-height: 1.5em;
+					}
 				}
-				.breadcrumb {
-					max-width: 30em;
-					line-height: 1.5em;
+				.sidemenu-wrapper {
+					display: block !important;
+					margin-left: 15px;
 				}
-			}
-			.sidemenu-wrapper {
-				display: block !important;
-				margin-left: 15px;
-			}
-			article#elm-main-content {
-				padding-left: 290px;
-			}
-			article.elm-content-container.evaluation-kb header .elm-page-restriction,
-			article.elm-content-container.evaluation-kb header .elm-page-notifications{
-				display: block;
+				article#elm-main-content {
+					padding-left: 290px;
+				}
+				article.elm-content-container.evaluation-kb header .elm-page-restriction,
+				article.elm-content-container.evaluation-kb header .elm-page-notifications{
+					display: block;
+				}
 			}
 		}
 		@media all and (min-width:50em) {

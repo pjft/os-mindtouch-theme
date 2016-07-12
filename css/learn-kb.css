@@ -1338,31 +1338,34 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
 }
 @media all and (min-width: 48.5em) {
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
+    background-color: #fff;
+    height: 232px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav {
     padding: 0;
     margin-top: 15px;
     line-height: inherit;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .top-title {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
     padding-left: 0;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .page,
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar {
     display: inline-block;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .breadcrumb {
-    max-width: 30em;
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb {
     line-height: 1.5em;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .sidemenu-wrapper {
     display: block !important;
     margin-left: 15px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header article#elm-main-content {
     padding-left: 290px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-restriction,
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-notifications {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header article.elm-content-container.evaluation-kb header .elm-page-restriction,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header article.elm-content-container.evaluation-kb header .elm-page-notifications {
     display: block;
   }
 }
