@@ -1190,7 +1190,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			.elm-header{
 				background-color: #eceff1;
 				box-shadow: none; 
-	    		height: 242px;
 	    		margin-top: 0;
 
 				
@@ -1261,11 +1260,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			.sidemenu-wrapper {
 				display: none !important;
 			}
-			article#elm-main-content {
-				padding: 5px; /* tablet 10px 15px; */
-		
-			}	
-
+			
 			.menu-placeholder{
 				margin-top: 5px;
 			}
@@ -1320,7 +1315,8 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			}
 			article#elm-main-content {
 				padding: 10px;
-				margin: 15px auto;
+				padding-top: 0;
+				margin: auto;
 	    		max-width: 60em;
 			}
 			article.elm-content-container.evaluation-kb .mt-content-container,
@@ -1346,7 +1342,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				height: 232px;		
 		
 				.top-nav {
+					margin: auto;
 					margin-top: 0px;
+					top: 50px;
+					height: 190px;
 
 					.page:last-child{
 						display: inline-block;
@@ -1389,12 +1388,13 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				height: 232px;		
 		
 				.top-nav {
-					padding: 0;
-					margin-top: 0;
-					line-height: inherit;					
+					padding: 0;				
+					line-height: inherit;
+					margin: auto;
+					margin-top: 0;					
 
 					.top-title{
-						padding-left: 0;
+						padding-left: 20px;
 					}
 					.page, .search-bar {
 						display: inline-block;
@@ -1423,7 +1423,9 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 		}
 		@media all and (min-width:50em) {
 			.top-nav {
+				margin: auto;
 				margin-top: 0;
+
 				.breadcrumb {
 					max-width: 55em;
 				}
