@@ -1194,6 +1194,11 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     margin: 0;
     border: none;
     box-shadow: none;
+    height: 65px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb .parent.crumb a {
+    color: #999;
+    font-weight: 400;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
     height: 50px;
@@ -1276,7 +1281,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding: 10px;
-    margin: auto;
+    margin: 15px auto;
     max-width: 60em;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container,
