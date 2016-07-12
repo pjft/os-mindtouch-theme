@@ -1357,21 +1357,21 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb {
     line-height: 1.5em;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .sidemenu-wrapper {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
     display: block !important;
     margin-left: 15px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header article#elm-main-content {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header article.elm-content-container.evaluation-kb header .elm-page-restriction,
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header article.elm-content-container.evaluation-kb header .elm-page-notifications {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-restriction,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-notifications {
     display: block;
   }
 }
 @media all and (min-width: 50em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
-    margin-top: 15px;
+    margin-top: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .breadcrumb {
     max-width: 55em;
@@ -1388,7 +1388,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
     margin: auto;
-    margin-top: 15px;
+    margin-top: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav .search-bar {
     display: inline-block;
@@ -1404,8 +1404,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     min-width: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
-    /*todo, place margins auto and independent of media queries*/
-    margin-top: 15px;
+    margin-top: 0;
     padding: 0;
   }
 }

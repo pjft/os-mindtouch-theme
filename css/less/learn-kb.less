@@ -1385,14 +1385,13 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 
 		@media all and (min-width:48.5em) {		
 			.elm-header{
-					background-color: #fff;
-					height: 232px;		
+				background-color: #fff;
+				height: 232px;		
 		
 				.top-nav {
 					padding: 0;
 					margin-top: 0;
-					line-height: inherit;
-					
+					line-height: inherit;					
 
 					.top-title{
 						padding-left: 0;
@@ -1404,23 +1403,26 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 					.breadcrumb {
 						line-height: 1.5em;
 					}
-				}
-				.sidemenu-wrapper {
-					display: block !important;
-					margin-left: 15px;
-				}
-				article#elm-main-content {
-					padding-left: 290px;
-				}
-				article.elm-content-container.evaluation-kb header .elm-page-restriction,
-				article.elm-content-container.evaluation-kb header .elm-page-notifications{
-					display: block;
-				}
+				}				
+			}
+
+			.sidemenu-wrapper {
+				display: block !important;
+				margin-left: 15px;
+			}
+
+			article#elm-main-content {
+				padding-left: 290px;
+			}
+			
+			article.elm-content-container.evaluation-kb header .elm-page-restriction,
+			article.elm-content-container.evaluation-kb header .elm-page-notifications{
+				display: block;
 			}
 		}
 		@media all and (min-width:50em) {
 			.top-nav {
-				margin-top: 15px;
+				margin-top: 0;
 				.breadcrumb {
 					max-width: 55em;
 				}
@@ -1437,7 +1439,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			.top-nav {
 				padding: 0;
 				margin: auto;
-				margin-top: 15px;
+				margin-top: 0;
 
 				.search-bar {
 					display: inline-block;
@@ -1455,10 +1457,8 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				min-width: 0;
 			}
 			.top-nav {	
-				/*todo, place margins auto and independent of media queries*/
-
-				margin-top: 15px;
-					padding: 0;
+				margin-top: 0;
+				padding: 0;
 			}
 		}
 	}
