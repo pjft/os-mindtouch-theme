@@ -1304,19 +1304,25 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     background-color: #fff;
     height: 190px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-title {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
     position: absolute;
     left: -1px;
     padding-left: 35px;
     top: 25px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .search-bar {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar {
     width: 240px;
     position: absolute;
-    top: 40px;
-    right: 13px;
+    top: 130px;
+    right: 15px;
     padding-right: 15px;
     top: 45px;
+    box-shadow: none;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
+    min-height: 0px;
+    padding: 10px 15px;
+    margin: 0;
   }
 }
 @media all and (min-width: 48.5em) {
