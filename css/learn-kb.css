@@ -1319,7 +1319,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     top: 45px;
     box-shadow: none;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     min-height: 0px;
     padding: 10px 15px;
     margin: 0;
