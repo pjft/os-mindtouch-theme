@@ -1305,10 +1305,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
     background-color: #fff;
-    height: 190px;
+    height: 232px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav {
-    margin-top: 50px;
+    margin-top: 0px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page:last-child {
     display: inline-block;
@@ -1363,6 +1363,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
+    margin: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-restriction,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-notifications {
@@ -1384,6 +1385,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 335px;
+    margin: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     padding: 0;
@@ -1402,6 +1404,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
     min-width: 0;
+    margin: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .top-nav {
     margin-top: 0;
