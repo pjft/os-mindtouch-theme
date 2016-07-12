@@ -1163,18 +1163,21 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
 @media all and (min-width: 18.75em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
     background-color: #eceff1;
-    /* padding-bottom: 20px; */
     box-shadow: none;
-    /* box-shadow: 1px 1px 5px #DDD; */
     height: 300px;
     margin-top: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
     padding: 0;
     margin: 0;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav > div {
     background-color: #fff;
@@ -1182,21 +1185,27 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     padding: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
     order: 1;
     margin: 0;
     border: none;
     box-shadow: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
-    order: 2;
-    height: 50px;
     box-shadow: 1px 1px 5px #DDD;
+    height: 50px;
+    order: 2;
+    -ms-flex-order: 2;
+    -webkit-box-ordinal-group: 3;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title h3 {
     border: none;
     margin: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar {
+    -webkit-box-ordinal-group: 4;
+    -ms-flex-order: 3;
     order: 3;
     padding: 20px;
     margin: 10px;
@@ -1511,7 +1520,13 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     padding-left: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding: 20px;
   }
