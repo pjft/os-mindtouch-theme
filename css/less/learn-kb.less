@@ -327,13 +327,20 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 				margin-top: 30px;
 				display: inline-block;
 				line-height: 1.5em;
-				padding-left: 0;
+				padding-left: 0;		
 
 				.crumb {
 					display: inline-block;
 					font-size: 12px;
 					color: #949fa3;
 				}
+
+				.page:last-child{
+					.crumb{
+						color: #000;
+					}
+				}
+				
 				.crumb a, .crumb a:hover {
 					color: #268ED9;
 				} 
@@ -1393,7 +1400,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 			    		position: absolute;
 						left: -1px;
 						padding-left: 30px;
-		    			top: 60px;
+		    			top: 50px;
 						
 					}					
 					
@@ -1429,7 +1436,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 		@media all and (min-width:48.5em) {		
 			.elm-header{
 				background-color: #fff;				
-				height: 232px;
+				height: 212px;
 		
 				.top-nav {
 					padding: 0;				
