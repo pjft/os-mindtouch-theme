@@ -851,6 +851,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   width: 40%;
   padding: 9px;
   font-size: 14px;
+  font-family: 'Open Sans', Arial, sans-serif;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us span {
   display: none;
@@ -1335,10 +1336,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     top: 50px;
     height: 190px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page:last-child,
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page:nth-last-child(2) .after {
-    display: inline-block;
-  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
     position: absolute;
     left: -1px;
@@ -1362,6 +1359,12 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     padding: 10px 15px;
     margin: 0;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content .header,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content aside#mt-toc-container,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content section#mt-content-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 @media all and (min-width: 48.5em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
@@ -1380,6 +1383,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar {
+    display: inline-block;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page:last-child,
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page:nth-last-child(2) .after {
     display: inline-block;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb {
