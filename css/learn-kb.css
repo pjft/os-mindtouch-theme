@@ -1653,10 +1653,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     width: 100%;
     margin-left: 0 !important;
   }
-  [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container {
-    margin-left: 100px;
-    margin-right: 100px;
-  }
 }
 @media all and (min-width: 80em) {
   [class*=columbia-breadcrumb-home-evaluation] article.elm-content-container.evaluation-kb .mt-content-container {
