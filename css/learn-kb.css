@@ -1401,7 +1401,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     width: 250px;
     margin-left: 20px !important;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu ul li a {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul li a {
     font-size: 13px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
