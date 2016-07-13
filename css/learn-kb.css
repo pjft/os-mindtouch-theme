@@ -1342,10 +1342,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     padding-left: 30px;
     top: 80px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb .parent.crumb a {
-    color: #268ED9;
-    font-weight: 700;
-  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar {
     width: 260px;
     position: absolute;
@@ -1394,6 +1390,10 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb {
     line-height: 1.5em;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb .parent.crumb a {
+    color: #268ED9;
+    font-weight: 700;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
     display: block !important;
