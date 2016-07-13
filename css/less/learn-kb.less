@@ -1008,10 +1008,8 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 		.sidemenu-wrapper {
 			position: absolute;
 			left: 0;
-			/*display: none;*/
 			top: 0;
 			bottom: 0;
-			width: 240px;
 			margin-top: 0;
 			padding-top: 50px;
 			list-style: none;
@@ -1266,16 +1264,15 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 		    			}
 		    		}
 				}
+
+				.sidebar-cta-box{
+					display: none;
+				}
 			}
-			/*
-			.sidemenu-wrapper {
-				display: none !important;
-			}*/
 			
 			.menu-placeholder{
 				margin-top: 5px;
 			}
-
 	
 			.mt-section p > a {
 	    		float: right;
@@ -1334,13 +1331,9 @@ nav.elm-nav.elm-header-notice.elm-live-notice{
 	    		ms-flex-direction: column;
 				webkit-flex-direction: column;
 
-				header{
-					order: 1
-				}
-
 	    		.sidemenu-wrapper{
 	    			order: 6;
-	    			margin: auto;
+	    			margin: 0 40px;
 	    			position: relative;
 	    		}
 			}
