@@ -1077,7 +1077,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   display: block;
   border: none;
   border-bottom: 1px solid #ECEFF1;
-  font-size: 13px;
   color: #333;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu li a span {
@@ -1298,10 +1297,13 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     ms-flex-direction: column;
     webkit-flex-direction: column;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content header {
+    order: 1;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content .sidemenu-wrapper {
-    order: 10;
+    order: 6;
     margin: auto;
-    width: 70%;
+    position: relative;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container {
     background-color: #fff;
@@ -1383,7 +1385,12 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
     display: block !important;
-    margin-left: 15px;
+    position: absolute;
+    width: 250px;
+    margin-left: 15px !important;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu ul li a {
+    font-size: 13px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
