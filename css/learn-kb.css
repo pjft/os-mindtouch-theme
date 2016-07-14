@@ -885,11 +885,13 @@ body.body-with-sidebar {
   box-shadow: 1px -2px 4px rgba(0, 0, 0, 0.08), inset 0 2px 4px rgba(0, 0, 0, 0.35);
   color: rgba(255, 255, 255, 0.78);
 }
-[class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
-  /* display: -webkit-flex;
-			display: -ms-flexbox;
-			display: flex; */
+[class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.share {
   display: none;
+}
+[class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
