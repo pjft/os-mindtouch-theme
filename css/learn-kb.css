@@ -1342,8 +1342,19 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer:before {
     height: 0;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation {
+    margin: 0;
+    padding-top: 15px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top {
+    position: absolute;
+    right: 30px;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top a {
     color: #999;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-article-pagination {
+    display: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback {
     -webkit-box-ordinal-group: 2;
