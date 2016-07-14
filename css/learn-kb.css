@@ -1353,21 +1353,24 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1;
-    width: 70%;
+    width: 100%;
     margin: 0;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback ul.mt-feedback-rating-controls {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container {
+    display: block;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback ul.mt-feedback-rating-controls .mt-feedback-rating-item {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item {
     margin: .5em 1.5em;
     line-height: 3em;
     color: #999;
     font-weight: 600;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback ul.mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon {
     color: #08c;
     font-weight: 600;
   }
