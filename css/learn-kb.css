@@ -199,6 +199,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   font-weight: 700;
   line-height: 40px;
   padding: 0 18px;
+  letter-spacing: 1px;
 }
 [class*=columbia-breadcrumb-home-evaluation] a#cta-contact-us-btn:hover {
   background: #fff;
@@ -1331,6 +1332,51 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .footer-site {
     padding: 25px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-directon: row;
+    margin-top: 0;
+    background-color: #fff;
+    height: 45px;
+    padding: 10px 20px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer :before {
+    height: 0;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top a {
+    color: #999;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback {
+    -webkit-box-ordinal-group: 2;
+    -ms-flex-order: 1;
+    order: 1;
+    width: 70%;
+    margin: 0;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback ul#mt-feedback-rating-controls {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback ul#mt-feedback-rating-controls .mt-feedback-rating-item {
+    margin: .5em 1.5em;
+    line-height: 3em;
+    color: #999;
+    font-weight: 600;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback ul#mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon {
+    color: #08c;
+    font-weight: 600;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+    width: 30%;
+    border: none;
   }
 }
 @media all and (min-width: 37.5em) {
