@@ -1337,7 +1337,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-directon: row;
+    flex-direction: row;
     margin-top: 0;
     background-color: #fff;
     height: 45px;
