@@ -847,6 +847,9 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started .section {
   border-bottom: none;
 }
+[class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started .section:first-child {
+  padding-bottom: 5px;
+}
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started .section h4 {
   margin-left: 10%;
 }
