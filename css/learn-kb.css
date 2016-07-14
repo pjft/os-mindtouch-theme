@@ -1234,6 +1234,7 @@ body.body-with-sidebar {
     padding: 20px;
     margin: 10px;
     box-shadow: 1px 1px 5px #DDD;
+    position: absolute;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar input#kb-search {
     width: 100%;
@@ -1306,6 +1307,7 @@ body.body-with-sidebar {
     display: flex;
     flex-direction: column;
     webkit-flex-direction: column;
+    top: 100px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content .sidemenu-wrapper {
     order: 6;
@@ -1421,6 +1423,7 @@ body.body-with-sidebar {
     min-height: 0px;
     padding: 10px 15px;
     margin: 0;
+    top: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content aside#mt-toc-container {
     padding-left: 50px;
