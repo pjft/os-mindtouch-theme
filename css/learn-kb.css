@@ -15,10 +15,6 @@ body.body-with-sidebar {
   line-height: 21px;
   margin: 0 auto;
 }
-nav.elm-header-user-nav.elm-nav,
-nav.elm-nav.elm-header-notice.elm-live-notice {
-  display: none;
-}
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-evaluation .elm-content-footer {
   display: none;
@@ -1466,10 +1462,6 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
     margin: auto;
-  }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-restriction,
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-page-notifications {
-    display: inline-block;
   }
 }
 @media all and (min-width: 50em) {
