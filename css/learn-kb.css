@@ -1365,7 +1365,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
     display: flex;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item {
-    margin: .5em 1.5em;
+    margin: .5em 1em;
     line-height: 3em;
     color: #999;
     font-weight: 600;
@@ -1373,6 +1373,7 @@ nav.elm-nav.elm-header-notice.elm-live-notice {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon {
     color: #08c;
     font-weight: 600;
+    font-size: 13px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation {
     -webkit-box-ordinal-group: 3;
