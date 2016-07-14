@@ -309,6 +309,11 @@ body.body-with-sidebar {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
+[class*=columbia-breadcrumb-home-evaluation] .mt-feedback-form fieldset {
+  background: inherit;
+  border: 1px dashed #999;
+  width: auto;
+}
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav {
   margin: auto;
   margin-top: 15px;
