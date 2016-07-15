@@ -1403,7 +1403,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top a:after {
     font-size: 170%;
-    top: 0;
+    top: 5px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-article-pagination {
     display: none;
@@ -1566,13 +1566,18 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer {
     flex-direction: row;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback {
+    width: 80%;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation {
     order: 2;
+    width: 20%;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top {
     left: auto;
     bottom: auto;
     width: 100%;
+    margin-top: 5px !important;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top a#mt-back-to-top:after {
     top: 5px;

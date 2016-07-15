@@ -1468,7 +1468,7 @@ body.body-with-sidebar{
 
 						    &:after {
 						    	font-size: 170%;
-    							top: 0;
+    							top: 5px;
 						    }
 						}
 					}
@@ -1678,13 +1678,18 @@ body.body-with-sidebar{
 
 			footer.elm-content-footer{
 				flex-direction: row;
+
+				.elm-article-feedback{
+					width: 80%;
+				}
 				.elm-meta-article-navigation {
 					order: 2;
+					width: 20%;
 					.elm-back-to-top{
 						left: auto;
     					bottom: auto;
     					width: 100%;
-
+    					margin-top: 5px !important;
     					a#mt-back-to-top{
     						&:after{
     							top: 5px;
