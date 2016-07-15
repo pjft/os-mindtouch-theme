@@ -1264,7 +1264,7 @@ body.body-with-sidebar{
 
 		@media all and (min-width:18.75em) {
 			.header-logo a img{
-				padding-left: 10px;
+				padding-left: 5px;
 			}
 
 			.elm-header{
@@ -1593,6 +1593,41 @@ body.body-with-sidebar{
 		}
 
 		@media all and (min-width:48.5em) {		
+
+			ol.elm-meta-data.elm-meta-top{
+				span:before {
+				    padding: 2px;
+				    font-size: 14px;
+				}
+				
+				li{
+					&.elm-pdf-export{	
+						display: inline-block;
+						top: -5px;
+
+						a{
+						    width: 92px;
+						    font-size: 12px;
+						    color: #b0bec5;
+						}
+					}
+
+					&.elm.elm-social-share{
+						display: inline-block;
+						margin-top: -5px;
+						margin-left: 5px;
+
+						a{
+							width: 100%;
+						    font-size: 12px;
+						    color: #b0bec5;
+						    top: 11px;
+						    margin-right: 0;
+						}
+					}
+				}
+			}
+
 			.elm-header{
 				background-color: #fff;				
 				height: 212px;
@@ -1716,7 +1751,7 @@ body.body-with-sidebar{
 					width: 20%;
 					position: absolute;
 		    		right: 20px;
-		    		
+
 					.elm-back-to-top{
 						left: auto;
     					bottom: auto;
