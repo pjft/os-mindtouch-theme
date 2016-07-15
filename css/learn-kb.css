@@ -1507,12 +1507,12 @@ body.body-with-sidebar {
     font-size: 12px;
     color: #b0bec5;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm.elm-social-share {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share {
     display: inline-block;
     margin-top: -5px;
     margin-left: 5px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm.elm-social-share a {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a {
     width: 100%;
     font-size: 12px;
     color: #b0bec5;
