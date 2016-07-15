@@ -1396,6 +1396,8 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top {
     position: absolute;
     right: 30px;
+    left: 40%;
+    bottom: 37%;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top a {
     color: #999;
@@ -1528,6 +1530,10 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
     margin: auto;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top {
+    left: auto;
+    bottom: auto;
   }
 }
 @media all and (min-width: 50em) {
