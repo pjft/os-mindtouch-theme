@@ -1427,7 +1427,7 @@ body.body-with-sidebar {
     margin: .5em 1em;
     line-height: 3em;
     color: #999;
-    font-weight: 600;
+    font-weight: 400;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item.mt-last-rating-date {
     display: none;
@@ -1437,7 +1437,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon {
     color: #08c;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 13px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container .mt-feedback-form fieldset {
@@ -1490,7 +1490,7 @@ body.body-with-sidebar {
     padding-right: 50px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top a:after {
-    top: 5px;
+    top: 0;
   }
 }
 @media all and (min-width: 48.5em) {
@@ -1508,8 +1508,25 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .top-title {
     padding-left: 20px;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar {
+    display: inline-block;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles {
+    right: -5px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles:before {
+    left: 185px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles:after {
+    left: 190px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles ul {
+    margin-top: 20px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles ul li div {
+    font-size: 12px;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page {
     display: inline-block;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page:last-child,

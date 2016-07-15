@@ -1500,7 +1500,7 @@ body.body-with-sidebar{
 								margin: .5em 1em;
 								line-height: 3em;
 								color: #999;
-								font-weight: 600;
+								font-weight: 400;
 
 								&.mt-last-rating-date{
 									display: none;
@@ -1516,7 +1516,7 @@ body.body-with-sidebar{
 
 								.ui-button-icon{
 									color: #08c;
-									font-weight: 600;
+									font-weight: 400;
 									font-size: 13px;
 								}
 							}
@@ -1588,7 +1588,7 @@ body.body-with-sidebar{
 			}
 
 			footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top a:after{
-				top: 5px;
+				top: 0;
 			}
 		}
 
@@ -1607,9 +1607,34 @@ body.body-with-sidebar{
 					.top-title{
 						padding-left: 20px;
 					}
-					.page, .search-bar {
-						display: inline-block;
 
+					.search-bar {
+						display: inline-block;
+	
+						.form-field .recommended-articles{
+							right: -5px;
+
+							&:before{
+								left: 185px;
+							}
+
+							&:after{
+								left: 190px;
+							}
+
+							ul{
+								margin-top: 20px;
+
+								li div{
+									font-size: 12px;
+								}
+
+							}
+						}
+					}
+
+					.page{
+						display: inline-block;
 					}
 
 					.page:last-child,
