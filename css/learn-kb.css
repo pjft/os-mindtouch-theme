@@ -309,11 +309,6 @@ body.body-with-sidebar {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
 }
-[class*=columbia-breadcrumb-home-evaluation] .mt-feedback-form fieldset {
-  background: inherit;
-  border: 1px dashed #999;
-  width: auto;
-}
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav {
   margin: auto;
   margin-top: 15px;
@@ -856,7 +851,7 @@ body.body-with-sidebar {
   padding-bottom: 5px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started .section h4 {
-  margin-left: 10%;
+  text-align: center;
   color: #384142;
   font-weight: 500;
 }
@@ -1440,11 +1435,15 @@ body.body-with-sidebar {
     font-weight: 600;
     font-size: 13px;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container .mt-feedback-form fieldset {
+    background: inherit;
+    border: 1px dashed #999;
+    width: auto;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation {
     -webkit-box-ordinal-group: 3;
     -ms-flex-order: 2;
     order: 2;
-    width: 30%;
     border: none;
   }
 }
