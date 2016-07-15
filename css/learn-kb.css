@@ -1501,6 +1501,7 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top span:before {
     padding: 2px;
     font-size: 14px;
+    color: #b0bec5;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-pdf-export {
     display: inline-block;
@@ -1523,6 +1524,10 @@ body.body-with-sidebar {
     color: #b0bec5;
     top: 11px;
     margin-right: 0;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span:before {
+    content: '\e817';
+    font-size: 140% !important;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
     background-color: #fff;
