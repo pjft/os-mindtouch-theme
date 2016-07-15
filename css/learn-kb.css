@@ -1247,7 +1247,7 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav > div {
     background-color: #fff;
     box-sizing: border-box;
-    padding: 10px 20px;
+    padding: 10px 30px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .breadcrumb {
     -webkit-box-ordinal-group: 2;
@@ -1474,13 +1474,13 @@ body.body-with-sidebar {
     width: 330px;
     position: absolute;
     right: 0;
-    padding-right: 5px;
+    padding-right: 15px;
     top: 30px;
     box-shadow: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     min-height: 0px;
-    padding: 10px 15px;
+    padding: 10px 25px;
     margin: 0;
     top: 0;
   }
