@@ -1587,11 +1587,13 @@ body.body-with-sidebar {
     flex-direction: row;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-article-feedback {
-    width: 80%;
+    width: 100%;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation {
     order: 2;
     width: 20%;
+    position: absolute;
+    right: 20px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top {
     left: auto;
