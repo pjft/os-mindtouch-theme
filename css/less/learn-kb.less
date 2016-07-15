@@ -1638,27 +1638,10 @@ body.body-with-sidebar{
 			article#elm-main-content {
 				padding-left: 290px;
 				margin: auto;
-			}
-
-			footer.elm-content-footer{
-				flex-direction: row;
-				.elm-meta-article-navigation {
-					order: 2;
-					.elm-back-to-top{
-						left: auto;
-    					bottom: auto;
-    					width: 100%;
-
-    					a#mt-back-to-top{
-    						&:after{
-    							top: 5px;
-    						}
-    					}
-					}
-				}
-			} 
+			}			
 
 		}
+
 		@media all and (min-width:50em) {
 			.top-nav {
 				margin: auto;
@@ -1692,6 +1675,24 @@ body.body-with-sidebar{
 					float: right;							
 				}
 			}
+
+			footer.elm-content-footer{
+				flex-direction: row;
+				.elm-meta-article-navigation {
+					order: 2;
+					.elm-back-to-top{
+						left: auto;
+    					bottom: auto;
+    					width: 100%;
+
+    					a#mt-back-to-top{
+    						&:after{
+    							top: 5px;
+    						}
+    					}
+					}
+				}
+			} 
 
 		}
 		@media all and (min-width:83em) {
