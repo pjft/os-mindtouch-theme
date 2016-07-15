@@ -1532,9 +1532,19 @@ body.body-with-sidebar {
     padding-left: 290px;
     margin: auto;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer {
+    flex-direction: row;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation {
+    order: 2;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top {
     left: auto;
     bottom: auto;
+    width: 100%;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar footer.elm-content-footer .elm-meta-article-navigation .elm-back-to-top a#mt-back-to-top:after {
+    top: 5px;
   }
 }
 @media all and (min-width: 50em) {

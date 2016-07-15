@@ -1641,10 +1641,19 @@ body.body-with-sidebar{
 			}
 
 			footer.elm-content-footer{
+				flex-direction: row;
 				.elm-meta-article-navigation {
+					order: 2;
 					.elm-back-to-top{
 						left: auto;
     					bottom: auto;
+    					width: 100%;
+
+    					a#mt-back-to-top{
+    						&:after{
+    							top: 5px;
+    						}
+    					}
 					}
 				}
 			} 
