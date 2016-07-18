@@ -1606,7 +1606,7 @@ body.body-with-sidebar {
     margin-left: 0px !important;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
-    padding-left: 355px;
+    padding-left: 315px;
     margin: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content aside#mt-toc-container {
@@ -1646,9 +1646,10 @@ body.body-with-sidebar {
 @media all and (min-width: 83em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper {
     left: 0;
+    margin-left: 20px !important;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
-    padding-left: 290px;
+    padding-left: 315px;
     min-width: 0;
     margin: auto;
   }
