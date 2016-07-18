@@ -1649,7 +1649,8 @@ body.body-with-sidebar{
 					line-height: inherit;
 					margin: auto;
 					margin-top: 0;	
-					top: 0;				
+					top: 0;	
+					max-width: 1000px;			
 
 					.top-title{
 						padding-left: 20px;
@@ -1691,6 +1692,7 @@ body.body-with-sidebar{
 
 					.breadcrumb {
 						line-height: 1.5em;
+						padding-left: 20px;
 
 						.parent.crumb a{
 						    text-decoration: underline;
@@ -1714,6 +1716,7 @@ body.body-with-sidebar{
 			article#elm-main-content {
 				padding-left: 290px;
 				margin: auto;
+				max-width: 1000px;
 			}			
 
 		}
@@ -1731,10 +1734,10 @@ body.body-with-sidebar{
 		@media all and (min-width:65.25em) {
 			.sidemenu-wrapper {
 				left: 20px;
-				margin-left: 0;
+				margin-left: 0px !important;
 			}
 			article#elm-main-content {
-				padding-left: 335px;
+				padding-left: 355px;
 				margin: auto;
 
 				aside#mt-toc-container{
