@@ -1561,7 +1561,7 @@ body.body-with-sidebar {
     /* 185px; */
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles:after {
-    left: calc(45%);
+    left: calc( 40% - 5px );
     /* 190px; */
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles ul {
