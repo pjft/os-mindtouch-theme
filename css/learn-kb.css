@@ -1571,6 +1571,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles ul li div {
     font-size: 12px;
+    word-break: break-word;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .page {
     display: inline-block;
