@@ -1356,9 +1356,6 @@ body.body-with-sidebar{
 				margin-top: 5px;
 			}
 	
-			.mt-section p > a {
-	    		float: right;
-			}
 			.mt-toc-content > ol{
 				margin: 20px 0px;
 				font-weight: 600;
@@ -1631,10 +1628,22 @@ body.body-with-sidebar{
 						    top: 11px;
 						    margin-right: 0;
 
-						    span:before{
-						    	content: '\e817';    
-    							font-size: 140% !important; 
-						    }
+						   span{
+						   		.caption{
+								    vertical-align: text-bottom;
+						   			&:before{
+						   				display: none;		
+						   			}
+						   		}
+
+						   		&:before{
+						    		content: '\e817';    
+    								font-size: 155% !important; 
+						   		}
+
+						   }
+
+						    
 						}
 					}
 				}
@@ -1663,11 +1672,11 @@ body.body-with-sidebar{
 							right: -5px;
 
 							&:before{
-								left: 185px;
+								left: 40%; /* 185px; */
 							}
 
 							&:after{
-								left: 190px;
+								left: calc(40% + 5px); /* 190px; */
 							}
 
 							ul{
