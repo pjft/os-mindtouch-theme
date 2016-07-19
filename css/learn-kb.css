@@ -1495,6 +1495,9 @@ body.body-with-sidebar {
   }
 }
 @media all and (min-width: 48.5em) {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .recommended-articles {
+    min-width: 500px;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top span:before {
     padding: 2px;
     font-size: 14px;
@@ -1522,10 +1525,10 @@ body.body-with-sidebar {
     top: 11px;
     margin-right: 0;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span .caption {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span.caption {
     vertical-align: text-bottom;
   }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span .caption:before {
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span.caption:before {
     display: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span:before {
@@ -1726,9 +1729,6 @@ body.body-with-sidebar {
   }
 }
 @media all and (min-width: 37.5em) {
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .recommended-articles {
-    min-width: 500px;
-  }
   [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom,
   [class*=columbia-breadcrumb-home-evaluation] body.elm-user-pro-edit .elm-header-custom {
     margin: 0 !important;

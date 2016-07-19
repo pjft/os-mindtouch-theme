@@ -1596,6 +1596,10 @@ body.body-with-sidebar{
 
 		@media all and (min-width:48.5em) {		
 
+			.recommended-articles {
+		    	min-width: 500px;
+			}
+
 			ol.elm-meta-data.elm-meta-top{
 				span:before {
 				    padding: 2px;
@@ -1629,7 +1633,7 @@ body.body-with-sidebar{
 						    margin-right: 0;
 
 						   span{
-						   		.caption{
+						   		&.caption{
 								    vertical-align: text-bottom;
 						   			&:before{
 						   				display: none;		
@@ -1878,9 +1882,6 @@ body.body-with-sidebar{
 		}
 	}
 	@media all and (min-width:37.5em) {
-		&.body-with-sidebar .recommended-articles {
-		    min-width: 500px;
-		}
 		.elm-header-custom, body.elm-user-pro-edit .elm-header-custom{
 			//remove
 			margin: 0 !important;
