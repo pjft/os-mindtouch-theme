@@ -761,7 +761,8 @@ body.body-with-sidebar {
   border: 4px solid #727272;
   margin-top: 5px;
   border-radius: 10px;
-  min-width: 100%;
+  min-width: 110%;
+  left: -5%;
   box-sizing: border-box;
 }
 [class*=columbia-breadcrumb-home-evaluation] .form-field {
@@ -1555,6 +1556,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles {
     right: -5px;
+    left: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar .form-field .recommended-articles:before {
     left: 40%;
