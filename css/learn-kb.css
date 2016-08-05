@@ -610,7 +610,6 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation] input#kb-search {
   padding: 15px;
-  width: 250px;
   height: 40px;
 }
 [class*=columbia-breadcrumb-home-evaluation] input#dummy-search {
