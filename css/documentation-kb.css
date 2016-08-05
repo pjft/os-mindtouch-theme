@@ -1085,11 +1085,17 @@ body.body-with-sidebar {
   position: relative;
   border-bottom: 1px solid #CFD8DC;
 }
+[class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li:first-child {
+  border: none;
+}
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li:focus {
   outline: none;
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active {
   position: relative;
+}
+[class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current:after {
+  display: none;
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current:before,
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active.current span:before {
@@ -1121,12 +1127,8 @@ body.body-with-sidebar {
   padding-left: 0;
   border-bottom: 1px solid #CFD8DC;
 }
-[class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active ul.second-level li:last-child a {
-  border: none;
-}
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li.active > a {
   font-weight: 600;
-  border-bottom: 1px solid #CFD8DC;
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li a {
   padding: 15px;

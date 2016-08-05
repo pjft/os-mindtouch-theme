@@ -1109,6 +1109,10 @@ body.body-with-sidebar{
 					position: relative;
 					border-bottom: 1px solid #CFD8DC;
 
+					&:first-child{
+						border: none;
+					}
+
 					&:focus {
 						outline: none;
 					}
@@ -1116,6 +1120,9 @@ body.body-with-sidebar{
 						position: relative;							
 
 						&.current {
+							&:after{
+								display: none;
+							}
 							&:before, span:before {								
 								font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 								content: "|";
@@ -1151,13 +1158,10 @@ body.body-with-sidebar{
 								border-bottom: 1px solid #CFD8DC;	
 							}
 						
-							li:last-child a{
-								border: none;
-							}
 						}
 						> a {
 							font-weight: 600;
-							border-bottom: 1px solid #CFD8DC;
+			
 						}
 					}
 					a {
