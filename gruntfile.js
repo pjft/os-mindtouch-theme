@@ -21,6 +21,7 @@ module.exports = function(grunt) {
                     'css/bundle/os-mt-kbs.css': [
                         'css/evaluation-kb.css',
                         'css/learn-kb.css',
+                        'css/documentation-kb.css',
                         'css/support-kb.css',
                         'css/partner-guide-kb.css',
                         'css/docp10.css'
