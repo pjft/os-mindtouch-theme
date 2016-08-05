@@ -233,6 +233,8 @@ body.body-with-sidebar{
 		padding-bottom: 56.25%; /* hard-coded 16:9 aspect ratio */
 	}
 
+
+
 	/* end wistia*/
 	h1 {
 		margin-bottom: 	5px;
@@ -1095,6 +1097,12 @@ body.body-with-sidebar{
 				margin: 0;
 				padding: 0;
 				border-radius: 3px;
+				border: none;
+				background: inherit;
+
+				.arrow-left{
+					display: none;
+				}
 
 				li {
 					padding: 0px;
@@ -1133,6 +1141,7 @@ body.body-with-sidebar{
 						}
 						ul.second-level {
 							display: block;
+							background-color: inherit;
 
 							li{
 								border: none;
@@ -1889,7 +1898,7 @@ body.body-with-sidebar{
 			margin: 0 !important;
 		}
 		.hero-wrapper {
-			height: 200px;
+			height: 140px;
 
 			.elm-content-container {
     			padding: 3.4rem 0.65rem;
