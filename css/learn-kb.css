@@ -1354,6 +1354,7 @@ body.body-with-sidebar {
     flex-direction: column;
     webkit-flex-direction: column;
     top: 100px;
+    z-index: -1;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content .sidemenu-wrapper {
     order: 6;
