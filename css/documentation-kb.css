@@ -1060,7 +1060,7 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper {
   position: absolute;
   left: 0;
-  top: 0;
+  top: 0 !important;
   bottom: 0;
   margin-top: 0;
   padding-top: 50px;
@@ -1137,7 +1137,7 @@ body.body-with-sidebar {
   margin-left: 0px;
   display: block;
   border: none;
-  border-bottom: 1px solid #ECEFF1;
+  border-bottom: 1px solid #CFD8DC;
   color: #333;
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li a span {
@@ -1543,7 +1543,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header {
     background-color: #fff;
-    height: 212px;
+    height: 177px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header .top-nav {
     padding: 0;
@@ -1597,6 +1597,7 @@ body.body-with-sidebar {
     position: absolute !important;
     width: 250px;
     margin-left: 20px !important;
+    padding-top: 10px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul li a {
     font-size: 13px;
