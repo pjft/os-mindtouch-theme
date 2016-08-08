@@ -1280,6 +1280,7 @@ body.body-with-sidebar {
     margin: 10px;
     box-shadow: 1px 1px 5px #DDD;
     position: absolute;
+    top: 105px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .top-nav .search-bar input#kb-search {
     width: 100%;
@@ -1349,7 +1350,7 @@ body.body-with-sidebar {
     display: flex;
     flex-direction: column;
     webkit-flex-direction: column;
-    top: 10px;
+    top: 100px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content .sidemenu-wrapper {
     order: 6;
