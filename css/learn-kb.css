@@ -1698,6 +1698,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation] .elm-content-container {
     padding: .65rem .65rem 2em;
+    z-index: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation] .evaluation-kb li.mt-sortable-listing {
     padding: 0px;
