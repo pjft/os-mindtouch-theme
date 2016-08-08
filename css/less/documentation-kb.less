@@ -1281,7 +1281,6 @@ body.body-with-sidebar{
 
 			.elm-header{
 				background-color: #eceff1;
-				box-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
 	    		margin-top: 0;
 
 				
@@ -1300,7 +1299,11 @@ body.body-with-sidebar{
 					.page:last-child,
 					.page:nth-last-child(2) .after{
 						display: none;
-					}					
+					}	
+
+					> p{
+						display: none;
+					}				
 
 					> div{
 						background-color: #fff;
@@ -1343,8 +1346,7 @@ body.body-with-sidebar{
 		    			padding: 20px;
 		    			margin: 10px;
 		    			box-shadow: 1px 1px 5px #DDD;
-		    			position: absolute;
-
+		    
 		    			input#kb-search{
 		    				width: 100%;
 		    			}
@@ -1421,8 +1423,7 @@ body.body-with-sidebar{
 	    		display: flex;
 	    		flex-direction: column;
 				webkit-flex-direction: column;
-				top: 100px;
-
+	
 	    		.sidemenu-wrapper{
 	    			order: 6;
 	    			margin: 0 35px;
