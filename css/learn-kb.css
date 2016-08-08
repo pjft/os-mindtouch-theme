@@ -506,9 +506,6 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation] section#attachments {
   display: none;
 }
-[class*=columbia-breadcrumb-home-evaluation] article#elm-main-content {
-  z-index: 0;
-}
 [class*=columbia-breadcrumb-home-evaluation].columbia-article-topic-guide footer.elm-content-footer {
   display: none;
 }
@@ -995,6 +992,10 @@ body.body-with-sidebar {
   margin-top: 21px;
   margin-bottom: 0px;
 }
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h3.editable {
+  margin-bottom: 15px;
+  padding-bottom: 0;
+}
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h4 {
   font-family: inherit;
   font-weight: 600;
@@ -1355,7 +1356,6 @@ body.body-with-sidebar {
     flex-direction: column;
     webkit-flex-direction: column;
     top: 100px;
-    z-index: -1;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content .sidemenu-wrapper {
     order: 6;
@@ -1734,9 +1734,6 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-inner {
     width: 97% !important;
-  }
-  [class*=columbia-breadcrumb-home-evaluation] article#elm-main-content {
-    z-index: 0;
   }
 }
 @media all and (min-width: 37.5em) {

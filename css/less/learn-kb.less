@@ -519,11 +519,6 @@ body.body-with-sidebar{
 		display: none;
 	}
 
-	article#elm-main-content {
-    	z-index: 0;
-	}
-
-
 	//second level pages with childs
 	&.columbia-article-topic-guide {
 		footer.elm-content-footer {
@@ -1026,6 +1021,11 @@ body.body-with-sidebar{
 		  line-height: 42px;
 		  margin-top: 21px;
 		  margin-bottom: 0px;
+
+		  	&.editable{
+		  		margin-bottom: 15px;
+		  		padding-bottom: 0;
+		  	}
 		}
 		h4 {
 		  font-family: inherit;
@@ -1418,7 +1418,6 @@ body.body-with-sidebar{
 	    		flex-direction: column;
 				webkit-flex-direction: column;
 				top: 100px;
-				z-index: -1;
 
 	    		.sidemenu-wrapper{
 	    			order: 6;
@@ -1892,9 +1891,7 @@ body.body-with-sidebar{
 		.featherlight .featherlight-inner {
 			width: 97% !important;
 		}
-		article#elm-main-content{
-			z-index: 0;
-		}
+
 	}
 	@media all and (min-width:37.5em) {
 		.elm-header-custom, body.elm-user-pro-edit .elm-header-custom{
