@@ -565,6 +565,7 @@ body.body-with-sidebar {
   list-style: none;
   margin: 0;
   padding: 0;
+  padding-top: 15px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .more-related ul.related-list li.related-item {
   margin: 0;
@@ -1804,10 +1805,14 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us {
     padding: 15px 30px;
   }
+  [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us > div {
+    text-align: left;
+  }
   [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us .cta-contact-us-btn {
     margin: 0;
     float: right;
     width: 140px;
+    margin-top: 0px !important;
   }
   [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-content {
     width: 422px;
