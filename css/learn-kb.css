@@ -196,6 +196,7 @@ body.body-with-sidebar {
   line-height: 40px;
   padding: 0 18px;
   letter-spacing: 1px;
+  font-family: myriad-pro;
 }
 [class*=columbia-breadcrumb-home-evaluation] a#cta-contact-us-btn:hover {
   background: #fff;
@@ -316,7 +317,6 @@ body.body-with-sidebar {
   padding: 0;
   position: relative;
   max-width: 60em;
-  z-index: 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .elm-header-custom .top-nav .page {
   display: inline-block;
@@ -862,7 +862,7 @@ body.body-with-sidebar {
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   letter-spacing: 1px;
   width: 80%;
-  font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Arial';
   letter-spacing: inherit;
   color: #fff;
   font-weight: 700;
