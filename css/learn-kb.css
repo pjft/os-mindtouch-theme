@@ -197,6 +197,9 @@ body.body-with-sidebar {
   padding: 0 18px;
   letter-spacing: 1px;
   font-family: 'Arial';
+  width: 135px;
+  margin-left: 0;
+  margin-top: 15px;
 }
 [class*=columbia-breadcrumb-home-evaluation] a#cta-contact-us-btn:hover {
   background: #fff;
@@ -904,6 +907,7 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us > div {
   width: 100%;
+  text-align: center;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.contact-us > div a {
   margin-left: 30%;
