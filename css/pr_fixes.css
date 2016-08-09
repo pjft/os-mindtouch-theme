@@ -15,6 +15,17 @@
 .elm-content-container{
 	z-index: auto !important; 
 }
+.body-with-sidebar .form-field,
+.body-with-sidebar .form-field .input-wrapper,
+.body-with-sidebar .form-field .input-wrapper .loader{
+    z-index: 12;
+}
+
+.ProfileMenu{
+  z-index: 13 !important;
+}
+
+
 
 @media (max-width:18.75em) {
     .page {
