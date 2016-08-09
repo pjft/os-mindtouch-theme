@@ -196,7 +196,7 @@ body.body-with-sidebar {
   line-height: 40px;
   padding: 0 18px;
   letter-spacing: 1px;
-  font-family: myriad-pro;
+  font-family: 'Arial';
 }
 [class*=columbia-breadcrumb-home-evaluation] a#cta-contact-us-btn:hover {
   background: #fff;
@@ -839,13 +839,14 @@ body.body-with-sidebar {
   border-radius: 4px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started {
-  background: transparent;
+  background: #fff;
   box-shadow: none;
   border: 1px solid #CFD8DC;
   padding: 15px 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started .section {
   border-bottom: none;
+  text-align: center;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started .section:first-child {
   padding-bottom: 5px;
@@ -856,16 +857,18 @@ body.body-with-sidebar {
   font-weight: 500;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started .section a {
-  margin-left: 10%;
   background-image: linear-gradient(180deg, #e52601 0%, #ce2200 100%);
   border: 1px solid #a61b00;
   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.28);
   letter-spacing: 1px;
-  width: 80%;
+  width: 163px;
   font-family: 'Arial';
   letter-spacing: inherit;
   color: #fff;
   font-weight: 700;
+  margin-top: 0;
+  border-radius: 4px;
+  padding: 10px 20px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box.get-started .section a:hover {
   background-image: linear-gradient(180deg, #e83c1a 0%, #e94828 100%);
@@ -944,9 +947,6 @@ body.body-with-sidebar {
   font-size: 14px;
   font-weight: 800;
   margin: 0;
-}
-[class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box .section a:first-child {
-  margin-right: 60px;
 }
 [class*=columbia-breadcrumb-home-evaluation] .sidebar-cta-box .section .short-link-mail {
   margin-left: 10px;
