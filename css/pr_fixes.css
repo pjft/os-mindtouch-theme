@@ -12,6 +12,10 @@
     display:none;
 }
 
+.elm-content-container{
+	z-index: auto !important; 
+}
+
 @media (max-width:18.75em) {
     .page {
         display: block;
