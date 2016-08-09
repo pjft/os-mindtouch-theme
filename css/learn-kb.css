@@ -1708,6 +1708,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .elm-content-container {
     padding: 0.4rem 0.65rem 0px;
+    z-index: auto;
   }
   [class*=columbia-breadcrumb-home-evaluation] .elm-content-container {
     padding: .65rem .65rem 2em;
