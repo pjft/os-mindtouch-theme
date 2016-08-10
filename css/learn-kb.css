@@ -1512,6 +1512,12 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .recommended-articles {
     min-width: 500px;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-pdf-export a span:before {
+    content: '\e7b3';
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span:before {
+    content: '\e817';
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share {
     margin-left: 5px;
   }
@@ -1544,12 +1550,6 @@ body.body-with-sidebar {
     text-transform: none;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-  }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-pdf-export a span:before {
-    content: '\e7b3';
-  }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span:before {
-    content: '\e817';
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
     background-color: #fff;
