@@ -300,9 +300,9 @@
   box-shadow: inset 0 0 1px #cccccc;
 }
 .jstree-default .jstree-clicked {
-  background: #beebff;
-  border-radius: 2px;
-  box-shadow: inset 0 0 1px #999999;
+    border-radius: 2px;
+    color: #c20;
+    font-weight: 600;
 }
 .jstree-default .jstree-no-icons .jstree-anchor > .jstree-themeicon {
   display: none;
@@ -379,8 +379,11 @@
   min-width: 24px;
 }
 .jstree-default .jstree-anchor {
-  line-height: 24px;
-  height: 24px;
+    line-height: 24px;
+    height: 24px;
+    padding: 10px 10px 10px 0;
+    color: #08c;
+    border-bottom: 1px solid #ccd3d8;
 }
 .jstree-default .jstree-icon {
   width: 24px;
