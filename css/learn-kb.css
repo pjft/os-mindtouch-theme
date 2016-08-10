@@ -1517,16 +1517,16 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span:before {
     content: '\e817';
+    font-size: 18px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share {
-    margin-left: 5px;
+    margin-left: 5px !important;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-pdf-export,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share {
     display: inline-block;
     margin: 0;
     margin-top: -3px;
-    padding-bottom: 5px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-pdf-export a,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a {
@@ -1547,7 +1547,6 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-pdf-export a span:before,
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar ol.elm-meta-data.elm-meta-top li.elm-social-share a span:before {
     padding: 0;
-    font-size: 14px;
     color: #b0bec5;
     font-family: icomoon;
     speak: none;
