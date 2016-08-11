@@ -381,7 +381,7 @@
 .jstree-default .jstree-anchor {
  	line-height: 18px;
     height: auto;
-    padding: 5px;
+    padding: 8px;
     font-weight: 600;
     color: #455a64;
     font-size: 13px;
@@ -453,15 +453,15 @@ i.jstree-icon.jstree-themeicon {
   font-weight: 600;
   color: #455a64;
   position: absolute;
-  top: -8px;
-  left: -10px;
+  top: -6px;
+  left: -6px;
 }
 .jstree-default .jstree-closed > .jstree-ocl:before {
     content: '+';
     font-weight: 600;
     color: #455a64;
 	position: absolute;
-	top: -8px;
+	top: -4px;
 	left: -10px;
 }
 
