@@ -300,9 +300,7 @@
   box-shadow: inset 0 0 1px #cccccc;
 }
 
-.jstree-default .jstree-anchor.jstree-clicked,
-.jstree-default .jstree-open > a.jstree-clicked:before,
-.jstree-default .jstree-closed > a.jstree-clicked:before {
+.jstree-default .jstree-anchor.jstree-clicked{
     color: #c20;
 }
 .jstree-default .jstree-no-icons .jstree-anchor > .jstree-themeicon {
@@ -449,7 +447,7 @@ i.jstree-icon.jstree-themeicon {
 .jstree-default > .jstree-no-dots .jstree-closed > .jstree-ocl {
   background-position: -4px -4px;
 }
-.jstree-default .jstree-open > a:before {
+.jstree-default .jstree-open > .jstree-ocl:before {
   content: '-';
   font-weight: 600;
   color: #455a64;
@@ -457,7 +455,7 @@ i.jstree-icon.jstree-themeicon {
   top: -8px;
   left: -10px;
 }
-.jstree-default .jstree-closed > a:before {
+.jstree-default .jstree-closed > .jstree-ocl:before {
     content: '+';
     font-weight: 600;
     color: #455a64;
