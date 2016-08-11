@@ -379,11 +379,9 @@
   min-width: 24px;
 }
 .jstree-default .jstree-anchor {
-    line-height: 24px;
+ 	line-height: 18px;
     height: 24px;
-    padding: 10px;
-    color: #08c;
-    border-bottom: 1px solid #ccd3d8;
+    padding: 5px;
 }
 .jstree-default .jstree-icon {
   width: 24px;
@@ -440,6 +438,19 @@ i.jstree-icon.jstree-themeicon {
 .jstree-default > .jstree-no-dots .jstree-closed > .jstree-ocl {
   background-position: -4px -4px;
 }
+.jstree-default .jstree-open > .jstree-ocl:before {
+  content: '-';
+  position: absolute;
+  top: -8px;
+  left: -10px;
+}
+.jstree-default .jstree-closed > .jstree-ocl:before {
+    content: '+';
+	position: absolute;
+	top: -8px;
+	left: -10px;
+}
+
 .jstree-default .jstree-disabled {
   background: transparent;
 }
