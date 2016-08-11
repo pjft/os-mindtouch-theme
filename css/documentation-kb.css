@@ -1685,6 +1685,14 @@ body.body-with-sidebar {
     right: 25px;
   }
 }
+@media all and (min-width: 90em) {
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
+    min-width: 0;
+    margin: 0;
+    padding-left: 700px;
+    padding-right: 400px;
+  }
+}
 @media all and (min-width: 18.75em) {
   [class*=columbia-breadcrumb-home-documentation-p10] .hero-wrapper {
     height: auto;
