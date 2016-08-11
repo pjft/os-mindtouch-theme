@@ -1606,7 +1606,7 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
     margin: auto;
-    max-width: 1000px;
+    max-width: none;
   }
 }
 @media all and (min-width: 50em) {
