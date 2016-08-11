@@ -9,12 +9,12 @@
   list-style-image: none;
 }
 .jstree-node {
-  white-space: nowrap;
+  white-space: normal;
 }
 .jstree-anchor {
   display: inline-block;
   color: black;
-  white-space: nowrap;
+  white-space: normal;
   padding: 0 4px 0 1px;
   margin: 0;
   vertical-align: top;
@@ -380,7 +380,7 @@
 }
 .jstree-default .jstree-anchor {
  	line-height: 18px;
-    height: 24px;
+    height: auto;
     padding: 5px;
     font-weight: 600;
     color: #455a64;
