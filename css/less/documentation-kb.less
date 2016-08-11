@@ -1282,7 +1282,6 @@ body.body-with-sidebar{
 
 			.elm-header{
 				background-color: #eceff1;
-				box-shadow: 0 2px 4px rgba(0,0,0,.09);
 	    		margin-top: 0;
 
 				
@@ -1428,17 +1427,19 @@ body.body-with-sidebar{
 	
 	    		.sidemenu-wrapper{
 	    			order: 6;
-	    			margin: 40px 35px;
+	    			margin: 100px 35px;
 	    			position: relative;
 	    		}
 			} 
 			article.elm-content-container.evaluation-kb .mt-content-container{
 				background-color: #fff;
 			    padding: 20px;
+			    box-shadow: 0 7px 7px 2px rgba(122, 135, 139, 0.28);
 			}
 			article.elm-content-container.evaluation-kb header {
 			    background-color: #fff;
 			    padding: 50px 20px 10px;
+			    box-shadow: 0 2px 7px 2px rgba(122, 135, 139, 0.28);
 			}
 
 			article.elm-content-container.evaluation-kb header .elm-pdf-export,
@@ -1560,7 +1561,8 @@ body.body-with-sidebar{
 		@media all and (min-width:37.5em){
 			.elm-header{
 				background-color: #fff;
-		
+				box-shadow: 0 2px 4px rgba(0,0,0,.09); 
+
 				.top-nav {
 					margin: auto;
 					margin-top: 0px;
@@ -1817,10 +1819,13 @@ body.body-with-sidebar{
 		@media all and (min-width:83em) {
 			.sidemenu-wrapper {
 				left: 0;
+				padding-left: 200px;
 			}
 			article#elm-main-content {
 				min-width: 0;
 				margin: auto;
+				padding-left: 500px;
+    			padding-right: 200px;
 			}
 			.top-nav {	
 				margin-top: 0;
@@ -1831,6 +1836,32 @@ body.body-with-sidebar{
 				}
 			}
 		}
+
+		@media all and (min-width:85em) {
+			body{
+				color: #000;
+			}
+		}
+
+		@media all and (min-width:90em) {
+			body{
+				color: #000;
+			}
+		}
+
+		@media all and (min-width:95em) {
+			body{
+				color: #000;
+			}
+		}
+
+		@media all and (min-width:100em) {
+			body{
+				color: #000;
+			}
+		}
+
+
 	}
 	@media all and (min-width:18.75em) {
 
