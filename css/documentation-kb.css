@@ -1067,7 +1067,7 @@ body.body-with-sidebar {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  orderb-top: 2px solid rgba(207, 216, 220, 0.84);
+  border-top: 2px solid rgba(207, 216, 220, 0.84);
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu {
   list-style: none;
