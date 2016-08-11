@@ -1361,7 +1361,8 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content .sidemenu-wrapper {
     order: 6;
-    margin: 100px 35px;
+    margin-top: 60px;
+    padding-left: 20px;
     position: relative;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container {
@@ -1488,7 +1489,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
     min-height: 0px;
-    padding: 10px 25px;
+    padding: 15px 25px;
     margin: 0;
     max-width: 100%;
   }
@@ -1559,7 +1560,7 @@ body.body-with-sidebar {
     width: 100%;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header .top-nav .top-title {
-    padding-left: 20px;
+    padding-left: 0px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header .top-nav .search-bar {
     display: inline-block;
@@ -1592,7 +1593,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header .top-nav .breadcrumb {
     line-height: 1.5em;
-    padding-left: 20px;
+    padding-left: 0px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header .top-nav .breadcrumb .parent.crumb a {
     text-decoration: underline;
@@ -1623,13 +1624,13 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper {
     margin-left: 0!important;
     margin-right: 0!important;
-    width: 250px;
-    padding-left: 110px;
+    width: 300px;
+    padding-left: 50px !important;
     padding-right: 20px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
     padding-left: 400px;
-    padding-right: 100px;
+    padding-right: 50px;
     margin: 0;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container {
@@ -1675,7 +1676,7 @@ body.body-with-sidebar {
     min-width: 0;
     margin: 0;
     padding-left: 500px;
-    padding-right: 200px;
+    padding-right: 100px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .top-nav {
     margin-top: 0;
@@ -1693,7 +1694,7 @@ body.body-with-sidebar {
     min-width: 0;
     margin: 0;
     padding-left: 600px;
-    padding-right: 300px;
+    padding-right: 150px;
   }
 }
 @media all and (min-width: 113em) {
@@ -1900,7 +1901,7 @@ body.body-with-sidebar {
 }
 @media all and (min-width: 80em) {
   [class*=columbia-breadcrumb-home-documentation-p10] article.elm-content-container.evaluation-kb .mt-content-container {
-    padding: 10px 50px 50px 50px;
+    padding: 0 50px 50px 50px;
     line-height: 19px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10] dt.mt-listing-detailed-title {
