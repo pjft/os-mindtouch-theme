@@ -382,7 +382,14 @@
  	line-height: 18px;
     height: 24px;
     padding: 5px;
+    font-weight: 600;
+    color: #455a64;
 }
+
+.jstree-default .jstree-leaf .jstree-anchor {
+	color: #000;
+}
+
 .jstree-default .jstree-icon {
   width: 24px;
   height: 24px;
@@ -443,13 +450,15 @@ i.jstree-icon.jstree-themeicon {
 .jstree-default .jstree-open > .jstree-ocl:before {
   content: '-';
   font-weight: 600;
+  color: #455a64;
   position: absolute;
   top: -8px;
   left: -10px;
 }
 .jstree-default .jstree-closed > .jstree-ocl:before {
     content: '+';
-      font-weight: 600;
+    font-weight: 600;
+    color: #455a64;
 	position: absolute;
 	top: -8px;
 	left: -10px;
