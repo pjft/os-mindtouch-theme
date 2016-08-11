@@ -404,10 +404,12 @@ i.jstree-icon.jstree-themeicon {
 .jstree-default .jstree-wholerow {
   height: 24px;
 }
+/*
 .jstree-default .jstree-node,
 .jstree-default .jstree-icon {
   background-image: url("32px.png");
 }
+*/
 .jstree-default .jstree-node {
   background-position: -292px -4px;
   background-repeat: repeat-y;
@@ -440,12 +442,14 @@ i.jstree-icon.jstree-themeicon {
 }
 .jstree-default .jstree-open > .jstree-ocl:before {
   content: '-';
+  font-weight: 600;
   position: absolute;
   top: -8px;
   left: -10px;
 }
 .jstree-default .jstree-closed > .jstree-ocl:before {
     content: '+';
+      font-weight: 600;
 	position: absolute;
 	top: -8px;
 	left: -10px;
