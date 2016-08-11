@@ -382,6 +382,7 @@
  	line-height: 18px;
     height: auto;
     padding: 8px;
+    padding-left: 30px;
     font-weight: 600;
     color: #455a64;
     font-size: 13px;
@@ -454,7 +455,7 @@ i.jstree-icon.jstree-themeicon {
   color: #455a64;
   position: absolute;
   top: -6px;
-  left: -6px;
+  left: 14px;
 }
 .jstree-default .jstree-closed > .jstree-ocl:before {
     content: '+';
@@ -462,7 +463,6 @@ i.jstree-icon.jstree-themeicon {
     color: #455a64;
 	position: absolute;
 	top: -4px;
-	left: -10px;
 }
 
 .jstree-default .jstree-disabled {
