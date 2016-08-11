@@ -1687,23 +1687,23 @@ body.body-with-sidebar {
 }
 @media all and (min-width: 100em) {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper {
-    padding-left: 250px;
+    padding-left: 300px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
     min-width: 0;
     margin: 0;
-    padding-left: 700px;
-    padding-right: 400px;
+    padding-left: 600px;
+    padding-right: 300px;
   }
 }
-@media all and (min-width: 120em) {
+@media all and (min-width: 113em) {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper {
     padding-left: 400px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
     min-width: 0;
     margin: 0;
-    padding-left: 850px;
+    padding-left: 700px;
     padding-right: 400px;
   }
 }
