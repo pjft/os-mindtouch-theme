@@ -381,7 +381,7 @@
 .jstree-default .jstree-anchor {
     line-height: 24px;
     height: 24px;
-    padding: 10px 10px 10px 0;
+    padding: 10px;
     color: #08c;
     border-bottom: 1px solid #ccd3d8;
 }
@@ -389,6 +389,11 @@
   width: 24px;
   height: 24px;
   line-height: 24px;
+  position: absolute;
+  top: 10px;
+}
+i.jstree-icon.jstree-themeicon {
+    display: none;
 }
 .jstree-default .jstree-icon:empty {
   width: 24px;
@@ -408,6 +413,7 @@
 .jstree-default .jstree-node {
   background-position: -292px -4px;
   background-repeat: repeat-y;
+  position: relative;
 }
 .jstree-default .jstree-last {
   background: transparent;
