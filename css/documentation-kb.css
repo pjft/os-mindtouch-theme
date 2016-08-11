@@ -1488,6 +1488,7 @@ body.body-with-sidebar {
     min-height: 0px;
     padding: 10px 25px;
     margin: 0;
+    max-width: 100%;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container {
     padding-left: 50px;
@@ -1605,7 +1606,6 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
     padding-left: 290px;
     margin: auto;
-    max-width: none;
   }
 }
 @media all and (min-width: 50em) {
