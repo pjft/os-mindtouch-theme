@@ -775,7 +775,6 @@ body.body-with-sidebar {
   display: none;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] input#kb-search {
-  z-index: 99;
   position: relative;
   padding-left: 25px;
   box-sizing: border-box;
@@ -1290,6 +1289,9 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .menu-placeholder {
     margin-top: 5px;
   }
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .mt-toc-content li:before {
+    color: #000 !important;
+  }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .mt-toc-content > ol {
     margin: 20px 0px;
     font-weight: 600;
@@ -1299,7 +1301,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .mt-toc-content ol li {
     margin: 0;
-    padding: 10px;
+    padding: 10px 10px 0px 0px;
     border: 1px solid #CFD8DC;
     border-bottom: none;
   }
@@ -1607,21 +1609,24 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper {
     margin-left: 0!important;
     margin-right: 0!important;
-    width: 300px;
-    padding-left: 50px;
+    width: 250px;
+    padding-left: 20px;
     padding-right: 20px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
-    padding-left: 400px;
-    padding-right: 50px;
+    padding-left: 320px;
+    padding-right: 30px;
     margin: 0;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container {
-    max-width: 40%;
+    max-width: 30%;
     float: right;
     padding: 20px !important;
-    margin: 10px 20px;
+    margin: 20px;
+    margin-top: 0px;
     border: 1px solid #CFD8DC;
+    border-radius: 5px;
+    background: #efefef;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container .mt-toc-content ol li,
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container .mt-toc-content ol li:last-child,
