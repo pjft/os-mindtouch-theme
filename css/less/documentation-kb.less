@@ -12,13 +12,6 @@
 @imagePath: "https://success.outsystems.com/%40api/deki/files";
 
 
-body.columbia-breadcrumb-home-documentation-p10 {
-    background-image: url(https://success.outsystems.com/%40api/deki/files/1621/header_bg-1.jpg);
-    background-repeat: no-repeat;
-    background-size: initial;
-    background-position: center 60px;
-    background-color: #ECEFF1;
-}
 body.body-with-sidebar{
   background-color: #eceff1;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -54,30 +47,11 @@ body.body-with-sidebar{
 /* base class to encapsulate evaluation kb styles */
 [class*=columbia-breadcrumb-home-documentation-p10] {
 	//hide last updated and restrtictions
-	&:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-last-modified, &:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-page-restriction {
-		display: none;
-	}
-	//hide close icon on popup
-	span.featherlight-close-icon.featherlight-close {
-		font-size: 18px;
-		background: rgba(255, 255, 255, .5);
-		top: 12px;
-		right: 12px;
-	}
-	//remove min-width from popup
-	.featherlight .featherlight-content {
-		min-width: 0;
-		background: transparent;
-	}
-	.featherlight .featherlight-inner {
-		background: #FFFFFF;
-		border: 6px solid rgba(0, 0, 0, 0.50);
-		border-radius: 4px;
-	}
-
+		
 	/*
 	Buttons
 	*/
+
 	a.btn {
 		font-weight: 400;
 		letter-spacing: 2px; /*mod*/
@@ -1214,6 +1188,8 @@ body.body-with-sidebar{
 								border: none;
 								color: #08c;
 								border-bottom: 1px solid #ECEFF1;
+								overflow: hidden!important; /*template*/
+    							display: block!important; /*template*/
 							}
 							a:hover {
 								background: transparent;
@@ -1227,6 +1203,12 @@ body.body-with-sidebar{
 
 								li a {
 									margin-left: 45px;
+									/* template */
+									padding-left: 20px!important;
+								    white-space: nowrap!important;
+								    overflow: hidden!important;
+								    text-overflow: ellipsis!important;
+								    display: block!important;
 								}
 								li.active.current:before {
 									left: 15px;
@@ -1906,9 +1888,7 @@ body.body-with-sidebar{
 				padding: 0.4rem 0.65rem 0px;;
 			}
 		}
-		.elm-content-container {
-			padding: .65rem .65rem 2em;
-		}
+		//.elm-content-container {	padding: .65rem .65rem 2em;	}
 		.evaluation-kb li.mt-sortable-listing {
 			padding: 0px;
 

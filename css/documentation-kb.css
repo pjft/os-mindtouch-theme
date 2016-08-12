@@ -1,11 +1,4 @@
 /* Dynamically add color to the cards on Learn About OutSystems Home Page  */
-body.columbia-breadcrumb-home-documentation-p10 {
-  background-image: url(https://success.outsystems.com/%40api/deki/files/1621/header_bg-1.jpg);
-  background-repeat: no-repeat;
-  background-size: initial;
-  background-position: center 60px;
-  background-color: #ECEFF1;
-}
 body.body-with-sidebar {
   background-color: #eceff1;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -70,25 +63,6 @@ body.body-with-sidebar {
 		display: none;
 	}	
 	*/
-}
-[class*=columbia-breadcrumb-home-documentation-p10]:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-last-modified,
-[class*=columbia-breadcrumb-home-documentation-p10]:not(.elm-user-pro-edit) ol.elm-meta-data.elm-meta-top li.elm-page-restriction {
-  display: none;
-}
-[class*=columbia-breadcrumb-home-documentation-p10] span.featherlight-close-icon.featherlight-close {
-  font-size: 18px;
-  background: rgba(255, 255, 255, 0.5);
-  top: 12px;
-  right: 12px;
-}
-[class*=columbia-breadcrumb-home-documentation-p10] .featherlight .featherlight-content {
-  min-width: 0;
-  background: transparent;
-}
-[class*=columbia-breadcrumb-home-documentation-p10] .featherlight .featherlight-inner {
-  background: #FFFFFF;
-  border: 6px solid rgba(0, 0, 0, 0.5);
-  border-radius: 4px;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] a.btn {
   font-weight: 400;
@@ -1176,6 +1150,10 @@ body.body-with-sidebar {
   border: none;
   color: #08c;
   border-bottom: 1px solid #ECEFF1;
+  overflow: hidden!important;
+  /*template*/
+  display: block!important;
+  /*template*/
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level a:hover {
   background: transparent;
@@ -1189,6 +1167,12 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li a {
   margin-left: 45px;
+  /* template */
+  padding-left: 20px!important;
+  white-space: nowrap!important;
+  overflow: hidden!important;
+  text-overflow: ellipsis!important;
+  display: block!important;
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper ul.sidemenu li ul.second-level .third-level li.active.current:before {
   left: 15px;
@@ -1739,9 +1723,6 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10] .hero-wrapper .elm-content-container {
     padding: 0.4rem 0.65rem 0px;
-  }
-  [class*=columbia-breadcrumb-home-documentation-p10] .elm-content-container {
-    padding: .65rem .65rem 2em;
   }
   [class*=columbia-breadcrumb-home-documentation-p10] .evaluation-kb li.mt-sortable-listing {
     padding: 0px;
