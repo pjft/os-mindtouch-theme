@@ -1313,9 +1313,6 @@ body.body-with-sidebar {
     font-size: 13px;
     line-height: 17px;
   }
-  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .mt-toc-content ol ol {
-    display: none;
-  }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .mt-toc-content ol li {
     margin: 0;
     padding: 10px;
@@ -1638,7 +1635,7 @@ body.body-with-sidebar {
     max-width: 40%;
     float: right;
     padding: 20px !important;
-    margin: 0 20px;
+    margin: 10px 20px;
     border: 1px solid #CFD8DC;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container .mt-toc-content ol li,
