@@ -739,7 +739,7 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-documentation-p10] .form-field {
   position: relative;
-  z-index: 99999;
+  z-index: auto;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] .recommended-articles:before,
 [class*=columbia-breadcrumb-home-documentation-p10] .recommended-articles:after {
@@ -792,7 +792,7 @@ body.body-with-sidebar {
   position: absolute;
   width: 15px;
   height: 15px;
-  z-index: 9999;
+  z-index: auto;
   right: 10px;
   top: 15px;
 }
