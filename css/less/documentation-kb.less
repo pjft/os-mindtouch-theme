@@ -1412,7 +1412,7 @@ body.body-with-sidebar{
 			    right: 0;
 			    float: none;
 			    max-width: none;
-			    padding: 20px 20px 0 20px;
+			    padding: 20px 0 !important;
 			}
 			.breadcrumb-topic-parent {
 				display: none;
@@ -1587,7 +1587,7 @@ body.body-with-sidebar{
 					}
 				}
 			}
-
+			
 			article#elm-main-content{
 				min-height: 0px;
 			    padding: 15px 25px;
@@ -1776,8 +1776,18 @@ body.body-with-sidebar{
 				padding-right: 50px;
 				margin: 0; //here
 
-				aside#mt-toc-container{
-					padding: 20px 50px 10px;
+				aside#mt-toc-container {
+					max-width: 40%;
+				    float: right;
+				    padding: 20px !important;
+				    margin: 0 20px;
+	    			border: 1px solid #CFD8DC;
+
+				    .mt-toc-content ol li,
+				    .mt-toc-content ol li:last-child,
+				    .mt-toc-content ol li:first-child{
+				    	border: none;
+				    }
 				}
 			}
 			.top-nav {
@@ -2075,7 +2085,6 @@ body.body-with-sidebar{
 			margin: 0;
 			padding: 0px 50px;
 			width: 100%;
-			margin-left: 0 !important;
 		}	
 
 

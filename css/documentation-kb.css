@@ -1346,7 +1346,7 @@ body.body-with-sidebar {
     right: 0;
     float: none;
     max-width: none;
-    padding: 20px 20px 0 20px;
+    padding: 20px 0 !important;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .breadcrumb-topic-parent {
     display: none;
@@ -1635,7 +1635,16 @@ body.body-with-sidebar {
     margin: 0;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container {
-    padding: 20px 50px 10px;
+    max-width: 40%;
+    float: right;
+    padding: 20px !important;
+    margin: 0 20px;
+    border: 1px solid #CFD8DC;
+  }
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container .mt-toc-content ol li,
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container .mt-toc-content ol li:last-child,
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content aside#mt-toc-container .mt-toc-content ol li:first-child {
+    border: none;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .top-nav {
     padding: 0;
@@ -1897,7 +1906,6 @@ body.body-with-sidebar {
     margin: 0;
     padding: 0px 50px;
     width: 100%;
-    margin-left: 0 !important;
   }
 }
 @media all and (min-width: 80em) {
