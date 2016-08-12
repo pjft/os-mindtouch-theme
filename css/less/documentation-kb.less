@@ -1368,14 +1368,9 @@ body.body-with-sidebar{
 			.mt-toc-content ol li{
 				margin: 0;
 			    padding: 10px 10px 0px 0px;
-			    border: 1px solid #CFD8DC;
-			    border-bottom: none;
 			}
 			.mt-toc-content ol li:first-child {
 	    		border-radius: 4px 4px 0 0px;
-			}
-			.mt-toc-content ol li:last-child {
-	    		border-bottom: 1px solid #CFD8DC;
 			}	
 			#mt-toc-container a, 
 			#mt-toc-container a:visited,
@@ -1395,7 +1390,11 @@ body.body-with-sidebar{
 			    right: 0;
 			    float: none;
 			    max-width: none;
-			    padding: 20px 0 !important;
+			    padding: 20px !important;
+			    border: 1px solid #CFD8DC;
+				border-radius: 5px;
+				background: #efefef;
+				margin: 0 0 30px 0;
 			}
 			.breadcrumb-topic-parent {
 				display: none;
@@ -1758,24 +1757,7 @@ body.body-with-sidebar{
 			article#elm-main-content {
 				padding-left: 320px;
 				padding-right: 30px;
-				margin: 0; //here
-
-				aside#mt-toc-container {
-					max-width: 30%;
-				    float: right;
-				    padding: 20px !important;
-				    margin: 20px;
-				    margin-top: 0px;
-				    border: 1px solid #CFD8DC;
-				    border-radius: 5px;
-				    background: #efefef;
-
-				    .mt-toc-content ol li,
-				    .mt-toc-content ol li:last-child,
-				    .mt-toc-content ol li:first-child{
-				    	border: none;
-				    }
-				}
+				margin: 0; //here				
 			}
 			.top-nav {
 				padding: 0;
@@ -1815,6 +1797,25 @@ body.body-with-sidebar{
 			} 
 
 		}
+
+		@media all and (min-width:80em){
+			aside#mt-toc-container {
+				max-width: 30%;
+			    float: right;
+			    padding: 20px !important;
+			    margin: 20px;
+			    margin-top: 0px;
+			    border: 1px solid #CFD8DC;
+			    border-radius: 5px;
+			    background: #efefef;
+
+			    .mt-toc-content ol li,
+			    .mt-toc-content ol li:last-child,
+			    .mt-toc-content ol li:first-child{
+			    	border: none;
+			    }
+			}
+		}
 		@media all and (min-width:83em) {
 			.sidemenu-wrapper {
 				left: 0;
@@ -1823,8 +1824,8 @@ body.body-with-sidebar{
 			article#elm-main-content {
 				min-width: 0;
 				margin: 0; //here
-				padding-left: 500px;
-    			padding-right: 100px;
+				padding-left: 450px;
+    			padding-right: 50px;
 			}
 			.top-nav {	
 				margin-top: 0;
