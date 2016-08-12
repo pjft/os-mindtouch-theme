@@ -783,6 +783,7 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-documentation-p10] .form-field .input-wrapper {
   position: relative;
+  z-index: 13;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] .form-field .input-wrapper .loader {
   background-image: url(https://success.outsystems.com/%40api/deki/files/1650/loader.gif);
