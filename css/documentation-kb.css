@@ -1317,7 +1317,6 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar aside#mt-toc-container {
     min-height: 50px;
-    display: block ;
     background: #FFF;
     border: none;
     border-radius: 0;
