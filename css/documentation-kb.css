@@ -357,6 +357,9 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-documentation-p10] ul.mt-feedback-rating-controls {
   font-size: 12px;
 }
+[class*=columbia-breadcrumb-home-documentation-p10] ul.mt-sortable-listings-container dd.mt-listing-detailed-overview {
+  width: 40%;
+}
 [class*=columbia-breadcrumb-home-documentation-p10] .mt-feedback-rating-controls button:before {
   font-family: OS-Icon-Set;
   font-size: 100%;
