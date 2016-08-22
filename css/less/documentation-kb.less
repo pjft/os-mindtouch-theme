@@ -429,11 +429,14 @@ body.body-with-sidebar{
 	}
 	.ui-tabs .ui-tabs-nav li {
 		background: #fff;
-		border-color: #fff;
+		border-color: #706866;
 	}
 	.ui-tabs .ui-tabs-nav li.ui-state-active {
 		background: fff;
 		border-color: #ccc;
+	}
+	.ui-tabs .ui-tabs-nav li.ui-state-active+.mt-guide-tab:hover {
+    	border-top-color: #c20;
 	}
 	.ui-tabs .ui-tabs-scroll-container {
 		background: #fff;
@@ -1985,7 +1988,7 @@ body.body-with-sidebar{
 		}
 		dd.mt-listing-detailed-overview {
 			display: inline-block;
-			width: 40%;
+			width: auto;
 			margin-right: 8%;
 		}
 		dd.mt-listing-detailed-subpages {
