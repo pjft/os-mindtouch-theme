@@ -1,7 +1,4 @@
 /* Dynamically add color to the cards on Learn About OutSystems Home Page  */
-body.columbia-breadcrumb-home-documentation-p10 {
-  font-size: 16px;
-}
 body.body-with-sidebar {
   background-color: #eceff1;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -937,6 +934,7 @@ body.body-with-sidebar {
   margin-right: 5px;
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar {
+  font-size: 16px;
   /* breadcrumb */
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar h1 {
