@@ -15,9 +15,9 @@
 .elm-content-container{
 	z-index: auto !important; 
 }
-.body-with-sidebar .form-field,
-.body-with-sidebar .form-field .input-wrapper,
-.body-with-sidebar .form-field .input-wrapper .loader{
+.form-field,
+.form-field .input-wrapper,
+.form-field .input-wrapper .loader{
     z-index: 12 !important;
 }
 
