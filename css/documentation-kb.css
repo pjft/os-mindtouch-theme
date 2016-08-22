@@ -1277,8 +1277,8 @@ body.body-with-sidebar {
     -webkit-box-ordinal-group: 4;
     -ms-flex-order: 3;
     order: 3;
-    padding: 20px;
-    margin: 10px;
+    padding: 0px;
+    margin: 0px;
     box-shadow: 1px 1px 5px #DDD;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header .top-nav .search-bar input#kb-search {
@@ -1470,8 +1470,8 @@ body.body-with-sidebar {
     width: 330px;
     position: absolute;
     right: 0;
-    padding-right: 15px;
-    top: 30px;
+    padding-right: 0;
+    top: 60px;
     box-shadow: none;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article#elm-main-content {
