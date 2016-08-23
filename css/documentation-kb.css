@@ -972,6 +972,9 @@ body.body-with-sidebar {
   margin-top: 42px;
   margin-bottom: 21px;
 }
+[class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .home-subheader h2 {
+  margin: 0;
+}
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar h3 {
   font-family: inherit;
   font-weight: 600;
@@ -1549,7 +1552,6 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header {
     background-color: #fff;
-    height: 180px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header .top-nav {
     padding: 0;
