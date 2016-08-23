@@ -281,8 +281,8 @@ body.body-with-sidebar{
 		font-size: 12px;
 	}
 
-	.elm-header-custom {
-
+	.elm-header-custom .top-menu-arrow{
+		border-color: transparent transparent #f9f9f9;
 	}
 	.elm-content-footer {
 		border-top: 1px solid #ECEFF1;
@@ -1635,10 +1635,17 @@ body.body-with-sidebar{
 			}
 		}
 		@media all and (min-width:83em) {
-		
 
-			.home-header > .width-container{
-				margin: 0 50px 0 75px;
+			.elm-content-container{
+				&.home-header{
+
+					min-width: 0;
+					max-width: none;
+
+					> .width-container{
+						margin: 0 50px 0 75px;
+					}
+				}
 			}
 		
 			.sidemenu-wrapper {
@@ -1676,11 +1683,8 @@ body.body-with-sidebar{
 
 		@media all and (min-width:113em) {
 
-			body.columbia-page-main.columbia-article-topic-category{
-
-				.home-header > .width-container{
-					margin: 0 125px 0 200px;
-				}
+			.home-header > .width-container{
+				margin: 0 125px 0 210px;
 			}
 
 			.sidemenu-wrapper {
