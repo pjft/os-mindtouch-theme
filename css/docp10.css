@@ -5,7 +5,7 @@
 
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .breadcrumb {
     text-align: left;
-    margin-top: 30px;
+    padding: 15px 0;
 }
 
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .breadcrumb .crumb {
@@ -96,11 +96,11 @@
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper {
     background: 0 0;
     background-color: #f9f9f9!important;
-    padding: .4rem
+    padding: 0
 }
 
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .elm-content-container {
-    padding: 1.4rem .65rem
+    padding: 0
 }
 
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .search-wrapper {
