@@ -909,9 +909,6 @@ body.body-with-sidebar {
   font-size: 16px;
   /* breadcrumb */
 }
-[class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar.columbia-article-topic-category .home-header > .width-container {
-  max-width: none;
-}
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar h1 {
   font-family: inherit;
   font-weight: 600;
@@ -1393,6 +1390,7 @@ body.body-with-sidebar {
 @media all and (min-width: 48.5em) {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .home-header > .width-container {
     margin: 0 25px;
+    max-width: none;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .recommended-articles {
     min-width: 500px;
