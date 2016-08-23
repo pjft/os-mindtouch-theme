@@ -1,4 +1,8 @@
 /* Dynamically add color to the cards on Learn About OutSystems Home Page  */
+body.columbia-page-main.columbia-breadcrumb-home-documentation-p10 .mt-listing-detailed-overview {
+  width: 90%;
+  height: 100px;
+}
 body.body-with-sidebar {
   background-color: #eceff1;
   font-family: 'Open Sans', Arial, sans-serif;
@@ -395,6 +399,7 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-documentation-p10] .mt-guide-add-button-container {
   background: 0;
+  border-bottom: 1px solid #ccc;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] .mt-icon-article-category {
   display: none;
@@ -1367,6 +1372,9 @@ body.body-with-sidebar {
     background-color: #fff;
     padding: 50px 20px 10px;
     box-shadow: 0 2px 7px 2px rgba(122, 135, 139, 0.28);
+  }
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-meta-icons {
+    margin-top: -5px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-pdf-export,
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar article.elm-content-container.evaluation-kb header .elm-social-share,
