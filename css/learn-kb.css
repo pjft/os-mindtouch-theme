@@ -954,6 +954,9 @@ body.body-with-sidebar {
   margin-top: 42px;
   margin-bottom: 21px;
 }
+[class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .home-subheader h2 {
+  border: none;
+}
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar h3 {
   font-family: inherit;
   font-weight: 600;
@@ -1166,6 +1169,7 @@ body.body-with-sidebar {
   display: inline-block;
   line-height: 1.5em;
   padding-left: 0;
+  background: transparent;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .home-header .breadcrumb {
   text-align: left;
