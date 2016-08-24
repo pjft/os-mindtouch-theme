@@ -261,14 +261,15 @@ body.body-with-sidebar {
   margin-top: 40px;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] table td {
-  background: #ECEFF1;
+  background: #f3fbff;
   border: 1px solid #eee;
+  font-size: 14px;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] thead tr th {
   background: rgba(113, 174, 214, 0.7);
   border: 1px;
   color: #384142;
-  font-size: 1rem;
+  font-size: 16px;
   text-align: center;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] p {
