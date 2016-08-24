@@ -1,6 +1,6 @@
 /* Dynamically add color to the cards on Learn About OutSystems Home Page  */
 body.columbia-page-main.columbia-breadcrumb-home-documentation-p10 .mt-listing-detailed-overview {
-  columwidth: 90%;
+  width: 90%;
   height: 100px;
 }
 body.body-with-sidebar {
