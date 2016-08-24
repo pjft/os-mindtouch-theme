@@ -716,9 +716,10 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper {
   display: inline-block;
   width: 50%;
+  padding: 10px 0;
 }
-[class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper .form-field {
-  top: -10px;
+[class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .home-subheader {
+  padding: 10px 0;
 }
 [class*=columbia-breadcrumb-home-evaluation] .recommended-articles {
   overflow-wrap: break-word;
@@ -1260,9 +1261,6 @@ body.body-with-sidebar {
     font-weight: 400;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .search-bar {
-    -webkit-box-ordinal-group: 4;
-    -ms-flex-order: 3;
-    order: 3;
     padding: 20px;
     margin: 0px;
     box-shadow: 1px 1px 5px #DDD;
@@ -1445,11 +1443,6 @@ body.body-with-sidebar {
     background-color: #fff;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .search-bar {
-    width: 330px;
-    position: absolute;
-    right: 0;
-    padding-right: 15px;
-    top: 30px;
     box-shadow: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
