@@ -1208,7 +1208,6 @@ body.body-with-sidebar{
 
 			.page{
  				text-align: left;
-				margin-top: 30px;
 				display: inline-block;
 				line-height: 1.5em;
 				padding-left: 0;
@@ -1296,20 +1295,12 @@ body.body-with-sidebar{
 					}					
 
 					> div{
-						background-color: #fff;
 						box-sizing: border-box;			
-						padding: 10px 30px;
+						padding: 0;
+    					width: 100%;
 					}
 					
 					.breadcrumb {
-						-webkit-box-ordinal-group: 2;
-						-ms-flex-order: 1;
-						order: 1;
-						margin: 0;
-						border: none;
-						box-shadow: none;
-						height: 45px;
-
 
 						.parent.crumb a{
 						    color: #999;
@@ -1322,10 +1313,10 @@ body.body-with-sidebar{
 		    			-ms-flex-order: 3;
 		    			order: 3;
 		    			padding: 20px;
-		    			margin: 10px;
-		    			box-shadow: 1px 1px 5px #DDD;
-		    			position: absolute;
+		    			margin: 0px;
+		    			box-shadow: 1px 1px 5px #DDD;		    		
 		    			top: 105px;
+		    			background: #fff;
 
 		    			input#kb-search{
 		    				width: 100%;
@@ -1403,7 +1394,7 @@ body.body-with-sidebar{
 	    		display: flex;
 	    		flex-direction: column;
 				webkit-flex-direction: column;
-				top: 100px;
+				top: 20px;
 
 	    		.sidemenu-wrapper{
 	    			order: 6;
@@ -1793,8 +1784,7 @@ body.body-with-sidebar{
     			.width-container{
     				> div{
     					display: block;
-    					width: 100%;
-    				}
+       				}
     			} 
     		}
 

@@ -1165,7 +1165,6 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .home-header .page {
   text-align: left;
-  margin-top: 30px;
   display: inline-block;
   line-height: 1.5em;
   padding-left: 0;
@@ -1240,18 +1239,9 @@ body.body-with-sidebar {
     display: none;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper > div {
-    background-color: #fff;
     box-sizing: border-box;
-    padding: 10px 30px;
-  }
-  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .breadcrumb {
-    -webkit-box-ordinal-group: 2;
-    -ms-flex-order: 1;
-    order: 1;
-    margin: 0;
-    border: none;
-    box-shadow: none;
-    height: 45px;
+    padding: 0;
+    width: 100%;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .breadcrumb .parent.crumb a {
     color: #999;
@@ -1262,10 +1252,10 @@ body.body-with-sidebar {
     -ms-flex-order: 3;
     order: 3;
     padding: 20px;
-    margin: 10px;
+    margin: 0px;
     box-shadow: 1px 1px 5px #DDD;
-    position: absolute;
     top: 105px;
+    background: #fff;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .search-bar input#kb-search {
     width: 100%;
@@ -1335,7 +1325,7 @@ body.body-with-sidebar {
     display: flex;
     flex-direction: column;
     webkit-flex-direction: column;
-    top: 100px;
+    top: 20px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content .sidemenu-wrapper {
     order: 6;
@@ -1633,7 +1623,6 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .home-header .width-container > div {
     display: block;
-    width: 100%;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .evaluation-hero {
     width: 75%;
