@@ -1451,6 +1451,10 @@ body.body-with-sidebar {
   }
 }
 @media all and (min-width: 65.25em) {
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .home-header > .width-container {
+    margin: 0 50px;
+    max-width: none;
+  }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper {
     margin-left: 0!important;
     margin-right: 0!important;
