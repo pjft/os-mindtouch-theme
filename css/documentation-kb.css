@@ -1,6 +1,6 @@
 /* Dynamically add color to the cards on Learn About OutSystems Home Page  */
 body.columbia-page-main.columbia-breadcrumb-home-documentation-p10 .mt-listing-detailed-overview {
-  width: 90%;
+  columwidth: 90%;
   height: 100px;
 }
 body.body-with-sidebar {
@@ -222,17 +222,16 @@ body.body-with-sidebar {
 }
 [class*=columbia-breadcrumb-home-documentation-p10] h1 {
   margin-bottom: 5px;
-  color: #596669;
+  color: #000;
   margin-bottom: 1.8rem;
   margin-top: 3rem;
   padding-bottom: .3em;
-  font-size: 32px;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] h2,
 [class*=columbia-breadcrumb-home-documentation-p10] #section_1 > h2 {
   margin-top: 38px;
   padding-bottom: .7rem;
-  color: #555;
+  color: #000;
   font-size: 2em;
 }
 [class*=columbia-breadcrumb-home-documentation-p10] h3 {
@@ -909,29 +908,12 @@ body.body-with-sidebar {
   font-size: 16px;
   /* breadcrumb */
 }
-[class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar h1 {
-  font-family: inherit;
-  font-weight: 600;
-  font-style: inherit;
-  font-size: 36px;
-  line-height: 42px;
-  margin-top: 21px;
-  margin-bottom: 0px;
-  letter-spacing: -2;
-}
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar h1#title {
-  line-height: 48px;
   border: none;
   margin-bottom: 5px;
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar h2 {
-  font-family: inherit;
-  font-weight: 600;
-  font-style: inherit;
   font-size: 30px;
-  line-height: 42px;
-  margin-top: 42px;
-  margin-bottom: 21px;
 }
 [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .home-subheader h2 {
   margin: 0;
