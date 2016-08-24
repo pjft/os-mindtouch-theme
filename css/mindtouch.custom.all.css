@@ -389,6 +389,23 @@ button, input, select, textarea {
 .span10 {
     width: 812px;
 }
+
+/* START span9 */
+.span9 {
+    width: 728px;
+}
+@media (min-width: 768px) and (max-width:979px) {
+    .span9 {
+        width: 538px
+    }
+}
+@media (min-width: 4200px) {
+    .span9 {
+        width: 870px
+    }
+}
+/* END span9 */
+
 .span8 {
     width: 644px;
 }
