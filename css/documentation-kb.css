@@ -1503,11 +1503,11 @@ body.body-with-sidebar {
   }
 }
 @media all and (min-width: 83em) {
-  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar.home-header {
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-content-container.home-header {
     min-width: 0;
     max-width: none;
   }
-  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar.home-header > .width-container {
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-content-container.home-header > .width-container {
     margin: 0 50px 0 75px;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .sidemenu-wrapper {
