@@ -1243,6 +1243,19 @@ body.body-with-sidebar {
     padding: 0;
     width: 100%;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .home-subheader {
+    padding: 10px 50px 10px 20px;
+    background: #fff;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .home-subheader h2 {
+    margin: 0;
+  }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .breadcrumb {
+    padding: 10px 25px;
+    width: auto;
+    border: none;
+    border-radius: 0;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .breadcrumb .parent.crumb a {
     color: #999;
     font-weight: 400;
@@ -1637,9 +1650,10 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper {
     width: 100%;
+    margin-top: 10px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .search-wrapper .form-field {
-    top: 10px;
+    top: 0px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .elm-content-container {
     padding: 15px;
