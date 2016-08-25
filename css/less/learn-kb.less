@@ -1543,11 +1543,15 @@ body.body-with-sidebar{
 				background-color: #fff;
 
 				.hero-wrapper{
-					.search-bar {
-						box-shadow: none;
-					    padding: 0;
-					}
 
+					.search-wrapper{
+						padding: 15px 20px;
+
+						.search-bar {
+							box-shadow: none;
+						    padding: 0;
+						}
+    				} 
 				}
 			}
 
@@ -1582,7 +1586,17 @@ body.body-with-sidebar{
 
 			.hero-wrapper{		
 
-				.search-bar {
+				.home-subheader{
+					display: inline-block;
+					width: 50%;
+				}
+
+				.search-wrapper{
+
+					display: inline-block;
+					width: 50%;
+
+					.search-bar {
 					display: inline-block;
 
 					.form-field .recommended-articles{
@@ -1609,6 +1623,7 @@ body.body-with-sidebar{
 					}
 				}
 
+				}
 				.page{
 					display: inline-block;
 				}
@@ -1869,11 +1884,8 @@ body.body-with-sidebar{
     				> div{
     					display: block;
 						width: auto;
-    				}	
-    				
-    				.search-wrapper{
-						padding: 15px 20px;
-    				} 			
+    				}	    				
+    							
     			} 
 	    	}
 
@@ -1900,6 +1912,7 @@ body.body-with-sidebar{
 			.search-wrapper {
 				display: inline-block;
 				width: 50%;
+				padding: 0;
 
 				.form-field {
 					top: -10px;
