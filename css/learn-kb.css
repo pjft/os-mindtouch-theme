@@ -1443,6 +1443,7 @@ body.body-with-sidebar {
     background-color: #fff;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .search-bar {
+    box-shadow: none;
     padding: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
