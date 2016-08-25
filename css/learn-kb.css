@@ -1481,7 +1481,7 @@ body.body-with-sidebar {
 @media all and (min-width: 48.5em) {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .home-subheader {
     display: inline-block !important;
-    width: 50% !important;
+    width: 60% !important;
     padding: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .home-subheader .h2 {
@@ -1489,12 +1489,13 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .search-wrapper {
     display: inline-block !important;
-    width: 50% !important;
+    width: 40% !important;
     padding: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .search-wrapper .search-bar {
     display: inline-block;
     padding: 20px;
+    float: right;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .search-wrapper .search-bar .form-field {
     top: 0;
@@ -1527,7 +1528,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .breadcrumb {
     line-height: 1.5em;
-    padding-left: 20px;
+    padding-top: 20px;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .breadcrumb .parent.crumb a {
     text-decoration: underline;
