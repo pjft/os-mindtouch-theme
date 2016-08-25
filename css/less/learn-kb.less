@@ -1544,11 +1544,10 @@ body.body-with-sidebar{
 
 				.hero-wrapper{
 					.search-bar {
-					    box-shadow: none;
+					    padding: 0;
 					}
 
 				}
-
 			}
 
 			article#elm-main-content{
@@ -1580,7 +1579,7 @@ body.body-with-sidebar{
 
 		@media all and (min-width:48.5em) {	
 
-			.hero-wrapper{			
+			.hero-wrapper{		
 
 				.search-bar {
 					display: inline-block;
@@ -1864,13 +1863,18 @@ body.body-with-sidebar{
 		.hero-wrapper {
 
 			.home-header {
-	    			.width-container{
-	    				> div{
-	    					display: inline-block;
-	    					width: 50%;
-	    				}
-	    			} 
-	    		}
+
+    			.width-container{
+    				> div{
+    					display: block;
+						width: auto;
+    				}	
+    				
+    				.search-wrapper{
+						padding: 15px 20px;
+    				} 			
+    			} 
+	    	}
 
 			.elm-content-container {
     			padding: 3.4rem 0.65rem;

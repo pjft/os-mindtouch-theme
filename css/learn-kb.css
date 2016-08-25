@@ -1443,7 +1443,7 @@ body.body-with-sidebar {
     background-color: #fff;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header .hero-wrapper .search-bar {
-    box-shadow: none;
+    padding: 0;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar article#elm-main-content {
     min-height: 0px;
@@ -1688,8 +1688,11 @@ body.body-with-sidebar {
 }
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .home-header .width-container > div {
-    display: inline-block;
-    width: 50%;
+    display: block;
+    width: auto;
+  }
+  [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .home-header .width-container .search-wrapper {
+    padding: 15px 20px;
   }
   [class*=columbia-breadcrumb-home-evaluation] .hero-wrapper .elm-content-container {
     padding: 3.4rem 0.65rem;
