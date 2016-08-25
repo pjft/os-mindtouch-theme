@@ -1864,13 +1864,23 @@ body.body-with-sidebar{
 		.hero-wrapper {
 
 			.home-header {
-	    			.width-container{
-	    				> div{
-	    					display: inline-block;
-	    					width: 50%;
-	    				}
-	    			} 
-	    		}
+				
+    			.width-container{
+    				> div{
+    					display: inline-block;
+    					width: 50%;
+    				}
+    			} 
+
+    			.search-wrapper {
+					display: inline-block;
+					width: 50%;
+
+					.form-field {
+						top: -10px;
+					}
+				}
+    		}
 
 			.elm-content-container {
     			padding: 3.4rem 0.65rem;
@@ -1892,14 +1902,7 @@ body.body-with-sidebar{
 					margin-bottom: 1rem;
 				}
 			}
-			.search-wrapper {
-				display: inline-block;
-				width: 50%;
-
-				.form-field {
-					top: -10px;
-				}
-			}
+			
 		}
 
 		.evaluation-kb li.mt-sortable-listing {
