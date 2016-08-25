@@ -710,11 +710,10 @@ body.body-with-sidebar{
 		.search-wrapper {
 			display: inline-block;
 			width: 50%;
-			padding: 10px 0;
-		}
 
-		.home-subheader{
-			padding: 10px 0;
+			.form-field {
+				top: -10px;
+			}
 		}
 	}
 
@@ -1322,6 +1321,9 @@ body.body-with-sidebar{
 					}
 
 					.search-bar{
+		    			-webkit-box-ordinal-group: 4;
+		    			-ms-flex-order: 3;
+		    			order: 3;
 		    			padding: 20px;
 		    			margin: 0px;
 		    			box-shadow: 1px 1px 5px #DDD;		    		
@@ -1544,6 +1546,11 @@ body.body-with-sidebar{
 
 				.hero-wrapper{
 					.search-bar {
+						width: 330px;
+					    position: absolute;
+					    right: 0;
+					    padding-right: 15px;
+					    top: 30px;
 					    box-shadow: none;
 					}
 
