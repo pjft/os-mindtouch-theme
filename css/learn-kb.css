@@ -1447,6 +1447,10 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-header {
     background-color: #fff;
   }
+  [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .home-header .width-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .home-header .width-container > div {
     display: block;
     width: auto;
@@ -1531,6 +1535,7 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .breadcrumb {
     line-height: 1.5em;
     padding-top: 20px;
+    width: 100%;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .breadcrumb .parent.crumb a {
     text-decoration: underline;
