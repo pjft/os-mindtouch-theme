@@ -1186,7 +1186,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .home-subheader {
     padding: 10px 50px 10px 20px;
-    background: #fff;
+    background: transparent;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .home-subheader h2 {
@@ -1197,6 +1197,11 @@ body.body-with-sidebar {
     width: initial;
     border: none;
     border-radius: 0;
+    background: transparent;
+  }
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .breadcrumb .page {
+    background: transparent;
+    padding: 0;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .breadcrumb .parent.crumb a {
     color: #999;
@@ -1207,8 +1212,8 @@ body.body-with-sidebar {
     margin: 0px;
     box-shadow: 1px 1px 5px #DDD;
     top: 105px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
+    background: transparent;
+    box-shadow: none;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .search-bar input#kb-search {
     width: 100%;
@@ -1656,7 +1661,7 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10] .hero-wrapper .home-header .width-container > div {
     display: block;
-    width: 100%;
+    width: auto;
   }
   [class*=columbia-breadcrumb-home-documentation-p10] .hero-wrapper .evaluation-hero {
     width: 75%;
