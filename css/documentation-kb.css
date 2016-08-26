@@ -1206,7 +1206,10 @@ body.body-with-sidebar {
     color: #999;
     font-weight: 400;
   }
-  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .search-bar {
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .search-wrapper p {
+    display: none;
+  }
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .search-wrapper .search-bar {
     padding: 20px;
     margin: 0px;
     box-shadow: 1px 1px 5px #DDD;
@@ -1214,7 +1217,7 @@ body.body-with-sidebar {
     background: transparent;
     box-shadow: none;
   }
-  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .search-bar input#kb-search {
+  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .search-wrapper .search-bar input#kb-search {
     width: 100%;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .elm-header {
@@ -1399,9 +1402,6 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .home-header .width-container > div {
     display: block;
     box-shadow: none;
-  }
-  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .home-header .width-container .breadcrumb {
-    width: 100%;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .search-wrapper {
     padding: 15px 20px;
@@ -1713,7 +1713,6 @@ body.body-with-sidebar {
 @media all and (min-width: 37.5em) {
   [class*=columbia-breadcrumb-home-documentation-p10] .hero-wrapper .home-header .width-container > div {
     display: inline-block;
-    width: 50%;
   }
   [class*=columbia-breadcrumb-home-documentation-p10] .hero-wrapper .elm-content-container {
     padding: 3.4rem 0.65rem;
