@@ -1367,9 +1367,6 @@ body.body-with-sidebar {
     color: #999;
     font-weight: 400;
   }
-  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item.mt-last-rating-date {
-    display: none;
-  }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item.mt-leave-feedback button:before {
     content: '\e635';
   }
