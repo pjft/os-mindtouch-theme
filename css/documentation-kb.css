@@ -1187,7 +1187,6 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .home-subheader {
     padding: 10px 50px 10px 20px;
     background: transparent;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .home-subheader h2 {
     margin: 0;
@@ -1396,10 +1395,6 @@ body.body-with-sidebar {
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.09);
-  }
-  [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .home-header .width-container {
-    display: flex;
-    flex-wrap: wrap;
   }
   [class*=columbia-breadcrumb-home-documentation-p10].body-with-sidebar .hero-wrapper .home-header .width-container > div {
     display: block;
