@@ -12,19 +12,23 @@ body.body-with-sidebar {
   margin: 0 auto;
 }
 /* styles just for the homepage*/
-.columbia-breadcrumb-home-documentation-p10 .elm-content-footer {
+.columbia-breadcrumb-home-documentation .elm-content-footer {
   display: none;
   visibility: hidden;
 }
-.columbia-breadcrumb-home-documentation-p10 ol.elm-meta-data.elm-meta-top {
+.columbia-breadcrumb-home-documentation ol.elm-meta-data.elm-meta-top {
   display: none;
   visibility: hidden;
 }
-.columbia-breadcrumb-home-documentation-p10 header h1#title {
+.columbia-breadcrumb-home-documentation header h1#title {
   display: none;
   visibility: hidden;
 }
-.columbia-breadcrumb-home-documentation-p10 .elm-content-container header {
+.columbia-breadcrumb-home-documentation .elm-content-container header {
+  display: none;
+  visibility: hidden;
+}
+.columbia-breadcrumb-home-documentation nav.elm-header-global-nav.elm-nav {
   display: none;
   visibility: hidden;
 }
