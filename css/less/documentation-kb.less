@@ -31,6 +31,7 @@ body.body-with-sidebar{
 		background-color: #f9f9f9!important;
     	border: 1px solid #e1e4e7;
     	box-shadow: 0 2px 20px rgba(0,0,0,.09);
+    	padding: .65rem;
 
 		.width-container {
 		    max-width: 980px;
@@ -39,6 +40,13 @@ body.body-with-sidebar{
 		    &>div{
 		    	display: inline-block;
 		    	width: 50%;
+		    }
+
+		    h2{
+				margin-top: 38px;
+			    padding-bottom: .7rem;
+			    color: #000;
+			    font-size: 2em;
 		    }
 
 		}
@@ -100,6 +108,13 @@ body.body-with-sidebar{
 					    border-radius: 10px;
 					    min-width: 100%;
 					    box-sizing: border-box;
+
+					    &:after {
+							top: -10px;
+							border-left: 10px solid transparent;
+							border-right: 10px solid transparent;
+							border-bottom: 10px solid #fff;
+						}
 					}
 				}
 			}
