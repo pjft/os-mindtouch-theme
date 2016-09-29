@@ -27,66 +27,40 @@ body.body-with-sidebar{
 
 /* styles just for the homepage*/
 .columbia-breadcrumb-home-documentation {
-	.hero-wrapper {
-		background:none;
-		height: 200px;
+	.home-header{
+		background-color: #f9f9f9!important;
+    	border: 1px solid #e1e4e7;
+    	box-shadow: 0 2px 20px rgba(0,0,0,.09);
 
-		.elm-content-container {
-			padding: 3.4rem 0.65rem;
-		}
-		.evaluation-hero {
-			display: inline-block;
-			width: 43%;
-			margin-right: 7%;
+		.width-container {
+		    max-width: 980px;
+		    margin: 0 auto;
 
-			h1 {
-				font-size: 36px;
-				color: #333;
-				line-height: 32px;
-				border: none;
-			}
-			p {
-				font-size: 14px;
-				color: #666;
-				line-height: 16px;
-			}
-			.text {
-				position: relative;
-			}
-			a.header_button, a.header_button:hover, .no-touch a.header_button:hover, a.header_button:visited {
-				width: 140px;
-				line-height: 40px;
-				position: absolute;
-				right: 0;
-				top: 20px;
-				display: inline-block;
-				border: solid 1px white;
-				line-height: 3em;
-				color: white;
-				border-radius: 10px;
-				margin: 0;
-				box-sizing: border-box;
-				text-align: center;
-				padding: 3px 0;
-			}
-			.header_button.call_us:before {
-				font: normal 100%/1 icomoon;
-				-webkit-font-smoothing: antialiased;
-				-moz-osx-font-smoothing: grayscale;
-				speak: none;
-				content: '\e813';
-				color: #30b3f6;
-				cursor: pointer;
-				padding-right: 5px;
-				color: white;
-			}
+		    &>div{
+		    	display: inline-block;
+		    	width: 50%;
+		    }
+
 		}
 		.search-wrapper {
-			display: inline-block;
-			width: 50%;
+			.search-bar{
+				position: relative;
 
-			.form-field {
-				top: -10px;
+				.form-field {
+					margin: 0;
+				    float: right;
+				    top: 30px;
+				    width: 75%;
+
+				    input#kb-search{
+				    	position: relative;
+					    padding-left: 25px;
+					    box-sizing: border-box;
+					    border: 1px solid #D8D8D8;
+					    box-shadow: 0 1px 2px 0 #EEE;
+					    height: 40px;
+				    }
+				}
 			}
 		}
 	}
@@ -1576,7 +1550,7 @@ body.body-with-sidebar{
 
 						//display: flex;
 						//flex-wrap: wrap;
-						
+
 						> div{
 							display: block;
 							box-shadow: none;
@@ -1754,7 +1728,7 @@ body.body-with-sidebar{
 
 							}
 
-							
+
 						}
 					}
 				}
@@ -1864,7 +1838,7 @@ body.body-with-sidebar{
 					margin: 0 50px 0 75px;
 				}
 			}			
-			
+
 			.sidemenu-wrapper {
 				left: 0;
 				padding-left: 75px;
@@ -1885,7 +1859,7 @@ body.body-with-sidebar{
 					margin: 0 75px 0 150px;
 				}
 			}
-			
+
 
 			.sidemenu-wrapper {
 				padding-left: 150px;
@@ -2159,7 +2133,7 @@ body.body-with-sidebar{
 		}
 
 		article.elm-content-container.evaluation-kb header {
-			
+
 			padding: 50px 50px 10px 50px;
 		}	
 		aside#mt-toc-container {
