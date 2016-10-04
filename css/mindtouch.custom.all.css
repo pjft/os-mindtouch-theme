@@ -566,10 +566,11 @@ div.title-container .search {
 .header-logo {
     padding: 10px 0;
 }
+
 .header-logo a:link {
     display: block;
     text-indent: -999px;
-    margin-top: 2px;
+    margin-top: 4px;
 }
 .header-logo a img {
     display: block;
