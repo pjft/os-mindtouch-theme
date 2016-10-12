@@ -1451,6 +1451,7 @@ body.body-with-sidebar {
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .home-header .width-container {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
   }
   [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .hero-wrapper .home-header .width-container > div {
     display: block;
