@@ -60,6 +60,10 @@
 .jstree .jstree-leaf > .jstree-children {
   display: none;
 }
+ul.jstree-container-ul > li.jstree-node,
+ul.jstree-container-ul > li.jstree-node > a.jstree-anchor{
+  font-size: 14px;
+}
 .jstree-anchor > .jstree-themeicon {
   margin-right: 2px;
 }
