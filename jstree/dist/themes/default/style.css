@@ -386,11 +386,9 @@
     color: #455a64;
     font-size: 13px;
 }
-
-.jstree-default .jstree-leaf .jstree-anchor {
-	color: #000;
+li[aria-expanded="true"] > a.jstree-anchor{
+  color: #000;
 }
-
 .jstree-default .jstree-icon {
   width: 24px;
   height: 24px;
