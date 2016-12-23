@@ -12,6 +12,9 @@
     display:none;
 }
 
+.elm-content-container{
+	z-index: auto !important; 
+}
 .form-field,
 .form-field .input-wrapper,
 .form-field .input-wrapper .loader{
@@ -21,6 +24,8 @@
 .ProfileMenu{
   z-index: 13 !important;
 }
+
+
 
 @media (max-width:18.75em) {
     .page {
