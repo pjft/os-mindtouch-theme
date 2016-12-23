@@ -757,6 +757,7 @@ div.title-container .search {
     float: left;
     color: #333;
 }
+.menu-item a.menu-knowledgebase:before,
 .menu-item a.menu-knowledgebase:hover:before, 
 .menu-item.active a.menu-knowledgebase:before, 
 .menu-item.active a.menu-knowledgebase:hover:before {
