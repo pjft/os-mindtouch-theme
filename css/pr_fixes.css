@@ -18,7 +18,7 @@
 .form-field,
 .form-field .input-wrapper,
 .form-field .input-wrapper .loader{
-    z-index: 9 !important;
+    z-index: 12 !important;
 }
 
 .ProfileMenu{
