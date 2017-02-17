@@ -92,6 +92,7 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-content {
   min-width: 0;
   background: transparent;
+  overflow: hidden;
 }
 [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-inner {
   background: #FFFFFF;
