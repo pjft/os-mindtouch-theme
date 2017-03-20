@@ -1,3 +1,7 @@
+/* fix mindtouch upgrades after P10 upgrade*/
+header.mt-content-header{
+  display: none;
+}
 /**
  * Tooltip Styles
  */
