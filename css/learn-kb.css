@@ -92,6 +92,7 @@ body.body-with-sidebar {
 [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-content {
   min-width: 0;
   background: transparent;
+  overflow: hidden;
 }
 [class*=columbia-breadcrumb-home-evaluation] .featherlight .featherlight-inner {
   background: #FFFFFF;
@@ -1051,6 +1052,7 @@ body.body-with-sidebar {
   list-style: none;
   margin: 0;
   padding-left: 0;
+  overflow: auto;
 }
 [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .sidemenu-wrapper ul.sidemenu {
   list-style: none;
