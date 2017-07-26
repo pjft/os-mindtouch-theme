@@ -1112,11 +1112,9 @@ body.body-with-sidebar {
     margin-left: 3%
 }
 [class*=columbia-breadcrumb-home-evaluation] table {
-    border: 1px solid #eee;
     margin-top: 40px
 }
 [class*=columbia-breadcrumb-home-evaluation] table td {
-    background: #eceff1;
     border: 1px solid #eee
 }
 [class*=columbia-breadcrumb-home-evaluation] thead tr th {
