@@ -2092,9 +2092,6 @@ body.body-with-sidebar {
     [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .elm-footer .elm-content-container {
         padding: 20px 40px
     }
-    [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .menu-placeholder {
-        margin-top: 5px
-    }
     [class*=columbia-breadcrumb-home-evaluation].body-with-sidebar .mt-toc-content>ol {
         margin: 20px 0;
         font-weight: 600;
