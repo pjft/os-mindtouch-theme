@@ -3945,9 +3945,6 @@ body.body-with-sidebar {
     [class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar .elm-footer .elm-content-container {
         padding: 20px 40px
     }
-    [class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar .menu-placeholder {
-        margin-top: 5px
-    }
     [class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar .mt-toc-content li:before {
         color: #000 !important
     }
