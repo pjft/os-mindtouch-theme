@@ -2329,6 +2329,17 @@ input[type=search].inpage-search-input {
     .header-hero-wrapper {
         min-width: 0;
     }
+    .header-icon-message {
+        margin-right: 9px;
+        margin-left: 0px;
+    }
+    .header-icon-settings {
+        border: 0px;
+        border-radius: 0px;
+        padding: 0px;
+        margin-right: 13px;
+        margin-left: -4px;
+    }
 }
 
 /* MENU - STOP */
