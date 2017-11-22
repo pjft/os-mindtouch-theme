@@ -2003,10 +2003,6 @@ input[type=search].inpage-search-input {
 
 
 @media screen and (max-width: 979px) {
-    .Page {
-        padding-top: 50px;
-    }
-    
     .Page.with-search {
         height: auto;
         overflow-x: hidden;
