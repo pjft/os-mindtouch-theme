@@ -1616,7 +1616,7 @@ div.Application_Menu div.Menu_DropDownPanel a:visited {
 }
 .top-menu-item.no-submenu.active a:before {
     background: #CC2200;
-    bottom: 3px;
+    bottom: 0px;
     content: "";
     height: 2px;
     left: 0;
