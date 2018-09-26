@@ -1230,7 +1230,6 @@ a.header-account-settings:hover {
 .header-bar-bottom {
     background-color: #fff;
     border-bottom: 2px solid #ECEFF1;
-    height: 40px;
 }
 .header-bar-bottom:empty {
     display: none;
