@@ -5285,8 +5285,8 @@ body.body-with-sidebar {
 		position: relative;
 	}
 	
-	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container #pageText {
-		width: calc(100% - 210px);
+	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container {
+		padding-right: 260px;
 	}
 	
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer,
