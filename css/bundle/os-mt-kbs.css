@@ -5304,6 +5304,7 @@ body.body-with-sidebar {
 	}
 	
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback {
+		background-color: #fff;
 		box-shadow: 0 2px 7px 2px rgba(122, 135, 139, .28);
 		position: absolute;
 		right: -160px;
@@ -5351,6 +5352,10 @@ body.body-with-sidebar {
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon.selected {
 		color: #6bceff;
 		text-shadow: 0 0 5px #6bceff;
+	}
+	
+	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article#elm-main-content {
+		width: calc(100% - 210px);
 	}
 	
 	/* END - Changes to move Feedback from footer to top right */
