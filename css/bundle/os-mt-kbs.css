@@ -5347,10 +5347,10 @@ body.body-with-sidebar {
 	}
 	
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container .mt-leave-feedback {
-		display: block;
+		display: none;
 	}
 	
-	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon.selected {
+	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon.mt-selected {
 		color: #6bceff;
 		text-shadow: 0 0 5px #6bceff;
 	}
