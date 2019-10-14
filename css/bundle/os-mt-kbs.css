@@ -5316,6 +5316,8 @@ body.body-with-sidebar {
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container .mt-feedback-form fieldset {
 		background-color: transparent;
 		border: 0;
+		box-sizing: border-box;
+		width: 100%;
 	}
 	
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container .mt-feedback-form fieldset .mt-feedback-improve-label {
