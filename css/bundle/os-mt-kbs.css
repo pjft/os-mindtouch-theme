@@ -5267,8 +5267,8 @@ body.body-with-sidebar {
     }
 }
 
+/* START - Changes to move Feedback from footer to top right */
 @media (min-width: 992px) {
-	/* START - Changes to move Feedback from footer to top right */
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item {
 		color: #333;
 		font-size: 14px;
@@ -5358,6 +5358,11 @@ body.body-with-sidebar {
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article#elm-main-content {
 		width: calc(100% - 210px);
 	}
-	
-	/* END - Changes to move Feedback from footer to top right */
 }
+
+@media (min-width: 65.25em) {
+	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback {
+		right: -180px
+	}
+}
+/* END - Changes to move Feedback from footer to top right */
