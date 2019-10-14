@@ -5280,13 +5280,16 @@ body.body-with-sidebar {
 		padding: 0 11px;
 	}
 	
-	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container,
+	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container {
+		position: static;
+	}
+	
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article.elm-content-container {
 		position: relative;
 	}
 	
-	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container {
-		padding-right: 260px;
+	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar article.elm-content-container.evaluation-kb .mt-content-container #pageText {
+		width: calc(100% - 210px);
 	}
 	
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer,
@@ -5301,9 +5304,10 @@ body.body-with-sidebar {
 	}
 	
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback {
+		box-shadow: 0 2px 7px 2px rgba(122, 135, 139, .28);
 		position: absolute;
-		right: 0;
-		top: 0;
+		right: -160px;
+		top: 15px;
 		width: 200px;
 	}
 	
@@ -5342,6 +5346,11 @@ body.body-with-sidebar {
 	
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container .mt-leave-feedback {
 		display: block;
+	}
+	
+	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback .mt-feedback-rating-container ul.mt-feedback-rating-controls .mt-feedback-rating-item .ui-button-icon.selected {
+		color: #6bceff;
+		text-shadow: 0 0 5px #6bceff;
 	}
 	
 	/* END - Changes to move Feedback from footer to top right */
