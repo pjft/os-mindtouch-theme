@@ -5306,6 +5306,7 @@ body.body-with-sidebar {
 	[class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer .elm-article-feedback {
 		background-color: #fff;
 		box-shadow: 0 2px 7px 2px rgba(122, 135, 139, .28);
+		padding: 15px 0;
 		position: absolute;
 		right: -160px;
 		top: 15px;
