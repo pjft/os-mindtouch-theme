@@ -347,7 +347,7 @@ if ($('[class*="main-menu__container__transparent-"]').length == 0 && $('.main-m
 
     var mainMenuContainer;
     const allMenuContainers = $('.main-menu__container');
-    for(i = 0; i < allMenuContainers.length; i++) {
+    for(var i = 0; i < allMenuContainers.length; i++) {
       if(!allMenuContainers[i].classList.contains('main-footer')){
         mainMenuContainer = $(allMenuContainers[i]);
       }
