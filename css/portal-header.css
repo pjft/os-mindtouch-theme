@@ -167,6 +167,10 @@ header *::before {
   text-decoration: none;
 }
 
+.main-menu__container a:focus {
+    outline: none;
+}
+
 .main-menu__container ul {
   list-style: none;
   margin: 0;
