@@ -1,12 +1,4 @@
 /* START - Extra CSS */
-@font-face {
-    font-family: osicons-v2;
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    src: url("/PortalTheme/osicons-v2.woff") format("woff");
-}
-
 [class*="osicons-v2"] {
     display: inline-block;
     font-family: osicons-v2 !important;
