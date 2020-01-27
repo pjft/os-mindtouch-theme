@@ -1742,3 +1742,13 @@ header .main-menu__container__section:before {
     top: 10px;
   }
 }
+
+
+/* CSS to adjust Header in MindTouch */
+.columbia-breadcrumb-home-enablement-partnerguide header ul {
+    padding: 0!important /* importanto to overlap old css */
+}
+
+.main-menu__container__center li {
+    margin: 0;
+}
