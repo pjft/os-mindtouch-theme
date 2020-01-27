@@ -7,38 +7,6 @@
     src: url("/PortalTheme/osicons-v2.woff") format("woff");
 }
 
-@font-face {  /* REGULAR */
-    font-family: 'Cabin';
-    src: url('http://www.outsystems.com/PortalTheme/cabin-regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face { /* BOLD */
-    font-family: 'Cabin';
-    src: url('http://www.outsystems.com/PortalTheme/cabin-bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face { /* REGULAR */
-    font-family: 'NotoSans';
-    src: url('http://www.outsystems.com/PortalTheme/notosans-regular.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {  /* BOLD */
-    font-family: 'NotoSans';
-    src: url('http://www.outsystems.com/PortalTheme/notosans-bold.woff') format('woff');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-}
-
 [class*="osicons-v2"] {
     display: inline-block;
     font-family: osicons-v2 !important;
