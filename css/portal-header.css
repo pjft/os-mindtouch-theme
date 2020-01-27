@@ -167,7 +167,8 @@ header *::before {
   text-decoration: none;
 }
 
-.main-menu__container a:focus {
+.main-menu__container a:focus,
+.main-menu__container button:focus {
     outline: none;
 }
 
