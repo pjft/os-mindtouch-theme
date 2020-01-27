@@ -1716,7 +1716,7 @@ header .main-menu__container__search_open:hover,
 }
 
 .columbia-breadcrumb-home-enablement-partnerguide header ul {
-    padding: 0!important /* importanto to overlap old css */
+    padding: 0!important; /* importanto to overlap old css */
 }
 
 .main-menu__container__center li {
@@ -1724,6 +1724,8 @@ header .main-menu__container__search_open:hover,
 }
 
 .main-menu__submenu-content__title:first-child {
-    border-bottom: 0!important /* importanto to overlap old css */
-    padding-left: 0!important /* importanto to overlap old css */
+    border-bottom: 0!important; /* importanto to overlap old css */
+    color: #686E76!important; /* importanto to overlap old css */
+    font-family: "Cabin";
+    padding-left: 0!important; /* importanto to overlap old css */
 }
