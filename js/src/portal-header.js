@@ -1,5 +1,5 @@
 "use strict";
-$(function(){
+
 // SEARCH   
 $(document).on('click', '.main-menu__container__search_open', function clickSearchOpen() {
   var window_size = window.matchMedia('(min-width: 992px)');
@@ -130,10 +130,8 @@ $(document).on('click', '.main-menu__container .main-menu__item[aria-haspopup="t
     });
 });
 
-
 $(document).on('click', '.main-menu__item', function(event) {
   event.preventDefault();
-});
 });
 
 
