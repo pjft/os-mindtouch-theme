@@ -1262,7 +1262,8 @@ header .main-menu__container__section:before {
     width: 50px;
   }
   
-  .main-menu__container .menu-burger:focus {
+  .main-menu__container .menu-burger:focus,
+  .main-menu__container .menu-burger:hover {
     background-color: transparent;
     border-color: transparent;
     box-shadow: none;
