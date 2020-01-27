@@ -169,6 +169,9 @@ header *::before {
 
 .main-menu__container a:focus,
 .main-menu__container button:focus {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
     outline: none;
 }
 
@@ -1718,6 +1721,7 @@ header .main-menu__container__search_open:hover,
 .main-menu__container__search button:hover {
     background-color: transparent;
     border-color: transparent;
+    box-shadow: none;
 }
 
 .columbia-breadcrumb-home-enablement-partnerguide header ul {
