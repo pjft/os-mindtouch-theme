@@ -1263,6 +1263,9 @@ header .main-menu__container__section:before {
   }
   
   .main-menu__container .menu-burger:focus {
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: none;
     outline: 0;
   }
 
