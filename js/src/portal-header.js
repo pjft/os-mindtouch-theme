@@ -1,5 +1,5 @@
 "use strict";
-
+$(function(){
 // SEARCH   
 $(document).on('click', '.main-menu__container__search_open', function clickSearchOpen() {
   var window_size = window.matchMedia('(min-width: 992px)');
@@ -18,6 +18,9 @@ $(document).on('click', '.main-menu__container__search_cancel', function clickSe
 $(document).on('click', '.main-menu__overlay', function clickOverlay() {
   clearOpenSubmenu('main-menu__overlay');
 }); // ////////////////////////////////////
+});
+
+
 // MENU BURGUER
 $(function(){
     var burguerButton = $('.main-menu__container .menu-burger > span');
@@ -87,6 +90,8 @@ $(function(){
     }); // OPEN SUBMENUS
 });
 
+
+$(function(){
 $(document).on('click', '.main-menu__container .main-menu__item[aria-haspopup="true"], .main-menu__container__dropdown button[aria-expanded]', function clickShowSubmenus() {
   var elem = $(this); // SAVE THE VALUES BEFORE THE CLEAN OPEN SUBMENU FUNCTION{
   var elemExpand = $(elem).attr('aria-expanded'); // CLEAN ALL OPEN SUBMENUS AND THE NEW ONE AND THEN TO THE REST OF THE NECESSARY STEPS
@@ -133,7 +138,7 @@ $(document).on('click', '.main-menu__container .main-menu__item[aria-haspopup="t
 $(document).on('click', '.main-menu__item', function(event) {
   event.preventDefault();
 });
-
+});
 
 function closeSearch() {
   var window_size = window.matchMedia('(min-width: 992px)');
