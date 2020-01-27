@@ -9,7 +9,7 @@
 
 @font-face {  /* REGULAR */
     font-family: 'Cabin';
-    src: url('/PortalTheme/cabin-regular.woff') format('woff');
+    src: url('//www.outsystems.com/PortalTheme/cabin-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -17,7 +17,7 @@
 
 @font-face { /* BOLD */
     font-family: 'Cabin';
-    src: url('/PortalTheme/cabin-bold.woff') format('woff');
+    src: url('//www.outsystems.com/PortalTheme/cabin-bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -25,7 +25,7 @@
 
 @font-face { /* REGULAR */
     font-family: 'NotoSans';
-    src: url('/PortalTheme/notosans-regular.woff') format('woff');
+    src: url('//www.outsystems.com/PortalTheme/notosans-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -33,7 +33,7 @@
 
 @font-face {  /* BOLD */
     font-family: 'NotoSans';
-    src: url('/PortalTheme/notosans-bold.woff') format('woff');
+    src: url('//www.outsystems.com/PortalTheme/notosans-bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
     font-display: swap;
