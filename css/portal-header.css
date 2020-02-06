@@ -1738,3 +1738,7 @@ header .main-menu__container__search_open:hover,
     font-family: "Cabin";
     padding-left: 0!important; /* importanto to overlap old css */
 }
+
+.hidden-search {
+    display: none;
+}
