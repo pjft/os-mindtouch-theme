@@ -1739,6 +1739,55 @@ header .main-menu__container__search_open:hover,
     padding-left: 0!important; /* importanto to overlap old css */
 }
 
+
+/* Button Default */
+[class*="os-btn"],
+[class*="os-btn"]:visited {
+    align-items: center;
+    background-color: #0a141e;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Cabin';
+    font-size: 1rem;
+    height: var(--space-xl);
+    justify-content: center;
+    padding: 0 1em;
+    transition: all 200ms ease;
+    white-space: nowrap;
+}
+
+[class*="os-btn"]:hover {
+    background-color: #39414a;
+    text-decoration: none;
+}
+
+[class*="os-btn"].disabled,
+[class*="os-btn"]:disabled {
+    cursor: default;
+}
+
+/* Button Light */
+.os-btn-light,
+.os-btn-light:visited {
+    background-color: #fff;
+    color: #0a141e;
+}
+
+.os-btn-light:hover,
+a.os-btn-light:hover {
+    background-color: #fff;
+    color: #db2400;
+}
+
+.os-btn-light.disabled,
+a.os-btn-light:disabled {
+    background-color: #515860;
+    color: 0a141e;
+}
+
 .hidden-search {
     display: none;
 }
