@@ -164,7 +164,7 @@ header *::before {
 
 .main-menu__container a,
 .main-menu__container a:link {
-  text-decoration: none;
+  text-decoration: none!important; /* important to overlap mindtouch important */
 }
 
 .main-menu__container a:focus,
