@@ -1275,7 +1275,6 @@ a.header-account-settings:hover {
 .header-logged-out a:link,
 .header-logged-out a:visited {
     position: relative;
-    text-transform: uppercase;
 }
 .header-logged-out a.login span:before,
 .header-logged-out a.login:hover span:before {
