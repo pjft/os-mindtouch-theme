@@ -462,10 +462,6 @@ header .header-login .header-headshot.mvp-border {
     border-color: #EF8600;
 }
 
-header .header-login-phone .header-logged-out {
-    padding: 7px 0;
-}
-
 header .header-login .DropdownActive .header-headshot {
     border: 2px solid #fff;
 }
@@ -923,7 +919,7 @@ header .main-menu__container__section:before {
   header .header-login {
     position: absolute;
     right: 55px;
-    top: 7px;
+    top: 0;
   }
  
   header.header-black .main-menu__submenu-content__panel:hover {
