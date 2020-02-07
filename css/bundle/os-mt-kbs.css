@@ -5142,7 +5142,8 @@ body.body-with-sidebar {
     display: none
 }
 .elm-content-container {
-    z-index: auto !important
+    margin-top: 60px!important; 
+    z-index: auto !important;
 }
 
 
