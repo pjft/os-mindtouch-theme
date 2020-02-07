@@ -468,6 +468,7 @@ header .header-login .DropdownActive .header-headshot {
 
 header .header-login .header-login-dropdown,
 header .header-login .header-login-dropdown-desktop {
+    align-items: center;
     cursor: pointer;
     display: flex;
     position: relative;
@@ -481,7 +482,7 @@ header .header-login .header-login-dropdown .fa-angle-down,
 header .header-login .header-login-dropdown-desktop .fa-angle-down {
     color: #BABABA;
     margin-left: 5px;
-    margin-top: 17px;
+    margin-top: 7px;
     width: 10px;
 }
 
@@ -497,7 +498,7 @@ header .header-login .unread-messages-wrapper {
     position: absolute;
     right: 8px;
     text-align: center;
-    top: 2px;
+    top: 11px;
     width: 18px
 }
 
@@ -917,6 +918,8 @@ header .main-menu__container__section:before {
   }
   
   header .header-login {
+    display: flex;
+    height: 60px;
     position: absolute;
     right: 55px;
     top: 0;
