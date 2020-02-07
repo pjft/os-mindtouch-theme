@@ -498,8 +498,12 @@ header .header-login .unread-messages-wrapper {
     position: absolute;
     right: 8px;
     text-align: center;
-    top: 11px;
+    top: 2px;
     width: 18px
+}
+
+header .header-login-phone .unread-messages-wrapper {
+    top: 11px;
 }
 
 header .header-login .header-login-dropdown-menu {
