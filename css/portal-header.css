@@ -274,7 +274,8 @@ header.header-black a.main-menu__item:link[aria-expanded="true"]:hover {
 }
 
 header.header-black a.main-menu__item:link:hover,
-header.header-black a:visited:hover {
+header.header-black a:visited:hover,
+.no-touch header a:hover {
     color: #fff;
 }
 
