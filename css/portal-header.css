@@ -712,7 +712,8 @@ header .main-menu__container__section:before {
     white-space: normal;
   }
 
-  .main-menu__item[aria-haspopup="true"]:after {
+  .main-menu__item[aria-haspopup="true"]:after,
+  .mobile__content__card__panel__link.active:after {
     background-color: #979ca2;
     border: none;
     border-radius: 50%;
@@ -1622,7 +1623,8 @@ header .main-menu__container__section:before {
     background-color: #0a141e;
   }
 
-  .main-menu__item.active::after {
+  .main-menu__item.active:after,
+  .mobile__content__card__panel__link.active:after {
     opacity: 1;
   }
 
