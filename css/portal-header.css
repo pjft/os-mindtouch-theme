@@ -713,7 +713,7 @@ header .main-menu__container__section:before {
   }
 
   .main-menu__item[aria-haspopup="true"]:after,
-  .mobile__content__card__panel__link.active:after {
+  .main_menu__list > li > .mobile__content__card__panel__link.active:after {
     background-color: #979ca2;
     border: none;
     border-radius: 50%;
@@ -1624,7 +1624,7 @@ header .main-menu__container__section:before {
   }
 
   .main-menu__item.active:after,
-  .mobile__content__card__panel__link.active:after {
+  .main_menu__list > li > .mobile__content__card__panel__link.active:after {
     opacity: 1;
   }
 
