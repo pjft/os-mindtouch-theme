@@ -1798,6 +1798,6 @@ a.os-btn-light:disabled {
     display: none;
 }
 
-body:not(.elm-user-pro-edit) [class*=columbia-breadcrumb-home-support] .hero-wrapper {
+[class*=columbia-breadcrumb-home-support]:not(.elm-user-pro-edit) .hero-wrapper {
     margin-top: 60px;
 }
