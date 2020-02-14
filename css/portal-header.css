@@ -238,7 +238,7 @@ header.header-black a.corporate-link:hover {
     color: #fff;
 }
 
-header.header-black a.corporate-link .font-size-s {font-size: 0.875rem;}
+header.header-black a.corporate-link .font-size-s {font-size: 14px;}
 
 header.header-black a.corporate-link span:first-child {
     margin-right: 5px;
@@ -255,7 +255,7 @@ header.header-black .os-btn-light:hover {
 
 header.header-black [class*="os-btn"].btn-small,
 header.header-black [class*="os-btn"].btn-small:visited {
-    font-size: 0.875rem;
+    font-size: 14px;
     height: 2rem;
     padding: 0 8px;
 }
