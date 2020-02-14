@@ -264,16 +264,20 @@ header.header-black .main-menu__container__background {
     background-color: #0A141E;
 }
 
-header.header-black a.main-menu__item:link {
+header.header-black a.main-menu__item:link,
+header.header-black a.main-menu__item_solo:link {
     color: #D8D8D8;
 }
 
 header.header-black a.main-menu__item:link[aria-expanded="true"],
-header.header-black a.main-menu__item:link[aria-expanded="true"]:hover {
+header.header-black a.main-menu__item:link[aria-expanded="true"]:hover,
+header.header-black a.main-menu__item_solo:link[aria-expanded="true"],
+header.header-black a.main-menu__item_solo:link[aria-expanded="true"]:hover {
     color: #F85E40;
 }
 
 header.header-black a.main-menu__item:link:hover,
+header.header-black a.main-menu__item_solo:link:hover,
 header.header-black a:visited:hover,
 .no-touch header a:hover {
     color: #fff;
@@ -1150,7 +1154,11 @@ header .main-menu__container__section:before {
   .mobile__menu__item,
   .mobile__menu__item:link,
   .mobile__menu__item:link:hover,
-  a.mobile__menu__item:visited {
+  a.mobile__menu__item:visited,
+  .mobile__menu__item_solo,
+  .mobile__menu__item_solo:link,
+  .mobile__menu__item_solo:link:hover,
+  a.mobile__menu__item_solo:visited {
     color: #39414A;
     display: inline-block;
     font-size: 1.1em;
