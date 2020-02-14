@@ -1797,3 +1797,7 @@ a.os-btn-light:disabled {
 .hidden-search {
     display: none;
 }
+
+[class*=columbia-breadcrumb-home-support] .hero-wrapper {
+    margin-top: 60px;
+}
