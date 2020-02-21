@@ -1,3 +1,7 @@
+.no-touch header .home-header a:hover {
+    color: #fff;
+}
+
 body.columbia-breadcrumb-home-evaluationknowledgebase {
     background-color: #eceff1
 }
