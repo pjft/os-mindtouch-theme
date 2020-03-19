@@ -8,7 +8,7 @@ h2.ult {
 
 .home-header-ult {
     margin-top: 0;
-    background-color: #F5F6FA;
+    background-color: #f5f6fA;
 }
 
 .width-container-ult {
@@ -20,4 +20,10 @@ h2.ult {
 
 .width-container-ult > div {
     max-width: 50%;
+}
+
+
+/* MARGINS */
+.mt-1 {
+    margin-top: 1rem;
 }
