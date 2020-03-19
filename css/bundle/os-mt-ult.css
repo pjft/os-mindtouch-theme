@@ -21,6 +21,10 @@ h2.ult {
     padding-bottom: 4.5rem;
 }
 
+.input-ult::placeholder {
+    color: #39414A;
+}
+
 .width-container-ult > div {
     max-width: 50%;
 }
