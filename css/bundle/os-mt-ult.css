@@ -1,9 +1,14 @@
+@font-face {
+    font-family: "";
+    src: url("https://yoursite.com/css/fonts/CustomFont.eot");
+}
+
 html {
     font-size: 14px;
 }
 
 body.ult * {
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'NotoSans', sans-serif;
 }
 
 h2.ult {
@@ -19,4 +24,8 @@ h2.ult {
     display:flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.width-container-ult > div {
+    max-width: 50%;
 }
