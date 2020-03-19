@@ -24,6 +24,13 @@ h2.ult {
     max-width: 50%;
 }
 
+.vertical-bar {
+    height: 1.4rem;
+    position: absolute;
+    border: 1px solid #39414A;
+    top: 23%;
+    left: 2rem;
+}
 
 /* MARGINS */
 .mt-1 {
