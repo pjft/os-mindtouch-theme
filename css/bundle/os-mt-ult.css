@@ -16,6 +16,8 @@ h2.ult {
     display:flex;
     flex-direction: row;
     justify-content: center;
+    padding-top: 2.2rem;
+    padding-bottom: 4.5rem;
 }
 
 .width-container-ult > div {
