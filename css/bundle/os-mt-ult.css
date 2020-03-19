@@ -16,7 +16,8 @@ h2.ult {
 }
 
 .home-header-ult {
-    background-color: #F5F6FA !important;
+    margin-top: 0;
+    background-color: #F5F6FA;
 }
 
 .width-container-ult {
