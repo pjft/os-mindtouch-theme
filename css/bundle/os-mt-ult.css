@@ -37,11 +37,21 @@ h2.ult {
     left: 2rem;
 }
 
+.input-wrapper-ult {
+    position: relative
+}
+
+.background-ult {
+    background-color: unset !important;
+}
+
 /* MARGINS */
 .mt-1 {
     margin-top: 1rem;
 }
 
-.input-wrapper-ult {
-    position: relative
+/* CARD */
+.card {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
 }
