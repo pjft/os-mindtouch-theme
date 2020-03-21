@@ -1,6 +1,6 @@
 .body-ult * {
     font-family: 'NotoSans', sans-serif;
-    color: #39414A;
+    color: #39414a;
 }
 
 h2.ult {
@@ -9,7 +9,7 @@ h2.ult {
 
 .home-header-ult {
     margin-top: 0;
-    background-color: #f5f6fA;
+    background-color: #f5f6fa;
 }
 
 .width-container-ult {
@@ -22,7 +22,7 @@ h2.ult {
 }
 
 .input-ult::placeholder {
-    color: #39414A;
+    color: #39414a;
 }
 
 .width-container-ult > div {
@@ -32,7 +32,7 @@ h2.ult {
 .vertical-bar {
     height: 1.4rem;
     position: absolute;
-    border: 1px solid #39414A;
+    border: 1px solid #39414a;
     top: 23%;
     left: 2rem;
 }
@@ -40,4 +40,8 @@ h2.ult {
 /* MARGINS */
 .mt-1 {
     margin-top: 1rem;
+}
+
+.input-wrapper-ult {
+    position: relative
 }
