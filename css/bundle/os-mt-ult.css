@@ -50,8 +50,13 @@ h2.ult {
     margin-top: 1rem;
 }
 
-.mr-4 {
-    margin-right: 4rem;
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
 }
 
 /* CARD */
@@ -74,6 +79,13 @@ h2.ult {
 
 .card-body {
     color: #80858C;
+}
+
+.card-body-title {
+    font-family: Cabin;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 /* HOMEPAGE */
