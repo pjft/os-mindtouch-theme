@@ -50,10 +50,6 @@ h2.ult {
     margin-top: 1rem;
 }
 
-.flex {
-    display: flex;
-}
-
 .flex-column {
     display: flex;
     flex-direction: column;
@@ -83,6 +79,11 @@ h2.ult {
 
 .card-body > a {
     text-decoration:none;
+}
+
+.card-block {
+    display: flex;
+    padding: 2rem 4rem;
 }
 
 .card-body-title {
