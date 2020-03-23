@@ -136,6 +136,7 @@ h2.ult {
 @media all and (min-width: 50em) {
     .cards-list-ult {
         flex-direction: row;
+        margin: unset;
     }
 }
 
