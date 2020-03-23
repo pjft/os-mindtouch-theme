@@ -127,11 +127,11 @@ h2.ult {
 }
 
 .card-mr-2 {
-    margin-right: unset;
+    margin-right: 0rem;
 }
 
 .card-ml-2 {
-    margin-left: unset;
+    margin-left: 0rem;
 }
 @media all and (min-width: 50em) {
     .cards-list-ult {
