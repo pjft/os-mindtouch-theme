@@ -45,14 +45,14 @@ h2.ult {
     background-color: unset !important;
 }
 
-/* MARGINS */
-.mt-1 {
-    margin-top: 1rem;
-}
-
 .flex-column {
     display: flex;
     flex-direction: column;
+}
+
+/* MARGINS */
+.mt-1 {
+    margin-top: 1rem;
 }
 
 /* CARD */
@@ -126,6 +126,13 @@ h2.ult {
     margin: 0rem 2rem;
 }
 
+.card-mr-2 {
+    margin-right: 2rem;
+}
+
+.card-ml-2 {
+    margin-left: 2rem;
+}
 @media all and (min-width: 50em) {
     .cards-list-ult {
         flex-direction: row;
