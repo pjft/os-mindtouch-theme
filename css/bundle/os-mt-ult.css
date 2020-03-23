@@ -1,6 +1,6 @@
 .body-ult * {
     font-family: 'NotoSans', sans-serif;
-    color: #39414a;
+    /*color: #39414a;*/
 }
 
 h2.ult {
@@ -81,11 +81,19 @@ h2.ult {
     color: #80858C;
 }
 
+.card-body > a {
+    text-decoration:none;
+}
+
 .card-body-title {
     font-family: Cabin;
-    font-style: normal;
     font-weight: bold;
     font-size: 1.3rem;
+    color: #39414A;
+}
+
+.card-body-text {
+    color: #80858C;
 }
 
 /* HOMEPAGE */
