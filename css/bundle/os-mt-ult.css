@@ -77,8 +77,8 @@ h2.ult {
     color: #80858C;
 }
 
-.card-body > a {
-    text-decoration:none;
+.card-img {
+    margin-right: 1.7rem;
 }
 
 .card-block {
