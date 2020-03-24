@@ -78,7 +78,8 @@ h2.ult {
 }
 
 .card-img {
-    margin-right: 1.7rem;
+    /*margin-right: 1.7rem;*/
+    min-width: 4rem;
 }
 
 .card-block {
