@@ -60,6 +60,7 @@ h2.ult {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 6px;
     margin-bottom: 3rem;
+    padding-bottom: 2.4rem;
 }
 
 .card-header {
@@ -108,8 +109,10 @@ h2.ult {
 .see-more-btn {
     background-color: #f22800;
     border: 2px solid #f22800;
+    border-radius: 0.333rem;
     color: #fff !important;
     font-family: Cabin;
+    font-size: 1rem;
     padding: 0.7rem 1.1rem;
 }
 /* HOMEPAGE */
