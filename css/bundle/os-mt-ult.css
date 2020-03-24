@@ -91,20 +91,26 @@ h2.ult {
     font-family: Cabin;
     font-weight: bold;
     font-size: 1.3rem;
-    color: #39414A;
+    color: #39414a;
     margin-bottom: 0.7rem;
 }
 
 .card-body-text {
-    color: #80858C;
+    color: #80858c;
 }
 
 .card-horizontal-bar {
     margin: 0rem 3rem;
     height: 1px;
-    background: #80858C;
+    background: #80858c;
 }
-
+/* BUTTON */
+.see-more-btn {
+    background-color: #f22800;
+    border: 2px solid #f22800;
+    color: #fff;
+    font-family: Cabin;
+}
 /* HOMEPAGE */
 .cards-list-ult>div {
     flex: 0 50%;
