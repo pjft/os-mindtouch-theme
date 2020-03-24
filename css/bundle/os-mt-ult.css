@@ -108,8 +108,9 @@ h2.ult {
 .see-more-btn {
     background-color: #f22800;
     border: 2px solid #f22800;
-    color: #fff;
+    color: #fff !important;
     font-family: Cabin;
+    padding: 0.7rem 1.1rem;
 }
 /* HOMEPAGE */
 .cards-list-ult>div {
