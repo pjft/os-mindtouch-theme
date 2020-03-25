@@ -45,6 +45,17 @@ h2.ult {
     background-color: unset !important;
 }
 
+/*
+.background-ult > header {
+    display: none;
+}
+*/
+
+.align-lang-right {
+    justify-content: flex-end;
+    display: flex;
+}
+
 .flex-column {
     display: flex;
     flex-direction: column;
