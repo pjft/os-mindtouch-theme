@@ -32,9 +32,9 @@ h2.ult {
 .vertical-bar {
     height: 1.4rem;
     position: absolute;
-    border: 1px solid #39414a;
+    border: 1px solid #b9b9b9;
     top: 23%;
-    left: 2rem;
+    left: 2.1rem;
 }
 
 .input-wrapper-ult {
