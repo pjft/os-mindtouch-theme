@@ -25,9 +25,11 @@ h2.ult {
     color: #39414a;
 }
 
+/*
 .width-container-ult > div {
     max-width: 50%;
 }
+*/
 
 .vertical-bar {
     height: 1.4rem;
@@ -54,6 +56,12 @@ h2.ult {
 .align-lang-right {
     justify-content: flex-end;
     display: flex;
+    margin-right: 8rem;
+}
+
+.center-search {
+    max-width: 50%;
+    margin: auto;
 }
 
 .flex-column {
