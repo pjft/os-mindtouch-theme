@@ -15,7 +15,7 @@ h2.ult {
 .width-container-ult {
     position: relative;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     padding-top: 2.2rem;
     padding-bottom: 4.5rem;
