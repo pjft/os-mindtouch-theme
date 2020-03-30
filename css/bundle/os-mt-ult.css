@@ -227,6 +227,11 @@ h2.ult {
     display: block;
 }
 
+@media all and (min-width: 18.75em) {
+    [class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer:before {
+        height: 0
+    }
+}
 
 @media all and (min-width: 50em) {
     .sidebar-ult {
