@@ -230,6 +230,7 @@ h2.ult {
         top: 0;
         bottom: 0;
         overflow: auto;
+        padding-left: 150px;
     }
 
     .elm-article-feedback-ult {
@@ -240,8 +241,8 @@ h2.ult {
     }
 
     .elm-main-content-ult {
-        max-width: 60em;
-        padding-left: 350px;
+        max-width: 80em;
+        padding-left: 390px;
         margin: 0px;
     }
 }
