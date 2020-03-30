@@ -228,7 +228,7 @@ h2.ult {
 }
 
 @media all and (min-width: 18.75em) {
-    [class*=columbia-breadcrumb-home-documentation-10].body-with-sidebar footer.elm-content-footer:before {
+    .sidebar-ult footer.elm-content-footer:before {
         height: 0
     }
 }
