@@ -231,5 +231,6 @@ h2.ult {
     .elm-main-content-ult {
         max-width: 60em;
         padding-left: 350px;
+        margin: 0px;
     }
 }
