@@ -234,6 +234,7 @@ h2.ult {
     }
 
     .elm-article-feedback-ult {
+        display: block;
         right: -380px;
         width: 200px;
         top: 0;
