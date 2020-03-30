@@ -211,6 +211,15 @@ h2.ult {
     max-width: 100%;
 }
 
+.elm-content-footer-ult {
+    display: inline-block;
+    position: static;
+}
+
+.mt-feedback-rating-container-ult {
+    display: block;
+}
+
 
 @media all and (min-width: 50em) {
     .sidebar-ult {
