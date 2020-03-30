@@ -213,6 +213,10 @@ h2.ult {
     max-width: 100%;
 }
 
+.elm-content-footer-ult::before{
+    height: 0;
+}
+
 .elm-content-footer-ult {
     display: inline-block !important;
     position: absolute !important;
@@ -225,12 +229,6 @@ h2.ult {
 
 .mt-feedback-rating-container-ult {
     display: block;
-}
-
-@media all and (min-width: 18.75em) {
-    .sidebar-ult footer.elm-content-footer:before {
-        height: 0
-    }
 }
 
 @media all and (min-width: 50em) {
