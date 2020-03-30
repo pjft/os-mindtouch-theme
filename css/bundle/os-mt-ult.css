@@ -203,9 +203,11 @@ h2.ult {
 }
 
 /* TODO In mobile set to bottom of the page */
+/*
 .elm-article-feedback-ult {
     display: none;
 }
+*/
 
 .elm-main-content-ult {
     max-width: 100%;
