@@ -205,6 +205,8 @@ h2.ult {
 /* TODO In mobile set to bottom of the page */
 .elm-article-feedback-ult {
     display: none;
+    top: 0;
+    bottom: 0;
 }
 
 .elm-main-content-ult {
