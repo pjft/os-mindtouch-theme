@@ -214,7 +214,7 @@ h2.ult {
 }
 
 .elm-content-footer-ult::before{
-    height: 0;
+    height: 0!important;
 }
 
 .elm-content-footer-ult {
