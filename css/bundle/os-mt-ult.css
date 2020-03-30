@@ -209,8 +209,6 @@ h2.ult {
 
 .elm-main-content-ult {
     max-width: 100%;
-    top: 0;
-    bottom: 0;
 }
 
 
@@ -219,8 +217,9 @@ h2.ult {
         display: unset;
         position: absolute;
         left: 0;
-        top: 0;
         max-width: 250px;
+        top: 0;
+        bottom: 0;
     }
 
     .elm-article-feedback-ult {
