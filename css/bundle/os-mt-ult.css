@@ -212,8 +212,8 @@ h2.ult {
 }
 
 .elm-content-footer-ult {
-    display: inline-block;
-    position: static;
+    display: inline-block !important;
+    position: absolute !important;
 }
 
 .mt-feedback-rating-container-ult {
