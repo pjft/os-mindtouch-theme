@@ -234,12 +234,9 @@ h2.ult {
     }
 
     .elm-article-feedback-ult {
-        display: unset;
-        position: absolute;
         right: -380px;
         width: 200px;
         top: 0;
-        right: -250px;
     }
 
     .elm-main-content-ult {
