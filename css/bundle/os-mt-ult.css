@@ -48,12 +48,6 @@ h2.ult {
     background-color: unset !important;
 }
 
-/*
-.background-ult > header {
-    display: none;
-}
-*/
-
 .align-lang-right {
     justify-content: flex-end;
     display: flex;
@@ -201,3 +195,41 @@ h2.ult {
 @media all and (min-width: 65.25em) {}
 @media all and (min-width: 80em) {}
 */
+
+/* Content Page*/
+
+.sidebar-ult {
+    display: none;
+}
+
+/* TODO In mobile set to bottom of the page */
+.elm-article-feedback-ult {
+    display: none;
+}
+
+#elm-main-content {
+    max-width: 100%;
+}
+
+
+@media all and (min-width: 18.75em) {
+    .sidebar-ult {
+        display: unset;
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-width: 250px;
+    }
+
+    .elm-article-feedback-ult {
+        display: unset;
+        position: absolute;
+        right: -380px;
+        width: 200px;
+    }
+
+    #elm-main-content {
+        max-width: 60em;
+        padding-left: 350px;
+    }
+}
