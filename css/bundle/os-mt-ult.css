@@ -220,6 +220,7 @@ h2.ult {
         max-width: 250px;
         top: 0;
         bottom: 0;
+        overflow: auto;
     }
 
     .elm-article-feedback-ult {
