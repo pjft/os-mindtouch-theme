@@ -216,11 +216,11 @@ h2.ult {
 .elm-content-footer-ult {
     display: inline-block !important;
     position: absolute !important;
-    border-top: unset;
+    border-top: unset !important;
     margin-top: 0px;
     padding: 0px;
     top: 0;
-    right: -178px;
+    right: -190px;
 }
 
 .mt-feedback-rating-container-ult {
