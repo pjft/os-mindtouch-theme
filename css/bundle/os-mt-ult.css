@@ -245,6 +245,17 @@ li.jstree-node > i {
     display: none !important;
 }
 
+.search-bar-ult {
+    width: 60%;
+    padding-left: 24%;
+    position: absolute;
+    top: 238px;
+}
+
+.search-bar-ult > .form-field {
+    padding-left: 50px;
+}
+
 @media all and (min-width: 50em) {
     .sidebar-ult {
         display: block;
