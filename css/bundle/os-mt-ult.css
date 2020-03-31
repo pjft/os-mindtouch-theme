@@ -278,7 +278,7 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-node a:hover {
     color: #80858C;
 }
-
+/*
 .jstree-open > i {
     margin-right: 2px !important;
     border: solid #80858c;
@@ -307,6 +307,7 @@ li[aria-expanded=true]>a.jstree-anchor {
     width: 0px;
     height: 0px;
 }
+*/
 
 @media all and (min-width: 50em) {
     .sidebar-ult {
