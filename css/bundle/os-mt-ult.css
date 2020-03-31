@@ -278,7 +278,7 @@ li[aria-expanded=true]>a.jstree-anchor {
 }
 
 .jstree-default .jstree-hovered {
-    border-bottom: 0px;
+    border-bottom: 1px solid white;
 }
 
 @media all and (min-width: 50em) {
