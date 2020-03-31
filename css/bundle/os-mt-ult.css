@@ -287,7 +287,7 @@ li[aria-expanded=true]>a.jstree-anchor {
     top: -6px;
     left: 14px;
 } */
-.jstree-open {
+.jstree-open > i {
     border: solid #80858c;
     border-width: 0 2px 2px 0;
     display: inline-block;
@@ -295,7 +295,7 @@ li[aria-expanded=true]>a.jstree-anchor {
     transform: rotate(45deg);
 }
 
-.jstree-closed {
+.jstree-closed > i {
     border: solid #80858c;
     border-width: 0 2px 2px 0;
     display: inline-block;
