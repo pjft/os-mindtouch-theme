@@ -249,6 +249,11 @@ h2.ult {
 
 li.jstree-node > i {
     right: 0;
+    font-style: normal;
+}
+
+.jstree-open:first-child {
+    background: #E8F1F9;
 }
 
 /* .jstree-anchor */
