@@ -278,6 +278,15 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-node a:hover {
     color: #80858C;
 }
+
+
+.jstree-default .jstree-closed>.jstree-ocl:before {
+    content: '+';
+    font-weight: 400;
+    /* color: #455a64; */
+    position: absolute;
+    top: -4px;
+}
 /*
 .jstree-open > i {
     margin-right: 2px !important;
