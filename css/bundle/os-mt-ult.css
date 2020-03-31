@@ -252,8 +252,13 @@ li.jstree-node > i {
     font-style: normal;
 }
 
-.jstree-open:first-child {
+/* .jstree-open:first-child {
     background: #E8F1F9 !important;
+} */
+
+li[aria-expanded=true]>a.jstree-anchor {
+    background: #E8F1F9;
+    color: #38BDFF;
 }
 
 /* .jstree-anchor */
