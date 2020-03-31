@@ -306,6 +306,14 @@ li[aria-expanded=true]>a.jstree-anchor {
     transform: rotate(45deg);
 }
 
+.jstree-default .jstree-closed >.jstree-ocl:before {
+    content: '';
+}
+
+.jstree-default .jstree-opened >.jstree-ocl:before {
+    content: '';
+}
+
 @media all and (min-width: 50em) {
     .sidebar-ult {
         display: block;
