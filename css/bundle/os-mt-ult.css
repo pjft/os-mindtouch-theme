@@ -240,9 +240,9 @@ h2.ult {
     display: none;
 }
 
-li.jstree-node > i {
+/* li.jstree-node > i {
     display: none !important;
-}
+} */
 
 .search-bar-ult {
     width: 90%;
@@ -251,7 +251,9 @@ li.jstree-node > i {
     top: 150px;
 }
 
+.jstree-default .jstree-anchor {
 
+}
 
 @media all and (min-width: 50em) {
     .sidebar-ult {
