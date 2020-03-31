@@ -278,15 +278,7 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-node a:hover {
     color: #80858C;
 }
-/* 
-.jstree-default .jstree-open>.jstree-ocl:before  {
-    content: '-';
-    font-weight: 400;
-    color: #80858c;
-    position: absolute;
-    top: -6px;
-    left: 14px;
-} */
+
 .jstree-open > i {
     margin-right: 2px;
     border: solid #80858c;
@@ -298,11 +290,10 @@ li[aria-expanded=true]>a.jstree-anchor {
 }
 
 .jstree-closed > i {
-    margin-right: 2px;
+    margin-right: 2px !important;
     border: solid #80858c;
     border-width: 0 2px 2px 0;
-    display: inline-block;
-    padding: 4px;
+    padding: 4px !important;
     transform: rotate(45deg);
 }
 
@@ -314,12 +305,16 @@ li[aria-expanded=true]>a.jstree-anchor {
     content: '';
 }
 
+.jstree-default .jstree-icon, .jstree-default .jstree-icon:empty {
+    width: 0px;
+    height: 0px;
+}
+
 @media all and (min-width: 50em) {
     .sidebar-ult {
         display: block;
         position: absolute;
         left: 0;
-        /* max-width: 250px; */
         top: 0;
         bottom: 0;
         overflow: auto;
