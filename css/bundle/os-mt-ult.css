@@ -288,14 +288,17 @@ li[aria-expanded=true]>a.jstree-anchor {
     left: 14px;
 } */
 .jstree-open > i {
+    margin-right: 2px;
     border: solid #80858c;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 4px;
-    transform: rotate(45deg);
+    transform: rotate(-135deg);
+    margin-right: 2px;
 }
 
 .jstree-closed > i {
+    margin-right: 2px;
     border: solid #80858c;
     border-width: 0 2px 2px 0;
     display: inline-block;
