@@ -236,6 +236,13 @@ h2.ult {
     font-family: Noto Sans;
 }
 
+.search-bar-ult {
+    width: 90%;
+    padding-left: 4%;
+    position: absolute;
+    top: 150px;
+}
+
 .jstree-icon .jstree-ocl {
     display: none;
 }
@@ -244,15 +251,10 @@ li.jstree-node > i {
     right: 0;
 }
 
-.search-bar-ult {
-    width: 90%;
-    padding-left: 4%;
-    position: absolute;
-    top: 150px;
-}
+/* .jstree-anchor */
 
 .jstree-default .jstree-anchor {
-
+    font-size: 14px;
 }
 
 @media all and (min-width: 50em) {
