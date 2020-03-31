@@ -231,6 +231,13 @@ h2.ult {
     display: block;
 }
 
+.wiki-tree > * {
+    font-size: 14px;
+    color: #80858C;
+    font-family: Noto Sans;
+    list-style-type: none;;
+}
+
 @media all and (min-width: 50em) {
     .sidebar-ult {
         display: block;
