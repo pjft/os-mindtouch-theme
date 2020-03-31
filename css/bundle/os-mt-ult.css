@@ -232,7 +232,6 @@ h2.ult {
 
 .wiki-tree * {
     font-size: 14px !important;
-    /* color: #80858C !important; */
     font-family: Noto Sans;
 }
 
@@ -252,19 +251,13 @@ li.jstree-node > i {
     font-style: normal;
 }
 
-/* .jstree-open:first-child {
-    background: #E8F1F9 !important;
-} */
-
 li[aria-expanded=true]>a.jstree-anchor {
     background: #E8F1F9;
     color: #38BDFF;
 }
 
-/* .jstree-anchor */
 
 .jstree-default .jstree-anchor {
-    /* font-size: 14px; */
     color: #80858C;
     font-weight: 400;
     padding: 8px;
@@ -284,6 +277,30 @@ li[aria-expanded=true]>a.jstree-anchor {
 
 .jstree-node a:hover {
     color: #80858C;
+}
+/* 
+.jstree-default .jstree-open>.jstree-ocl:before  {
+    content: '-';
+    font-weight: 400;
+    color: #80858c;
+    position: absolute;
+    top: -6px;
+    left: 14px;
+} */
+.jstree-open {
+    border: solid #80858c;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
+}
+
+.jstree-closed {
+    border: solid #80858c;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 4px;
+    transform: rotate(45deg);
 }
 
 @media all and (min-width: 50em) {
