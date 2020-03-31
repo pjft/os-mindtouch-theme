@@ -283,16 +283,15 @@ li[aria-expanded=true]>a.jstree-anchor {
     margin-right: 2px !important;
     border: solid #80858c;
     border-width: 0 2px 2px 0;
-    padding: 4px !important;
+    padding: 5px !important;
     transform: rotate(-135deg);
-    margin-right: 2px;
 }
 
 .jstree-closed > i {
     margin-right: 2px !important;
     border: solid #80858c;
     border-width: 0 2px 2px 0;
-    padding: 4px !important;
+    padding: 5px !important;
     transform: rotate(45deg);
 }
 
