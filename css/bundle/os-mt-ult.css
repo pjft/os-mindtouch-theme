@@ -266,6 +266,11 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-default .jstree-anchor {
     font-size: 14px;
     font-weight: 400;
+    padding: 8px;
+}
+
+.jstree-anchor {
+    width: 100%;
 }
 
 .jstree-default .jstree-anchor.jstree-clicked {
