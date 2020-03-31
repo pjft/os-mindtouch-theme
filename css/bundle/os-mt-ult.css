@@ -277,6 +277,10 @@ li[aria-expanded=true]>a.jstree-anchor {
     color: #38BDFF;
 }
 
+.jstree-default .jstree-hovered {
+    border-bottom: 0px;
+}
+
 @media all and (min-width: 50em) {
     .sidebar-ult {
         display: block;
