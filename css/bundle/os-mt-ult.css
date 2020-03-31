@@ -248,15 +248,13 @@ li.jstree-node > i {
 }
 
 .search-bar-ult {
-    width: 60%;
-    padding-left: 24%;
+    width: 90%;
+    padding-left: 4%;
     position: absolute;
-    top: 238px;
+    top: 150px;
 }
 
-.search-bar-ult > .form-field {
-    padding-left: 50px;
-}
+
 
 @media all and (min-width: 50em) {
     .sidebar-ult {
@@ -281,5 +279,16 @@ li.jstree-node > i {
         right: -380px;
         width: 200px;
         
+    }
+
+    .search-bar-ult > .form-field {
+        padding-left: 50px;
+    }
+
+    .search-bar-ult {
+        width: 60%;
+        padding-left: 24%;
+        position: absolute;
+        top: 238px;
     }
 }
