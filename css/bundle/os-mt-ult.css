@@ -255,6 +255,11 @@ li.jstree-node > i {
 
 .jstree-default .jstree-anchor {
     font-size: 14px;
+    font-weight: 400;
+}
+
+.jstree-default .jstree-anchor.jstree-clicked {
+    color: #38BDFF;
 }
 
 @media all and (min-width: 50em) {
