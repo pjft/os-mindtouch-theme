@@ -240,9 +240,9 @@ h2.ult {
     display: none;
 }
 
-/* li.jstree-node > i {
-    display: none !important;
-} */
+li.jstree-node > i {
+    right: 0;
+}
 
 .search-bar-ult {
     width: 90%;
