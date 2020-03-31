@@ -253,7 +253,7 @@ li.jstree-node > i {
 }
 
 .jstree-open:first-child {
-    background: #E8F1F9;
+    background: #E8F1F9 !important;
 }
 
 /* .jstree-anchor */
