@@ -221,12 +221,9 @@ h2.ult {
 
 .elm-content-footer-ult {
     display: inline-block !important;
-    position: absolute !important;
     border-top: unset !important;
     margin-top: 0px;
     padding: 0px;
-    top: 0;
-    right: -190px;
 }
 
 .mt-feedback-rating-container-ult {
@@ -275,10 +272,8 @@ li.jstree-node > i {
     }
 
     .elm-article-feedback-ult {
-        
         right: -380px;
         width: 200px;
-        
     }
 
     .search-bar-ult > .form-field {
@@ -290,5 +285,15 @@ li.jstree-node > i {
         padding-left: 24%;
         position: absolute;
         top: 238px;
+    }
+
+    .elm-content-footer-ult {
+        display: inline-block !important;
+        position: absolute !important;
+        border-top: unset !important;
+        margin-top: 0px;
+        padding: 0px;
+        top: 0;
+        right: -190px;
     }
 }
