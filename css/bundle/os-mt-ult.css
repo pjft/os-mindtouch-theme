@@ -301,7 +301,7 @@ li[aria-expanded=true]>a.jstree-anchor {
     content: '';
 }
 
-.jstree-default .jstree-opened >.jstree-ocl:before {
+.jstree-default .jstree-open >.jstree-ocl:before {
     content: '';
 }
 
