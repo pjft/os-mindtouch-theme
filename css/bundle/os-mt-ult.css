@@ -283,6 +283,7 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-default .jstree-closed>.jstree-ocl:before {
     content: '+';
     font-weight: 400;
+    color: #80858C;
     position: absolute;
     top: -4px;
 }
@@ -290,6 +291,7 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-default .jstree-open>.jstree-ocl:before {
     content: '-';
     font-weight: 400;
+    color: #80858C;
     position: absolute;
     top: -4px;
 }
