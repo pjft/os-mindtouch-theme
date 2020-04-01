@@ -361,6 +361,10 @@ code {
         width: 100%;
     }
 
+    .mt-toc-container-ult {
+        right: -227px;
+    }
+
     .sidebar-ult {
         display: block;
         position: absolute;
