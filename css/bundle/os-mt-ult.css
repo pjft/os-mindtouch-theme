@@ -336,11 +336,11 @@ code {
 }
 
 .mt-toc-container-ult {
-    display: block;
-    padding: 0px;
-    margin-left: 0px;
-    background-color: #fff;
-    border: 0px;
+    display: block !important;
+    padding: 0px !important;
+    margin-left: 0px !important;
+    background-color: #fff !important;
+    border: 0px !important;
 }
 
 @media all and (min-width: 50em) {
