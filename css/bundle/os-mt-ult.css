@@ -327,6 +327,10 @@ li[aria-expanded=true]>a.jstree-anchor {
 }
 */
 
+ol > .elm-meta-article-navigation {
+    display: none;
+}
+
 @media all and (min-width: 50em) {
     .sidebar-ult {
         display: block;
