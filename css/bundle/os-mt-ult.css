@@ -338,9 +338,13 @@ code {
 .mt-toc-container-ult {
     display: block !important;
     padding: 0px !important;
-    margin-left: 0px !important;
     background-color: #fff !important;
     border: 0px !important;
+    margin: 15px 0px !important;
+}
+
+.mt-toc-container-ult ol a {
+    padding-left: 0px;
 }
 
 /* TODO Table of contents */
