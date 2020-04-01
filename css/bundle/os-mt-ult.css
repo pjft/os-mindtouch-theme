@@ -343,6 +343,10 @@ code {
     border: 0px !important;
 }
 
+.mt-toc-container-ult ol {
+    border-left: 1px solid #c3c3c3;
+}
+
 .mt-toc-container-ult li:before {
     content: unset !important;
 }
