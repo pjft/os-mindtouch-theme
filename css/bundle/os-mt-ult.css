@@ -340,9 +340,8 @@ code {
     padding: 0px !important;
     background-color: #fff !important;
     border: 0px !important;
-    /* margin: 15px 0px !important; */
-    margin: 45px 0px 15px 0px;
-    font-family: 'NotoSans', sans-serif;
+    margin: 45px 0px 15px 0px !important;
+    font-family: 'NotoSans', sans-serif !important;
 }
 
 .mt-toc-container-ult button {
@@ -350,8 +349,8 @@ code {
 }
 
 .mt-toc-container-ult ol a {
-    color: #5C656D;
-    padding-left: 0px;
+    color: #5C656D !important;
+    padding-left: 10px;
     font-size: 12px;
 }
 
