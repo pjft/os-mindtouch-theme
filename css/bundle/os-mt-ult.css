@@ -342,10 +342,12 @@ code {
     border: 0px !important;
     /* margin: 15px 0px !important; */
     margin: 45px 0px 15px 0px;
+    font-family: 'NotoSans', sans-serif;
 }
 
 .mt-toc-container-ult ol a {
     padding-left: 0px;
+    font-size: 12px;
 }
 
 /* TODO Table of contents */
