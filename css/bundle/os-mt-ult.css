@@ -335,6 +335,14 @@ code {
     width: 95%;
 }
 
+.mt-toc-container-ult {
+    display: block;
+    padding: 0px;
+    margin-left: 0px;
+    background-color: #fff;
+    border: 0px;
+}
+
 @media all and (min-width: 50em) {
     code {
         width: 100%;
