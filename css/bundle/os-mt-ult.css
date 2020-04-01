@@ -345,7 +345,12 @@ code {
     font-family: 'NotoSans', sans-serif;
 }
 
+.mt-toc-container-ult button {
+    color: #80858c;
+}
+
 .mt-toc-container-ult ol a {
+    color: #5C656D;
     padding-left: 0px;
     font-size: 12px;
 }
