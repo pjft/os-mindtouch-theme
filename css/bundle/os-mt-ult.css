@@ -371,24 +371,15 @@ code {
 
 .mt-toc-container-ult ol {
     padding-left: 14px;
-    /* list-style-type: decimal; */
     counter-reset: item;
 }
-
-/* .mt-toc-container-ult ol li {
-    counter-increment: li;
-} */
 
 .mt-toc-container-ult ol li::before {
     counter-increment: item;
     content: counters(item,'.') '.';
     color: #80858c;
     display: inline-block;
-    /* width: 1em; */
-    /* margin-left: -1.5em; */
     margin-right: 0.5em;
-    /* text-align: right;
-    direction: rtl */
 }
 
 @media all and (min-width: 50em) {
@@ -446,6 +437,10 @@ code {
 
     .mt-toc-container-ult li:before {
         content: unset !important;
+    }
+
+    .mt-toc-container-ult ol {
+        padding-left: 0px;
     }
 
 
