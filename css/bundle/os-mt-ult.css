@@ -375,13 +375,14 @@ code {
     counter-reset: li;
 }
 
-.mt-toc-container-ult ol li {
+/* .mt-toc-container-ult ol li {
     counter-increment: li;
-}
+} */
 
 .mt-toc-container-ult ol li::before {
-    content: counter(li);
-    color: #0077B2;
+    counter-increment: li;
+    content: counters(li,'.') '.';
+    color: #80858c;
     display: inline-block;
     width: 1em;
     margin-left: -1.5em;
