@@ -419,4 +419,9 @@ code {
     .mt-toc-container-ult button, .mt-toc-container-ult ol a {
         color: #80858c !important;
     }
+
+    .mt-toc-container-ult ol a {
+        padding-left: 14px;
+        list-style-type: decimal;
+    }
 }
