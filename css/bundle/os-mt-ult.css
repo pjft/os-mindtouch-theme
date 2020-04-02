@@ -342,7 +342,7 @@ code {
     border: 0px !important;
     margin: 45px 0px 15px 0px !important;
     position: absolute;
-    right: -184px;
+    /* right: -184px; */
     max-width: 220px;
 }
 
