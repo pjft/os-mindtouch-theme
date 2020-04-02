@@ -373,7 +373,7 @@ code {
     }
 
     .mt-toc-container-ult {
-        right: -227px;
+        right: -34%;
     }
 
     .sidebar-ult {
@@ -410,11 +410,11 @@ code {
     }
 
     .elm-content-footer-ult {
-        display: inline-block !important;
+        /* display: inline-block !important; */
         position: absolute !important;
-        border-top: unset !important;
+        /* border-top: unset !important; */
         margin-top: 140px !important;
-        padding: 0px;
+        /* padding: 0px; */
         top: 0;
         right: -190px;
     }
