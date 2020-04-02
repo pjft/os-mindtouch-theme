@@ -375,6 +375,10 @@ code {
     counter-reset: li;
 }
 
+.mt-toc-container-ult ol li {
+    counter-increment: li;
+}
+
 .mt-toc-container-ult ol li::before {
     content: counter(li);
     color: #0077B2;
@@ -443,5 +447,5 @@ code {
         content: unset !important;
     }
 
-    
+
 }
