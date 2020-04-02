@@ -420,7 +420,7 @@ code {
         color: #80858c !important;
     }
 
-    .mt-toc-container-ult ol a {
+    .mt-toc-container-ult ol {
         padding-left: 14px;
         list-style-type: decimal;
     }
