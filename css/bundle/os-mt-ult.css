@@ -404,13 +404,13 @@ code {
 }
 
 /* LARGER SCREENS */
-@media all and (min-width: 50em) {
+@media all and (min-width: 80em) {
     code {
         width: 100%;
     }
 
     .mt-toc-container-ult {
-        right: -17%;
+        right: -190px;
     }
 
     .sidebar-ult {
