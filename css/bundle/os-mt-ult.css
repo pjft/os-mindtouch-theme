@@ -471,6 +471,7 @@ code {
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] h1, h2, h3 {
+        color: #80858c;
         font-family: 'NotoSans', sans-serif;
         font-size: 1.3rem !important;
         line-height: 1.8rem;
