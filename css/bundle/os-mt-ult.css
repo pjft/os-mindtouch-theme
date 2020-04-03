@@ -500,4 +500,8 @@ button.mt-feedback-button {
         padding-top: 2rem;
         padding-bottom: 1.3rem;
     }
+
+    .elm-article-feedback-ult {
+        border-bottom: 1px solid #C6C9CE;
+    }
 }
