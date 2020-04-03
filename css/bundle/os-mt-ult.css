@@ -383,7 +383,7 @@ code {
 }
 
 [class*=columbia-breadcrumb-home-documentation-10] h1 {
-    color: #80858c;
+    color: #0A141E;
 }
 
 @media all and (min-width: 50em) {
@@ -447,7 +447,7 @@ code {
         padding-left: 0px;
     }
 
-    .columbia-breadcrumb-home-documentation-10 h1 {
+    [class*=columbia-breadcrumb-home-documentation-10] h1 {
         color: #80858c;
         padding-top: 2rem;
         padding-bottom: 1.3rem;
