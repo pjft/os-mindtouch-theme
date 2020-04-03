@@ -341,9 +341,8 @@ code {
     background-color: #fff !important;
     border: 0px !important;
     margin: 45px 0px 15px 0px !important;
-    /* position: absolute !important; */
     max-width: 220px !important;
-    float: unset;
+    float: unset !important;
 }
 
 .mt-toc-container-ult button {
