@@ -412,7 +412,7 @@ code {
 
     .mt-toc-container-ult {
         right: -190px;
-        position: absolute;
+        position: absolute !important;
     }
 
     .sidebar-ult {
