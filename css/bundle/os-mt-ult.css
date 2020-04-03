@@ -403,10 +403,6 @@ code {
     line-height: 1.6rem;
 }
 
-[class*=columbia-breadcrumb-home-documentation-10] .elm-meta-icons li {
-    color: red;
-}
-
 /* LARGER SCREENS */
 @media all and (min-width: 50em) {
     code {
@@ -482,5 +478,9 @@ code {
         line-height: 1.8rem;
         padding-top: 2rem;
         padding-bottom: 1.3rem;
+    }
+
+    [class*=columbia-breadcrumb-home-documentation-10] .elm-meta-icons li {
+        color: red;
     }
 }
