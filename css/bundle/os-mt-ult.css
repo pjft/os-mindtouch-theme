@@ -403,6 +403,10 @@ code {
     line-height: 1.6rem;
 }
 
+.elm-meta-icons > * {
+    color: #38dbFF;
+}
+
 /* LARGER SCREENS */
 @media all and (min-width: 50em) {
     code {
@@ -422,6 +426,7 @@ code {
         overflow: auto;
         padding-left: 10%;
         width: 20%;
+        overflow-x: hidden;
     }
 
     .elm-main-content-ult {
