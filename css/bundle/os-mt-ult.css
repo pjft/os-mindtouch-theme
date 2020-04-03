@@ -382,7 +382,7 @@ code {
     margin-right: 0.5em;
 }
 
-.columbia-breadcrumb-home-documentation-10 h1 {
+[class*=columbia-breadcrumb-home-documentation-10] h1 {
     color: #80858c;
 }
 
