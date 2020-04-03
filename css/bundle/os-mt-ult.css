@@ -267,8 +267,8 @@ li[aria-expanded=true]>a.jstree-anchor {
     width: 100%;
 }
 
-.jstree-default .jstree-anchor.jstree-clicked {
-    color: #38BDFF;
+[class*=columbia-breadcrumb-home-documentation-10] .jstree-default .jstree-anchor.jstree-clicked {
+    color: #38BDFF !important;
 }
 
 .jstree-default .jstree-hovered {
