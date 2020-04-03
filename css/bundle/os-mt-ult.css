@@ -403,6 +403,23 @@ code {
     line-height: 1.6rem;
 }
 
+.mt-feedback-form {
+    display: unset;
+}
+
+fieldset.ui-dform-fieldset {
+    border: 0px;
+    background: unset;
+    padding: 0px;
+}
+
+label.mt-feedback-improve-label.ui-dform-label,
+input.mt-feedback-consent-checkbox,
+label.mt-feedback-consent-label,
+button.mt-leave-feedback {
+    display: none;
+}
+
 /* LARGER SCREENS */
 @media all and (min-width: 80em) {
     code {
