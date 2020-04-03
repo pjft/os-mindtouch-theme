@@ -389,17 +389,18 @@ code {
     line-height: 1.3rem;
 }
 
-[class*=columbia-breadcrumb-home-documentation-10] h2 {
+[class*=columbia-breadcrumb-home-documentation-10] h2, h3 {
     font-family: 'NotoSans', sans-serif;
-    color: #80858c;
-    font-size: 1rem;
+    color: #80858c !important;
+    font-size: 1.3rem;
     line-height: 1.3rem;
 }
 
-[class*=columbia-breadcrumb-home-documentation-10] p {
+[class*=columbia-breadcrumb-home-documentation-10] p, li {
     font-size: 0.9rem;
     font-family: 'NotoSans', sans-serif;
     color: #80858C;
+    line-height: 1.3rem;
 }
 
 /* LARGER SCREENS */
@@ -464,13 +465,14 @@ code {
         padding-left: 0px;
     }
 
-    [class*=columbia-breadcrumb-home-documentation-10] p {
+    [class*=columbia-breadcrumb-home-documentation-10] p, li {
         font-size: 1rem;
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] h1, h2, h3 {
         font-family: 'NotoSans', sans-serif;
-        color: #80858c;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
         padding-top: 2rem;
         padding-bottom: 1.3rem;
     }
