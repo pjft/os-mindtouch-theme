@@ -210,7 +210,6 @@ h2.ult {
     top: 0;
     margin-top: 0px;
     margin-bottom: 0px !important;
-    border-bottom: 1px solid #C6C9CE;
 }
 
 .elm-main-content-ult {
@@ -455,6 +454,7 @@ button.mt-feedback-button {
     .elm-article-feedback-ult {
         right: -380px;
         width: 200px;
+        border-bottom: 1px solid #C6C9CE;
     }
 
     .search-bar-ult > .form-field {
@@ -499,9 +499,5 @@ button.mt-feedback-button {
         line-height: 1.8rem;
         padding-top: 2rem;
         padding-bottom: 1.3rem;
-    }
-
-    .elm-article-feedback-ult {
-        border-bottom: 1px solid #C6C9CE;
     }
 }
