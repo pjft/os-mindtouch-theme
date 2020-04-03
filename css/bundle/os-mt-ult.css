@@ -483,4 +483,8 @@ code {
     [class*=columbia-breadcrumb-home-documentation-10] .elm-meta-icons li {
         color: red;
     }
+
+    .elm-pdf-export .mt-icon-article-pdf, .elm-pdf-export .mt-icon-article-pdf:visited {
+        color: red;
+    }
 }
