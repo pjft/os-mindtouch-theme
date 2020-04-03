@@ -384,6 +384,7 @@ code {
 
 [class*=columbia-breadcrumb-home-documentation-10] h1 {
     color: #0A141E;
+    font-size: 1.3rem;
 }
 
 @media all and (min-width: 50em) {
