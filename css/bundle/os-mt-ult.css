@@ -396,7 +396,14 @@ code {
     line-height: 1.3rem;
 }
 
-[class*=columbia-breadcrumb-home-documentation-10] p, li {
+[class*=columbia-breadcrumb-home-documentation-10] p {
+    font-size: 0.9rem;
+    font-family: 'NotoSans', sans-serif;
+    color: #80858C;
+    line-height: 1.6rem;
+}
+
+.elm-main-content-ult.mt-content-container li {
     font-size: 0.9rem;
     font-family: 'NotoSans', sans-serif;
     color: #80858C;
