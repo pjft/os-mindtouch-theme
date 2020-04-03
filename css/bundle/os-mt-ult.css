@@ -383,7 +383,9 @@ code {
 }
 
 [class*=columbia-breadcrumb-home-documentation-10] {
+    font-size: 0.9rem;
     font-family: 'NotoSans', sans-serif;
+    color: #80858C;
 }
 
 [class*=columbia-breadcrumb-home-documentation-10] h1 {
@@ -450,6 +452,10 @@ code {
 
     .mt-toc-container-ult ol {
         padding-left: 0px;
+    }
+
+    [class*=columbia-breadcrumb-home-documentation-10] {
+        font-size: 1rem;
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] h1 {
