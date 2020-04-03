@@ -341,8 +341,9 @@ code {
     background-color: #fff !important;
     border: 0px !important;
     margin: 45px 0px 15px 0px !important;
-    position: absolute !important;
+    /* position: absolute !important; */
     max-width: 220px !important;
+    float: unset;
 }
 
 .mt-toc-container-ult button {
@@ -411,6 +412,7 @@ code {
 
     .mt-toc-container-ult {
         right: -190px;
+        position: absolute;
     }
 
     .sidebar-ult {
