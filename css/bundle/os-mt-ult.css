@@ -416,7 +416,8 @@ fieldset.ui-dform-fieldset {
 label.mt-feedback-improve-label.ui-dform-label,
 input.mt-feedback-consent-checkbox,
 label.mt-feedback-consent-label,
-button.mt-leave-feedback {
+button.mt-leave-feedback,
+button.mt-feedback-button {
     display: none !important;
 }
 
