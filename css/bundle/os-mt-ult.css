@@ -404,7 +404,7 @@ code {
 }
 
 .mt-feedback-form {
-    display: unset;
+    display: unset !important;;
 }
 
 fieldset.ui-dform-fieldset {
