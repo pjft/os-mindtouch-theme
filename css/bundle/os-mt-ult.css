@@ -341,7 +341,7 @@ code {
     padding: 0px !important;
     background-color: #fff !important;
     border: 0px !important;
-    margin: 140px 0px 15px 0px !important;
+    margin: 15px 0px 15px 0px !important;
     max-width: 220px !important;
     float: unset !important;
 }
@@ -429,6 +429,7 @@ button.mt-feedback-button {
     }
 
     .mt-toc-container-ult {
+        margin: 140px 0px 15px 0px !important;
         right: -190px;
         position: absolute !important;
     }
