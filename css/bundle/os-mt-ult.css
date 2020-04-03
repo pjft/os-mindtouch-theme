@@ -479,12 +479,4 @@ code {
         padding-top: 2rem;
         padding-bottom: 1.3rem;
     }
-
-    [class*=columbia-breadcrumb-home-documentation-10] .elm-meta-icons li {
-        color: red;
-    }
-
-    .elm-pdf-export .mt-icon-article-pdf, .elm-pdf-export .mt-icon-article-pdf:visited {
-        color: red;
-    }
 }
