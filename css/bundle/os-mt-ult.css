@@ -472,7 +472,7 @@ code {
 
     [class*=columbia-breadcrumb-home-documentation-10] h1, h2, h3 {
         font-family: 'NotoSans', sans-serif;
-        font-size: 1.3rem;
+        font-size: 1.3rem !important;
         line-height: 1.8rem;
         padding-top: 2rem;
         padding-bottom: 1.3rem;
