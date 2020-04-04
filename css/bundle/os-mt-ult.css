@@ -471,7 +471,7 @@ button.mt-feedback-button {
 
     .elm-content-footer-ult {
         position: absolute !important;
-        margin-top: 140px !important;
+        /* margin-top: 140px !important; */
         top: 0;
         right: -190px;
     }
