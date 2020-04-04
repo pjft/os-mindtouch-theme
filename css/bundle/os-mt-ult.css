@@ -490,7 +490,7 @@ button.mt-feedback-button {
 
     [class*=columbia-breadcrumb-home-documentation-10] p, li, dl {
         font-size: 1rem;
-        line-height: 1.9rem;
+        /* line-height: 1.9rem; */
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] h1, h2, h3 {
