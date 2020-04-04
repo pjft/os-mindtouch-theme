@@ -501,4 +501,8 @@ button.mt-feedback-button {
         padding-top: 2rem;
         padding-bottom: 1.3rem;
     }
+
+    .elm-main-content-ult header:first-child {
+        padding-top: 80px;
+    }
 }
