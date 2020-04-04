@@ -502,7 +502,7 @@ button.mt-feedback-button {
         padding-bottom: 1.3rem;
     }
 
-    .elm-main-content-ult header:first-child {
+    article.elm-main-content-ult header:first-child {
         padding-top: 80px;
     }
 }
