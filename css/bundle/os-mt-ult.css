@@ -530,3 +530,7 @@ button.mt-feedback-button {
     display: none;
     visibility: hidden;
 }
+
+.columbia-breadcrumb-home-documentation-bestpractices .elm-content-container.background-ult {
+    margin-top: 0px;;
+}
