@@ -519,6 +519,10 @@ button.mt-feedback-button {
     }
 
     .card-block {
+        flex-direction: row;
+    }
+
+    .see-more-list-ult .card-block {
         flex-wrap: wrap;
         flex-direction: row;
     }
