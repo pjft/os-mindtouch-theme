@@ -137,10 +137,9 @@ h2.ult {
 }
 /* BUTTON */
 .see-more-btn {
-    background-color: #f22800;
-    border: 2px solid #f22800;
+    border: 1px solid #f22800;
     border-radius: 0.333rem;
-    color: #fff !important;
+    color: #f22800 !important;
     font-family: Cabin;
     font-size: 1rem;
     padding: 0.7rem 1.1rem;
