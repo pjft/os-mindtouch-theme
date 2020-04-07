@@ -54,7 +54,7 @@ h2.ult {
 .flex-column {
     display: flex;
     flex-direction: column;
-    margin-bottom: 2rem;
+    /* margin-bottom: 2rem; */
 }
 
 /* MARGINS */
@@ -503,6 +503,11 @@ button.mt-feedback-button {
 
     article.elm-main-content-ult header:first-of-type {
         padding-top: 80px !important;
+    }
+
+    .see-more-list-ult .flex-column {
+        margin-left: 4.2rem;
+        margin-bottom: 2rem;
     }
 
     .card-block {
