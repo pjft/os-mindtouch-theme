@@ -241,7 +241,15 @@ h2.ult {
     width: 90%;
     padding-left: 4%;
     position: absolute;
-    top: 180px;
+    top: 150px;
+}
+@media all and (min-width: 37.5em) {
+    .search-bar-ult {
+        width: 90%;
+        padding-left: 4%;
+        position: absolute;
+        top: 180px;
+    }
 }
 
 .jstree-icon .jstree-ocl {
