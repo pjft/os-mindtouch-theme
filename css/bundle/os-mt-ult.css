@@ -494,7 +494,7 @@ button.mt-feedback-button {
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] p, li, dl {
-        font-size: 1rem;
+        font-size: 1rem !important;
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] h1, h2, h3 {
