@@ -518,3 +518,15 @@ button.mt-feedback-button {
         padding: 2.7rem 3rem;
     }
 }
+
+
+/* BEST PRACTICES*/
+.columbia-breadcrumb-home-documentation-bestpratices nav.elm-header-global-nav.elm-nav {
+    display: none;
+    visibility: hidden;
+}
+
+.columbia-breadcrumb-home-documentation-bestpratices .elm-content-container header {
+    display: none;
+    visibility: hidden;
+}
