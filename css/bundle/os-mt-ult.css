@@ -443,7 +443,7 @@ button.mt-feedback-button {
 /* LARGER SCREENS */
 @media all and (min-width: 80em) {
     div.elm-article-feedback-ult textarea {
-        resize: vertical;
+        resize: none;
     }
 
     .mt-toc-container-ult {
