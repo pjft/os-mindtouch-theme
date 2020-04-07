@@ -328,6 +328,10 @@ li[aria-expanded=true]>a.jstree-anchor {
     height: 0px;
 }
 */
+.search-bar-ult div.form-field div.input-wrapper-ult {
+    position: relative;
+    z-index: 0 !important;
+}
 
 ol.elm-meta-article-navigation {
     display: none !important;
