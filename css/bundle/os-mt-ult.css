@@ -1,6 +1,5 @@
 .body-ult * {
     font-family: 'NotoSans', sans-serif;
-    /*color: #39414a;*/
 }
 
 h2.ult {
@@ -25,12 +24,6 @@ h2.ult {
 .input-ult::placeholder {
     color: #39414a;
 }
-
-/*
-.width-container-ult > div {
-    max-width: 50%;
-}
-*/
 
 .vertical-bar {
     height: 1.4rem;
@@ -155,7 +148,7 @@ h2.ult {
     position: relative;
 }
 
-.cards-list-ult {
+.cards-list-ult, .see-more-list-ult {
     display: flex;
     flex-direction: column;
 }
@@ -163,7 +156,6 @@ h2.ult {
 .column-list-ult {
     display: flex;
     flex-direction: column;
-    /*margin: 0rem 2rem;*/
 }
 
 .card-mr-2 {
@@ -401,7 +393,6 @@ code {
     font-size: 0.9rem !important;
     font-family: 'NotoSans', sans-serif !important;
     color: #80858C !important;
-    /* line-height: 1.6rem !important; */
 }
 
 .mt-feedback-form {
@@ -471,7 +462,6 @@ button.mt-feedback-button {
 
     .elm-content-footer-ult {
         position: absolute !important;
-        /* margin-top: 140px !important; */
         top: 0;
         right: -190px;
     }
@@ -490,7 +480,6 @@ button.mt-feedback-button {
 
     [class*=columbia-breadcrumb-home-documentation-10] p, li, dl {
         font-size: 1rem;
-        /* line-height: 1.9rem; */
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] h1, h2, h3 {
