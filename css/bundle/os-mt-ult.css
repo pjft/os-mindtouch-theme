@@ -241,7 +241,7 @@ h2.ult {
     width: 90%;
     padding-left: 4%;
     position: absolute;
-    top: 150px;
+    top: 140px;
 }
 @media all and (min-width: 37.5em) {
     .search-bar-ult {
