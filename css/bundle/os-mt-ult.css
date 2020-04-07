@@ -97,6 +97,7 @@ h2.ult {
 
 .card-block {
     display: flex;
+    flex-direction: column;
     padding: 2.7rem 3rem;
 }
 
@@ -501,5 +502,11 @@ button.mt-feedback-button {
 
     article.elm-main-content-ult header:first-of-type {
         padding-top: 80px !important;
+    }
+
+    .card-block {
+        display: flex;
+        flex-direction: row;
+        padding: 2.7rem 3rem;
     }
 }
