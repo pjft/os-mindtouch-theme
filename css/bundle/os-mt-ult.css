@@ -423,6 +423,12 @@ button.mt-feedback-button {
     display: none !important;
 }
 
+.see-more-list-ult .flex-column {
+    margin-left: 4.2rem;
+    margin-bottom: 2rem;
+    flex: 0 35%;
+}
+
 /* LARGER SCREENS */
 @media all and (min-width: 80em) {
     code {
@@ -503,12 +509,6 @@ button.mt-feedback-button {
 
     article.elm-main-content-ult header:first-of-type {
         padding-top: 80px !important;
-    }
-
-    .see-more-list-ult .flex-column {
-        margin-left: 4.2rem;
-        margin-bottom: 2rem;
-        flex: 0 35%;
     }
 
     .card-block {
