@@ -508,10 +508,12 @@ button.mt-feedback-button {
     .see-more-list-ult .flex-column {
         margin-left: 4.2rem;
         margin-bottom: 2rem;
+        flex: 0 35%;
     }
 
     .card-block {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         padding: 2.7rem 3rem;
     }
