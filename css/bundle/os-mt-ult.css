@@ -334,10 +334,6 @@ ol.elm-meta-article-navigation {
     display: none !important;
 }
 
-code {
-    width: 95%;
-}
-
 .mt-toc-container-ult {
     display: block !important;
     padding: 0px !important;
@@ -434,10 +430,6 @@ button.mt-feedback-button {
 
 /* LARGER SCREENS */
 @media all and (min-width: 80em) {
-    code {
-        width: 100%;
-    }
-
     .mt-toc-container-ult {
         margin: 140px 0px 15px 0px !important;
         right: -190px;
