@@ -532,5 +532,5 @@ button.mt-feedback-button {
 }
 
 .columbia-breadcrumb-home-documentation-bestpractices .elm-content-container.background-ult {
-    margin-top: 0px;;
+    margin-top: 0px !important;
 }
