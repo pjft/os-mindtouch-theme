@@ -428,6 +428,10 @@ button.mt-feedback-button {
     flex: 0 35%;
 }
 
+.see-more-list-ult .card-block {
+    padding: 2.7rem 3rem 0rem 3rem;
+}
+
 /* LARGER SCREENS */
 @media all and (min-width: 80em) {
     code {
@@ -515,10 +519,8 @@ button.mt-feedback-button {
     }
 
     .card-block {
-        display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        padding: 2.7rem 3rem;
     }
 }
 
