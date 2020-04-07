@@ -108,6 +108,14 @@ h2.ult {
     margin-bottom: 0.7rem;
 }
 
+.card-body-title-blue {
+    font-family: Cabin;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #0077b3;
+    margin-bottom: 0.7rem;
+}
+
 .card-title {
     font-family: Cabin;
     font-weight: bold;
