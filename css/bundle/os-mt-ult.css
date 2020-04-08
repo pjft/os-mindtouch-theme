@@ -231,7 +231,7 @@ h2.ult {
 .elm-content-footer-ult {
     display: inline-block !important;
     border-top: unset !important;
-    margin-top: 0px;
+    margin-top: 0px !important;
     padding: 0px;
 }
 
