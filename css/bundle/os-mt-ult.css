@@ -267,13 +267,14 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-default .jstree-anchor {
     color: #80858C;
     font-weight: 400;
-    padding: 8px 8px 8px 0px;
-    max-width: 95%;
+    padding: 8px;
+    /* padding: 8px 8px 8px 0px; */
+    /* max-width: 95%; */
 }
 
-/* .jstree-anchor {
+.jstree-anchor {
     width: 99%;
-} */
+}
 
 
 [class*=columbia-breadcrumb-home-documentation-10] .jstree-default .jstree-anchor.jstree-clicked {
