@@ -472,7 +472,7 @@ button.mt-feedback-button {
 
     .mt-toc-container-ult-fixed {
         margin: 15px 0px 15px 0px !important;
-        right: 30px;
+        right: 8%;
         position: fixed !important;
         top: 260px;
     }
@@ -521,7 +521,7 @@ button.mt-feedback-button {
     .elm-content-footer-ult-fixed {
         position: fixed !important;
         top: 0;
-        right: 30px;
+        right: 8%;
         margin-top: unset !important;
     }
 
