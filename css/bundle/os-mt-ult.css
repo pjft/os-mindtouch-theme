@@ -258,16 +258,9 @@ li.jstree-node > i {
     font-style: normal;
 }
 
-/* li[aria-expanded=true] > i.jstree-icon.jstree-ocl {
-    top: 0px;
-    height: 53px;
-    background: #E8F1F9;
-} */
-
 li[aria-expanded=true]>a.jstree-anchor {
     background: #E8F1F9;
     color: #38BDFF;
-    /* max-width: 88%; */
 }
 
 
@@ -280,14 +273,6 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-anchor {
     width: 99%;
 }
-
-/* .sidebar-ult a.jstree-anchor {
-    width: 95%;
-}
-
-.sidebar-ult a.jstree-anchor {
-    width: 95%;
-} */
 
 [class*=columbia-breadcrumb-home-documentation-10] .jstree-default .jstree-anchor.jstree-clicked {
     color: #38BDFF !important;
