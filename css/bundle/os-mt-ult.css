@@ -498,12 +498,13 @@ button.mt-feedback-button {
         top: 238px;
     }
 
-    /* .elm-content-footer-ult {
+    .elm-content-footer-ult {
         position: absolute !important;
         top: 0;
         right: -190px;
-    }1 */
-    .elm-content-footer-ult {
+    }
+
+    .elm-content-footer-ult-fixed {
         position: fixed !important;
         top: 0;
         right: 120px;
