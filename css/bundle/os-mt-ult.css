@@ -258,11 +258,11 @@ li.jstree-node > i {
     font-style: normal;
 }
 
-li[aria-expanded=true] > i.jstree-icon.jstree-ocl {
-    /* top: 0px; */
-    /* height: 53px; */
+/* li[aria-expanded=true] > i.jstree-icon.jstree-ocl {
+    top: 0px;
+    height: 53px;
     background: #E8F1F9;
-}
+} */
 
 li[aria-expanded=true]>a.jstree-anchor {
     background: #E8F1F9;
