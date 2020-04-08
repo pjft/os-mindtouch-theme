@@ -507,7 +507,8 @@ button.mt-feedback-button {
     .elm-content-footer-ult-fixed {
         position: fixed !important;
         top: 0;
-        right: 120px;
+        right: 60px;
+        margin-top: unset;
     }
 
     .mt-toc-container-ult button, .mt-toc-container-ult ol a {
