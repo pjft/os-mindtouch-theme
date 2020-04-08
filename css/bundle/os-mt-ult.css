@@ -458,7 +458,7 @@ button.mt-feedback-button {
     color: #39414a;
 }
 
-#pageText p:last-child {
+div#pageText>p:last-child {
     background: #ff0000;
 }
 
