@@ -267,7 +267,7 @@ li.jstree-node > i {
 li[aria-expanded=true]>a.jstree-anchor {
     background: #E8F1F9;
     color: #38BDFF;
-    max-width: 88%;
+    /* max-width: 88%; */
 }
 
 
@@ -278,7 +278,7 @@ li[aria-expanded=true]>a.jstree-anchor {
 }
 
 .jstree-anchor {
-    width: 100%;
+    width: 95%;
 }
 
 [class*=columbia-breadcrumb-home-documentation-10] .jstree-default .jstree-anchor.jstree-clicked {
