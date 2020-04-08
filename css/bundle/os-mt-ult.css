@@ -203,6 +203,13 @@ h2.ult {
     display: none;
 }
 
+.sidebar-ult > .wiki-tree {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-right: 15px;
+}
+
 /* TODO In mobile set to bottom of the page */
 
 .elm-article-feedback-ult {
