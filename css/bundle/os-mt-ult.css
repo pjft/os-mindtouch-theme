@@ -259,8 +259,8 @@ li.jstree-node > i {
 }
 
 li[aria-expanded=true] > i.jstree-icon.jstree-ocl {
-    top: 0px;
-    height: 53px;
+    /* top: 0px; */
+    /* height: 53px; */
     background: #E8F1F9;
 }
 
