@@ -546,8 +546,6 @@ button.mt-feedback-button {
         font-family: 'NotoSans', sans-serif;
         font-size: 1.5rem !important;
         line-height: 1.8rem;
-        /* padding-top: 2rem;
-        padding-bottom: 1.3rem; */
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] h2 {
@@ -555,8 +553,6 @@ button.mt-feedback-button {
         font-family: 'NotoSans', sans-serif;
         font-size: 1.3rem !important;
         line-height: 1.8rem;
-        /* padding-top: 2rem;
-        padding-bottom: 1.3rem; */
     }
 
     [class*=columbia-breadcrumb-home-documentation-10] h3 {
@@ -564,8 +560,6 @@ button.mt-feedback-button {
         font-family: 'NotoSans', sans-serif;
         font-size: 1.1rem !important;
         line-height: 1.8rem;
-        /* padding-top: 2rem;
-        padding-bottom: 1.3rem; */
     }
 
     .see-more-list-ult .flex-column {
