@@ -458,6 +458,10 @@ button.mt-feedback-button {
     color: #39414a;
 }
 
+#pageText p:last-child {
+    background: #ff0000;
+}
+
 /* LARGER SCREENS */
 @media all and (min-width: 80em) {
     div.elm-article-feedback-ult textarea {
