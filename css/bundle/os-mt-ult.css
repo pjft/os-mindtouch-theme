@@ -269,7 +269,7 @@ li[aria-expanded=true]>a.jstree-anchor {
     font-weight: 400;
     padding: 8px;
     /* padding: 8px 8px 8px 0px; */
-    /* max-width: 95%; */
+    max-width: 95%;
 }
 
 .jstree-anchor {
