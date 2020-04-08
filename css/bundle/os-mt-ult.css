@@ -258,9 +258,10 @@ li.jstree-node > i {
     font-style: normal;
 }
 
-li[aria-expanded=true]>a.jstree-anchor {
+li[aria-expanded=true]>a.jstree-anchor, li[aria-expanded=true] > .jstree-icon.jstree-ocl {
     background: #E8F1F9;
     color: #38BDFF;
+    max-width: 88%;
 }
 
 
