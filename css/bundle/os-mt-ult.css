@@ -464,7 +464,7 @@ button.mt-feedback-button {
     }
 
     .mt-toc-container-ult-fixed {
-        margin: unset !important;
+        margin: 15px 0px 15px 0px !important;
         right: 60px;
         position: fixed !important;
         top: 260px;
