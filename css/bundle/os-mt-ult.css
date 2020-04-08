@@ -274,7 +274,7 @@ li[aria-expanded=true]>a.jstree-anchor {
 .jstree-default .jstree-anchor {
     color: #80858C;
     font-weight: 400;
-    padding: 8px;
+    padding: 8px 8px 8px 0px;
 }
 
 .jstree-anchor {
