@@ -570,7 +570,7 @@ button.mt-feedback-button {
     article.elm-main-content-ult header:first-of-type {
         /* Admin */
         /* padding-top: 130px !important; */
-        padding-top: 100px !important;
+        /* padding-top: 100px !important; */
     }
 
     .card-block {
