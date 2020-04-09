@@ -508,7 +508,8 @@ button.mt-feedback-button {
     .search-bar-ult {
         width: 53%;
         padding-left: 24%;
-        top: 238px;
+        top: 180px;
+        /* top: 238px; */
     }
 
     .elm-content-footer-ult {
