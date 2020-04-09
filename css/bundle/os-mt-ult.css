@@ -537,3 +537,18 @@ button.mt-feedback-button {
 .columbia-breadcrumb-home-documentation-bestpractices .elm-content-container.background-ult {
     margin-top: 0px !important;
 }
+
+/* HOW TO GUIDE*/
+.columbia-breadcrumb-home-documentation-how-toguides nav.elm-header-global-nav.elm-nav {
+    display: none;
+    visibility: hidden;
+}
+
+.columbia-breadcrumb-home-documentation-how-toguides .elm-content-container header {
+    display: none;
+    visibility: hidden;
+}
+
+.columbia-breadcrumb-home-documentation-how-toguides .elm-content-container.background-ult {
+    margin-top: 0px !important;
+}
