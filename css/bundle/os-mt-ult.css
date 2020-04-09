@@ -392,6 +392,11 @@ button.mt-feedback-button {
     display: none !important;
 }
 
+label.mt-feedback-consent-label {
+    width: 90%;
+    color: #80858c;
+}
+
 .see-more-list-ult .flex-column {
     margin-bottom: 2rem;
     flex: 0 35%;
@@ -420,7 +425,7 @@ button.mt-feedback-button {
         margin: 15px 0px 15px 0px !important;
         right: 6%;
         position: fixed !important;
-        top: 260px;
+        top: 300px;
     }
 
     .sidebar-ult {
