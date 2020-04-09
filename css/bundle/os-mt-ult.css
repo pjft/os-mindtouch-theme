@@ -509,6 +509,7 @@ button.mt-feedback-button {
         width: 53%;
         padding-left: 24%;
         top: 180px;
+        /* Admin */
         /* top: 238px; */
     }
 
@@ -567,7 +568,8 @@ button.mt-feedback-button {
     }
 
     article.elm-main-content-ult header:first-of-type {
-        padding-top: 130px !important;
+        /* Admin */
+        /* padding-top: 130px !important; */
     }
 
     .card-block {
