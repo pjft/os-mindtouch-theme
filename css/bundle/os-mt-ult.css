@@ -508,7 +508,7 @@ button.mt-feedback-button {
     .search-bar-ult {
         width: 53%;
         padding-left: 24%;
-        top: 180px;
+        /* top: 180px; */
         /* Admin */
         /* top: 238px; */
     }
