@@ -54,7 +54,6 @@ h2.ult {
 .flex-column {
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 2rem; */
 }
 
 /* MARGINS */
@@ -188,15 +187,6 @@ h2.ult {
     }
 }
 
-/*
-@media all and (min-width: 18.75em) {}
-@media all and (min-width: 25em) {}
-@media all and (min-width: 37.5em) {}
-@media all and (min-width: 50em) {}
-@media all and (min-width: 65.25em) {}
-@media all and (min-width: 80em) {}
-*/
-
 /* Content Page*/
 
 .sidebar-ult {
@@ -275,7 +265,6 @@ li[aria-expanded=true]>a.jstree-anchor {
     color: #80858C;
     font-weight: 400;
     padding: 8px;
-    /* padding: 8px 8px 8px 0px; */
     max-width: 95%;
 }
 
@@ -286,7 +275,6 @@ li[aria-expanded=true]>a.jstree-anchor {
 
 [class*=columbia-breadcrumb-home-documentation-10] .jstree-default .jstree-anchor.jstree-clicked {
     color: #38BDFF !important;
-    /* box-sizing: border-box; */
 }
 
 .jstree-default .jstree-hovered {
@@ -314,36 +302,6 @@ li[aria-expanded=true]>a.jstree-anchor {
     top: -4px;
 }
 
-/*
-.jstree-open > i {
-    margin-right: 2px !important;
-    border: solid #80858c;
-    border-width: 0 2px 2px 0;
-    padding: 5px !important;
-    transform: rotate(-135deg);
-}
-
-.jstree-closed > i {
-    margin-right: 2px !important;
-    border: solid #80858c;
-    border-width: 0 2px 2px 0;
-    padding: 5px !important;
-    transform: rotate(45deg);
-}
-
-.jstree-default .jstree-closed >.jstree-ocl:before {
-    content: '';
-}
-
-.jstree-default .jstree-open >.jstree-ocl:before {
-    content: '';
-}
-
-.jstree-default .jstree-icon, .jstree-default .jstree-icon:empty {
-    width: 0px;
-    height: 0px;
-}
-*/
 .search-bar-ult div.form-field div.input-wrapper-ult {
     position: relative;
     z-index: 0 !important;
@@ -374,17 +332,6 @@ ol.elm-meta-article-navigation {
     padding-left: 10px;
     font-size: 12px;
 }
-
-/* TODO Table of contents */
-/* .mt-toc-container-ult ol {
-    border-left: 1px solid #c3c3c3;
-} */
-
-/*
-.mt-toc-container-ult li:before {
-    content: unset !important;
-}
-*/
 
 .mt-toc-container-ult ol {
     padding-left: 14px;
@@ -509,8 +456,6 @@ button.mt-feedback-button {
         width: 53%;
         padding-left: 24%;
         top: 180px;
-        /* Admin */
-        /* top: 238px; */
     }
 
     .elm-content-footer-ult {
@@ -565,12 +510,6 @@ button.mt-feedback-button {
 
     .see-more-list-ult .flex-column {
         margin-left: 4.2rem;
-    }
-
-    article.elm-main-content-ult header:first-of-type {
-        /* Admin */
-        /* padding-top: 130px !important; */
-        /* padding-top: 100px !important; */
     }
 
     .card-block {
