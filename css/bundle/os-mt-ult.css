@@ -242,7 +242,7 @@ h2.ult {
 }
 @media all and (min-width: 37.5em) {
     .search-bar-ult {
-        top: 180px;
+        top: 70px;
     }
 }
 
@@ -461,7 +461,7 @@ label.mt-feedback-consent-label {
     .search-bar-ult {
         width: 53%;
         padding-left: 24%;
-        top: 180px;
+        top: 117px;
     }
 
     .elm-content-footer-ult {
@@ -528,6 +528,11 @@ label.mt-feedback-consent-label {
     }
 }
 
+/* ADJUSTING POSITIONS */
+[class*=columbia-breadcrumb-home-evaluation] article.elm-content-container.evaluation-kb header {
+    padding: 70px 50px 10px 50px;
+    margin-top: 10px
+}
 
 /* BEST PRACTICES*/
 .columbia-breadcrumb-home-documentation-bestpractices nav.elm-header-global-nav.elm-nav {
